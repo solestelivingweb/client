@@ -1,0 +1,246 @@
+@media only screen and (max-width: 600px) {
+  // general
+  .EachPage-header-h1 {
+    padding-top: 15vh;
+    font-size: 45px;
+  }
+  // home
+  .app1Home-header-bg {
+    h6 {
+      margin-top: 30vh;
+    }
+    h1 {
+      font-size: 30px;
+    }
+  }
+  //   navigation
+  .burger-menu,
+  .burger-menu.open {
+    right: 2vw;
+    top: 2vh;
+  }
+  //   section
+  .app-section-2 {
+    h1 {
+      font-size: 30px;
+      width: 150%;
+    }
+    p {
+      width: 100%;
+      font-size: 13px;
+    }
+    .app-section-2-symbol {
+      width: 20%;
+      position: absolute;
+      z-index: 2;
+      top: 35%;
+      right: 0%;
+    }
+    button {
+      left: 70%;
+      font-size: 11px;
+    }
+    .app-section-2-imgs {
+      margin-top: 13vh;
+    }
+  }
+  //   section
+  .app-section-3 {
+    .app-section-3-home-h1 {
+      font-size: 50px;
+      top: -15px;
+    }
+  }
+  //   section
+  .app-section-4 {
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      width: 100%;
+      font-size: 13px;
+    }
+    button {
+      right: 60%;
+      font-size: 11px;
+    }
+    .app-section-4-symbol {
+      width: 20%;
+      position: absolute;
+      z-index: 2;
+      top: 35%;
+      left: 0%;
+    }
+    .app-section-4-imgs {
+      margin-top: 13vh;
+    }
+  }
+  //   section
+  .section-get-in-touch-div {
+    height: 55vh;
+    .mob-disp-none {
+      display: none;
+    }
+    h1 {
+      font-size: 20px;
+      margin-top: 0px !important;
+      text-align: center;
+    }
+    p {
+      font-size: 13px;
+      text-align: center;
+    }
+    button {
+      left: 30%;
+    }
+  }
+  //   section
+  .FooterPage {
+    h2 {
+      margin-right: 2vw !important;
+    }
+    p {
+      font-size: 10px;
+      margin-left: 2vw;
+      padding-top: 5vh !important;
+    }
+    a {
+      font-size: 10px;
+      margin-right: 2vw;
+    }
+    .solestelogo-footer {
+      width: 50%;
+      margin-left: 2vw;
+      margin-top: 0.5vh;
+    }
+    .footerpagetbclogo {
+      margin-left: 20px;
+    }
+  }
+
+  // collection
+  .propertyLeft {
+    margin-top: 0px;
+    h6 {
+      font-size: 13px;
+    }
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 11px;
+    }
+    button {
+      font-size: 11px;
+    }
+    .imgs-div {
+      margin-top: 20vh;
+    }
+    .propertyLeft-absolute-img {
+      width: 50%;
+      top: 35%;
+    }
+  }
+
+  .propertyRight {
+    margin-top: 0px;
+    h1 {
+      font-size: 30px;
+    }
+    h6 {
+      font-size: 13px;
+    }
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 11px;
+    }
+    button {
+      font-size: 11px;
+    }
+
+    .imgs-div {
+      margin-top: 20vh;
+    }
+    .propertyRight-absolute-img {
+      width: 50%;
+      top: 35%;
+    }
+  }
+  .app2-collections-banner {
+    h1 {
+      font-size: 40px;
+    }
+  }
+
+  // about
+  .app3About-section1-div {
+    display: none;
+  }
+  .app3About-section1-div-mobile {
+    display: block;
+    margin-bottom: 10vh;
+    h1 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 13px;
+    }
+    .app3About-section1-absolute-img {
+      position: absolute;
+      right: 0vw;
+      top: 25%;
+    }
+  }
+  // contact
+  .app4-contact-s1 {
+    .row {
+      display: inline;
+    }
+    br {
+      display: none;
+    }
+    h1 {
+      font-size: 35px !important;
+      text-align: center;
+    }
+    a {
+      text-align: center;
+    }
+    .social-row {
+      text-align: center;
+    }
+  }
+  .feedbackform {
+    text-align: center;
+  } // Home carousel
+  .Section3CollectionCarousel {
+    .absoluteDiv {
+      h1 {
+        font-size: 42px;
+      }
+    }
+  }
+  .Section3NBACarousel {
+    .absoluteDiv {
+      h1 {
+        font-size: 32px;
+      }
+    }
+    .nbabtn {
+      margin-top: 10px !important;
+      padding-top: 10px !important;
+    }
+  }
+  .Section3NBACarousel-image {
+    h1 {
+      font-size: 18px;
+      margin-top: 20px !important;
+    }
+    p {
+      font-size: 8px;
+    }
+  }
+  //   </>
+}

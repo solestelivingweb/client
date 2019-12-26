@@ -1,0 +1,715 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+
+@font-face {
+  font-family: "GothamBook";
+  src: url("./fonts/GothamBook.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/GothamBook.woff") format("woff"),
+    url("./fonts/GothamBook.ttf") format("truetype"),
+    url("./fonts/GothamBook.svg#GothamBook") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothamMedium";
+  src: url("./fonts/GothamMedium.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/GothamMedium.woff") format("woff"),
+    url("./fonts/GothamMedium.ttf") format("truetype"),
+    url("./fonts/GothamMedium.svg#GothamMedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+$blackColor: #000000;
+$color1: rgb(225, 196, 133);
+$color2: rgb(222, 198, 145);
+
+$linearGradient1: rgba(104, 79, 79, 0.65);
+$linearGradient2: rgba(138, 113, 113, 0.45);
+
+body {
+  font-family: "GothamBook";
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Carmorant";
+}
+button,
+b {
+  font-family: "GothamMedium";
+}
+button {
+  border-radius: 0px !important;
+}
+
+input,
+textarea {
+  outline: none;
+  box-shadow: none !important;
+  border: 1px solid #ccc !important;
+}
+.button-on-white {
+  background-color: $color2 !important;
+}
+
+.fontSize-92 {
+  font-size: 92px;
+}
+.fontSize-14 {
+  font-size: 14px;
+}
+
+.marginClass-1 {
+  margin-top: 20vh;
+}
+
+// footer page
+.FooterPage {
+  background-image: linear-gradient(
+    180deg,
+    rgb(64, 57, 56) 0%,
+    rgb(86, 76, 75) 77%
+  );
+  .second-row {
+    border-top: 1px solid grey;
+  }
+}
+
+// each page header
+.EachPage-header-h1 {
+  height: 35vh;
+  padding-top: 11vh;
+}
+// app
+.app1Home-header-img {
+  height: 100vh;
+}
+.app1Home-header-bg {
+  // background-image: url("./images/app/app-header.jpg");
+  // height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .carousel-indicators {
+    display: none;
+  }
+}
+.app1Home-header-inner-content {
+  margin-bottom: 20vh;
+}
+.app1Home-header-inner-content-2 {
+  h6 {
+    margin-top: 20vh;
+  }
+  h1 {
+    font-size: 105px;
+  }
+  .app1Home-header-btn {
+    border: 1px solid $color1 !important;
+    color: $color1 !important;
+    box-shadow: none;
+  }
+  .app1Home-header-btn:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+      0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+}
+.app-section-2 {
+  h1 {
+    position: absolute;
+    width: 200%;
+    z-index: 2;
+  }
+  p {
+    width: 75%;
+    padding-top: 50%;
+  }
+  .app-section-2-symbol {
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    right: -5%;
+  }
+}
+.app-section-3 {
+  padding-bottom: 15vh;
+  .carousel-item-padding-40-px {
+    padding: 20px;
+  }
+  .app-section-3-home-h1 {
+    position: absolute;
+    z-index: 300;
+    right: -100px;
+    top: -30px;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+// Home carousel
+.Section3CollectionCarousel {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  .slick-dots {
+    z-index: 999;
+  }
+  .absoluteDiv {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    h1 {
+      text-align: center;
+      font-size: 92px;
+      margin-top: -50px;
+    }
+  }
+}
+.Section3CollectionCarousel-image {
+  h3 {
+    font-family: "GothamBook";
+    color: #dec691 !important;
+  }
+
+  .rgba-red-strong {
+    background-color: rgba(104, 79, 79, 0.7) !important;
+  }
+}
+
+.app-section-4 {
+  h6 {
+    margin-top: 10% !important;
+  }
+  h1 {
+    position: absolute;
+    right: 0;
+  }
+  p {
+    width: 75%;
+    padding-top: 50%;
+  }
+  .app-section-4-symbol {
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    left: -5%;
+  }
+}
+
+// get in touch section
+.section-get-in-touch-div {
+  background-image: url("./images/app/SectionGetInTouch-bg.jpg");
+  height: 65vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1 {
+    color: $color2;
+  }
+  button {
+    background-color: $color2 !important;
+  }
+  p {
+    line-height: 30px;
+  }
+}
+
+// app2
+.app2Collection-header-bg {
+  background: linear-gradient($linearGradient1, $linearGradient2),
+    url("./images/app2/app2-header.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.propertyLeft {
+  margin-top: 15vh;
+  .propertyLeft-absolute-img {
+    position: absolute;
+    top: 25%;
+    left: 65%;
+  }
+  .col-right {
+    margin-top: 100px;
+  }
+}
+.propertyRight {
+  margin-top: 15vh;
+  .propertyRight-absolute-img {
+    position: absolute;
+    top: 25%;
+    right: 65%;
+    z-index: 999;
+  }
+  .col-left {
+    margin-top: 100px;
+  }
+}
+// .section-banner-bg {
+//   background-image: url("./images/app2/section-banner-bg.jpg");
+//   height: 80vh;
+//   margin-top: 10vh;
+//   h1 {
+//     padding-top: 30vh;
+//     font-size: 92px;
+//   }
+// }
+.parallax {
+  margin-top: 10vh;
+  position: relative;
+  min-height: 80vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    position: absolute;
+    height: 125vh;
+    margin-top: 10vh;
+    left: 50%;
+    top: 0;
+    min-width: 100%;
+    z-index: -1;
+    transform: translate3d(-50%, 0, 0);
+  }
+  h1 {
+    font-size: 92px;
+    margin-top: -10vh;
+  }
+}
+// near by attraction carousel
+.Section3NBACarousel {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  .slick-dots {
+    z-index: 999;
+  }
+  .absoluteDiv {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    h1 {
+      text-align: center;
+      font-size: 92px;
+      margin-top: -50px;
+    }
+  }
+}
+.Section3NBACarousel-image {
+  h3 {
+    font-family: "GothamBook";
+    color: #dec691 !important;
+  }
+
+  .rgba-red-strong {
+    background-color: rgba(104, 79, 79, 0.7) !important;
+  }
+}
+// App3About
+.app3About-header-bg {
+  background: linear-gradient($linearGradient1, $linearGradient2),
+    url("./images/app3/about-header.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.app3About-section1-div {
+  h1 {
+    position: absolute;
+    font-size: 82px;
+    top: 6vh;
+    width: 60vw;
+    z-index: 2;
+  }
+  p {
+    margin-top: 50%;
+    width: 75%;
+  }
+  .app3About-section1-absolute-img {
+    position: absolute;
+    right: -2vw;
+    top: 35%;
+  }
+}
+.app3About-section1-div-mobile {
+  display: none;
+}
+
+// App4Contact
+.app4Contact-header-bg {
+  background: linear-gradient($linearGradient1, $linearGradient2),
+    url("./images/app4/contact-hader.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.app4-contact-s1 {
+  h1 {
+    width: 300px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .app4-contact-s1 {
+    h1 {
+      font-size: 30px !important;
+    }
+  }
+}
+
+// Individual properties
+.individual-property-alameda-header-bg {
+  background: linear-gradient($linearGradient1, $linearGradient2),
+    url("./images/individualProperties/alameda/alameda-header-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.individual-property-bayvillage-header-bg {
+  background: linear-gradient($linearGradient1, $linearGradient2),
+    url("./images/individualProperties//bayvillage/bayvillage-header-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.individual-property-bluelagoon-header-bg {
+  background: linear-gradient($linearGradient1, $linearGradient2),
+    url("./images/individualProperties/bluelagoon/bluelagoon-header.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.individual-property-grandcentral-header-bg {
+  background: linear-gradient($linearGradient1, $linearGradient2),
+    url("./images/individualProperties//grandcentral//grandcentral-header-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.individual-property-parkview-header-bg {
+  background: linear-gradient($linearGradient1, $linearGradient2);
+  // url("./images/app2/app2-header.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.individual-property-springgardens-header-bg {
+  background: linear-gradient($linearGradient1, $linearGradient2),
+    url("./images/individualProperties/springgardens/springgardens-header-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.individual-property-twenty2-header-bg {
+  background: linear-gradient($linearGradient1, $linearGradient2),
+    url("./images//individualProperties/twenty2/twenty2-header-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.propertyDescriptionLeft {
+  h1 {
+    position: absolute;
+    top: 10vh;
+    right: 0.5vw;
+  }
+  ul {
+    margin-top: 65%;
+    list-style: none;
+  }
+  li {
+    margin-top: 10px;
+  }
+  button {
+    background-color: transparent !important;
+    color: $color1;
+    letter-spacing: 2px;
+    border: 1px solid $color1;
+    box-shadow: none;
+  }
+  button:hover {
+    background-color: transparent !important;
+    color: $color1;
+    letter-spacing: 2px;
+    border: 1px solid $color1;
+  }
+}
+.propertyDescriptionRight {
+  padding-top: 10vh;
+
+  h1 {
+    position: absolute;
+    top: 10vh;
+    z-index: 2;
+  }
+  ul {
+    margin-top: 65%;
+    list-style: none;
+    padding-left: 0px;
+  }
+  li {
+    margin-top: 10px;
+  }
+  button {
+    background-color: transparent !important;
+    color: $color1;
+    letter-spacing: 2px;
+    border: 1px solid $color1;
+    box-shadow: none;
+  }
+  button:hover {
+    background-color: transparent !important;
+    color: $color1;
+    letter-spacing: 2px;
+    border: 1px solid $color1;
+  }
+}
+.section-construction-process-div {
+  background-color: #322c2c;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .heightRow {
+    height: 75vh;
+  }
+  .contact-div {
+    margin-left: 25%;
+  }
+  h1 {
+    color: $color2;
+    font-family: "GothamBook";
+  }
+  button {
+    background-color: $color2 !important;
+    border-radius: 0px;
+  }
+  .mapPhoto {
+    background-image: url("./images/individualProperties/section-construction-process-map.jpg");
+    background-position: center;
+    height: 100%;
+  }
+}
+.section-construction-process-carouser {
+  img {
+    height: 65vh !important;
+  }
+}
+.custom-select {
+  color: #7a7c80;
+}
+// test
+// navigation v2
+.burger-menu,
+.burger-menu.open {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  z-index: 9999;
+  // background: #fff;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 0px;
+  // box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+.burger-menu {
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.8s;
+  }
+}
+
+.burger-menu.open {
+  .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-5px, 5px);
+    transform: rotate(-45deg) translate(-5px, 5px);
+  }
+  .bar2 {
+    opacity: 0;
+  }
+  .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -6px);
+    transform: rotate(45deg) translate(-6px, -6px);
+  }
+}
+
+.appnav-v2-burger-icon-div {
+  img {
+    position: absolute;
+    z-index: 10000;
+    top: 20px;
+  }
+}
+
+.menu {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 0px;
+  font-family: "Carmorant" !important;
+  ul {
+    position: relative;
+    top: 0px;
+    font-size: 24px;
+    padding: 0px;
+  }
+  li {
+    list-style: outside none none;
+    margin: 10px 0px;
+    padding: 0;
+    cursor: pointer;
+    color: #fff;
+    a {
+      color: #fff !important;
+      font-size: 40px;
+    }
+    @media only screen and (max-width: 600px) {
+      a {
+        color: #fff !important;
+        font-size: 40px;
+      }
+    }
+    a:hover {
+      color: rgba(255, 255, 255, 0.486);
+      font-size: 50px;
+    }
+  }
+}
+
+// test 2
+/*effect-underline*/
+a.effect-underline:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  // border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+a.effect-underline:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+// Fade in
+.fade-in-css-anim {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}
+
+@keyframes fadeInCssAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeInCssAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInCssAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeInCssAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeInCssAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+// ..
+@keyframes bgcolor {
+  0% {
+    background-color: rgba(86, 76, 75, 0.98);
+  }
+
+  30% {
+    background-color: rgba(138, 113, 113, 0.98);
+  }
+
+  60% {
+    background-color: rgba(86, 76, 75, 0.98);
+  }
+
+  90% {
+    background-color: rgba(138, 113, 113, 0.98);
+  }
+
+  100% {
+    background-color: rgba(86, 76, 75, 0.918);
+  }
+}
+
+.popup-overlay {
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 10s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+// nearby attractions display none
+.BlueNAC-hide {
+  display: none !important;
+}
+@media only screen and (max-width: 600px) {
+  .propertyDescriptionLeft-heading {
+    font-size: 30px;
+    top: 0vh !important;
+  }
+  .propertyDescriptionRight-heading {
+    font-size: 30px;
+    top: 0vh !important;
+  }
+  .propertyDescriptionLeft {
+    button {
+      font-size: 8px;
+    }
+  }
+  .propertyDescriptionRight {
+    button {
+      font-size: 8px;
+    }
+  }
+}
