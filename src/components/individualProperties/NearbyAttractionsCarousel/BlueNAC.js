@@ -13,6 +13,19 @@ import granadaGolfCourse from "../../../images/undef/granada-golf-course.jpg";
 import brickellCityCenter from "../../../images/undef/brickell-city-center.jpg";
 import biltmore from "../../../images/undef/biltmore.jpg";
 
+// 2nd round of changes
+import tropicalPark from "../../../images/undef/tropical-park.jpg";
+import theFalls from "../../../images/undef/thefalls.jpg";
+import deeringEstate from "../../../images/undef/deeringstate.jpg";
+import zooMiami from "../../../images/undef/miami-zoo.jpg";
+import miamiSeaquarium from "../../../images/undef/seaquarium.jpg";
+import childrensMuseul from "../../../images/undef/miami-childrens-museum.jpg";
+import baysideMarketplace from "../../../images/undef/bayside.jpg";
+import jungleIsland from "../../../images/undef/jungle-island.jpg";
+import parezArt from "../../../images/undef/perez-art-museum.jpg";
+import aaa from "../../../images/undef/aaarena.jpg";
+import frostMuseum from "../../../images/undef/frost-science-museum.jpg";
+
 // --------------------------------------
 function Are1() {
   return (
@@ -112,6 +125,139 @@ function Are8() {
   );
 }
 
+// 2nd round of changes
+function Are9() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={tropicalPark}
+        nbaNAME="Tropical Park"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are10() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={theFalls}
+        nbaNAME="The Falls"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are11() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={deeringEstate}
+        nbaNAME="Deering Estate"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are12() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={zooMiami}
+        nbaNAME="Zoo Miami"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are13() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={miamiSeaquarium}
+        nbaNAME="Miami Seaquarium"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are14() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={childrensMuseul}
+        nbaNAME="Miami Children’s Museum"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are15() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={baysideMarketplace}
+        nbaNAME="Bayside Marketplace"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are16() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={jungleIsland}
+        nbaNAME="Jungle Island"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are17() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={parezArt}
+        nbaNAME="Perez Art Museum"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are18() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={aaa}
+        nbaNAME="American Airlines Arena"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are19() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={frostMuseum}
+        nbaNAME="Frost Museum"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
 // --------------------------------------
 
 // Each image
@@ -171,6 +317,28 @@ export default class BlueNAC extends Component {
           {this.props.are7 ? <Are7></Are7> : ""}
           {/* item */}
           {this.props.are8 ? <Are8></Are8> : ""}
+          {/* item */}
+          {this.props.are9 ? <Are9></Are9> : ""}
+          {/* item */}
+          {this.props.are10 ? <Are10></Are10> : ""}
+          {/* item */}
+          {this.props.are11 ? <Are11></Are11> : ""}
+          {/* item */}
+          {this.props.are12 ? <Are12></Are12> : ""}
+          {/* item */}
+          {this.props.are13 ? <Are13></Are13> : ""}
+          {/* item */}
+          {this.props.are14 ? <Are14></Are14> : ""}
+          {/* item */}
+          {this.props.are15 ? <Are15></Are15> : ""}
+          {/* item */}
+          {this.props.are16 ? <Are16></Are16> : ""}
+          {/* item */}
+          {this.props.are17 ? <Are17></Are17> : ""}
+          {/* item */}
+          {this.props.are18 ? <Are18></Are18> : ""}
+          {/* item */}
+          {this.props.are19 ? <Are19></Are19> : ""}
           {/* item */}
         </Slider>
         <Fade>

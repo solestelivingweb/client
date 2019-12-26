@@ -93,7 +93,18 @@ export default class BayVillage extends Component {
       are5: false, //biltmore
       are6: false, //wynwoodwalls
       are7: false, //viscaya
-      are8: false // brickellcc
+      are8: false, // brickellcc
+      are9: false, //tropical park
+      are10: false, // the falls
+      are11: false, //deering estates
+      are12: false, //zoo miami
+      are13: false, // miami sequarium
+      are14: false, //children museum
+      are15: false, //bay side market
+      are16: false, // jungle island
+      are17: false, // parez art
+      are18: false, //aaa
+      are19: false //frost museum
     };
   }
   render() {
@@ -136,7 +147,7 @@ explore all that Soleste Bay Village has to offer."
           propertyComponentImage={bayvillagemiddlebottomimg}
         ></PropertyDescriptionMiddleBottom>
         {/* <BlueNAC
-          are1={this.state.are1}
+           are1={this.state.are1}
           are2={this.state.are2}
           are3={this.state.are3}
           are4={this.state.are4}
@@ -144,6 +155,17 @@ explore all that Soleste Bay Village has to offer."
           are6={this.state.are6}
           are7={this.state.are7}
           are8={this.state.are8}
+          are1={this.state.are9}
+          are2={this.state.are10}
+          are3={this.state.are11}
+          are4={this.state.are12}
+          are5={this.state.are13}
+          are6={this.state.are14}
+          are7={this.state.are15}
+          are8={this.state.are16}
+          are8={this.state.are17}
+          are8={this.state.are18}
+          are8={this.state.are19}
         ></BlueNAC> */}
         <ContactThisProperty
           propertyNAME="BAY VILLAGE"

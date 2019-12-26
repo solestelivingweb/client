@@ -99,7 +99,18 @@ export default class BlueLagoon extends Component {
       are5: true, //biltmore
       are6: false, //wynwoodwalls
       are7: false, //viscaya
-      are8: false // brickellcc,
+      are8: false, // brickellcc
+      are9: false, //tropical park
+      are10: false, // the falls
+      are11: false, //deering estates
+      are12: false, //zoo miami
+      are13: false, // miami sequarium
+      are14: false, //children museum
+      are15: false, //bay side market
+      are16: false, // jungle island
+      are17: false, // parez art
+      are18: false, //aaa
+      are19: false //frost museum
     };
   }
   render() {
@@ -148,6 +159,17 @@ export default class BlueLagoon extends Component {
           are6={this.state.are6}
           are7={this.state.are7}
           are8={this.state.are8}
+          are9={this.state.are9}
+          are10={this.state.are10}
+          are11={this.state.are11}
+          are12={this.state.are12}
+          are13={this.state.are13}
+          are14={this.state.are14}
+          are15={this.state.are15}
+          are16={this.state.are16}
+          are17={this.state.are17}
+          are18={this.state.are18}
+          are19={this.state.are19}
         ></BlueNAC>
         <ContactThisProperty
           propertyNAME="BLUE LAGOON"
