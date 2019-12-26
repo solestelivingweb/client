@@ -78,7 +78,7 @@ class App2 extends Component {
           propertyPRICE="$1,500"
           propertyPAGE="/bayvillage"
           propertyNOWLEASING="PRE-LEASING NOVEMBER 2019"
-          propertyMOVEINDATE="MOVE-IN JANUARY 2020"
+          propertyMOVEINDATE="MOVE-IN MARCH 2020"
         ></PropertyRight>
         <PropertyLeft
           propertyIMAGE1={app2grandcentralimg1}

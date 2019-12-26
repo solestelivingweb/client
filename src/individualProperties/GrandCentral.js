@@ -87,6 +87,7 @@ export default class GrandCentral extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      isSocial: false,
       are1: true, //grapeland
       are2: false, //miracleMile
       are3: false, //venetian pool
@@ -145,7 +146,13 @@ export default class GrandCentral extends Component {
         ></BlueNAC>
         <ContactThisProperty
           propertyNAME="GRAND CENTRAL"
-          // propertyADDRESS="undefined address"
+          propertyADDRESS="..."
+          facebookLink="..."
+          instagramLink="..."
+          websiteLink="..."
+          mapPhotoClass="mapPhoto mPGrandCentral"
+          googlemap="..."
+          isSocial={this.state.isSocial}
         ></ContactThisProperty>
         <FooterPage></FooterPage>
       </div>

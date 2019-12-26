@@ -85,6 +85,7 @@ export default class BayVillage extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      isSocial: false,
       are1: false, //grapeland
       are2: false, //miracleMile
       are3: false, //venetian pool
@@ -117,8 +118,9 @@ Miami, without sacrificing the convenience of urban-style amenities. Call today 
 explore all that Soleste Bay Village has to offer."
           propertyComponentPrice="1,500"
           propertyComponentImage={bayvillagemiddletopimg}
+          propertyExternalWebsite="http://solestebayvillage.com/"
           propertyNOWLEASING="PRE-LEASING NOVEMBER 2019"
-          propertyMOVEINDATE="MOVE-IN JANUARY 2020"
+          propertyMOVEINDATE="MOVE-IN MARCH 2020"
         ></PropertyDescriptionMiddleTop>
         <PropertyDescriptionLeft
           propertyComponentImage={bayvillageleftimg}
@@ -145,7 +147,13 @@ explore all that Soleste Bay Village has to offer."
         ></BlueNAC> */}
         <ContactThisProperty
           propertyNAME="BAY VILLAGE"
-          // propertyADDRESS="undefined address"
+          propertyADDRESS="..."
+          facebookLink="..."
+          instagramLink="..."
+          websiteLink="http://solestebayvillage.com/"
+          mapPhotoClass="mapPhoto mPBayVillage"
+          googlemap="..."
+          isSocial={this.state.isSocial}
         ></ContactThisProperty>
         <FooterPage></FooterPage>
       </div>

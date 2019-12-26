@@ -123,11 +123,11 @@ export default class FeedbackForm extends Component {
                 name="moveInDate"
                 value={this.state.moveInDate}
                 onChange={this.handleChange.bind(this, "moveInDate")}
-                placeholder="Move In Date"
-                className="form-control rounded-0 mt-3"
+                placeholder="Move-in Date"
+                className="form-control rounded-0 mt-3 text-muted"
               />
               <input
-                type="number"
+                type="text"
                 name="priceRange"
                 value={this.state.priceRange}
                 onChange={this.handleChange.bind(this, "priceRange")}

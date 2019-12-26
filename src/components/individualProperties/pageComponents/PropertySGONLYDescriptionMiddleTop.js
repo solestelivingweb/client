@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import Fade from "react-reveal/Fade";
 
-export default class PropertyDescriptionMiddleTop extends Component {
+export default class PropertySGONLYDescriptionMiddleTop extends Component {
   render() {
     return (
       <div>
@@ -33,9 +33,9 @@ export default class PropertyDescriptionMiddleTop extends Component {
                 <p className="d-flex justify-content-end fontSize-14 text-left text-dark mt-5">
                   {this.props.propertyComponentDescription}
                 </p>
-                <p className="d-flex justify-content-end">
+                {/* <p className="d-flex justify-content-end">
                   at&nbsp;<b>{`$${this.props.propertyComponentPrice}`}</b>
-                </p>
+                </p> */}
               </Fade>
               <Fade>
                 {this.props.propertyExternalWebsite === undefined ? (
@@ -44,7 +44,7 @@ export default class PropertyDescriptionMiddleTop extends Component {
                       color="unique"
                       className="float-right mt-5 button-on-white"
                     >
-                      {this.props.contactUs ? "CONTACT US" : "LEASE NOW"}
+                      CONTACT US
                     </MDBBtn>
                   </Link>
                 ) : (
@@ -57,7 +57,7 @@ export default class PropertyDescriptionMiddleTop extends Component {
                       color="unique"
                       className="float-right mt-5 button-on-white"
                     >
-                      {this.props.contactUs ? "CONTACT US" : "LEASE NOW"}
+                      CONTACT US
                     </MDBBtn>
                   </a>
                 )}

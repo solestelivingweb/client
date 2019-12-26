@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import EachPageHeader from "../components/EachPageHeader";
 
-import PropertyDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleTop";
+import PropertySGONLYDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertySGONLYDescriptionMiddleTop";
+// import PropertyDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleTop";
 import PropertyDescriptionLeft from "../components/individualProperties/pageComponents/PropertyDescriptionLeft";
 import PropertyDescriptionRight from "../components/individualProperties/pageComponents/PropertyDescriptionRight";
 import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
@@ -43,6 +44,8 @@ export default class SpringGardens extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      isSocial: false,
+      contactUs: true,
       are1: true, //grapeland
       are2: false, //miracleMile
       are3: false, //venetian pool
@@ -66,13 +69,22 @@ export default class SpringGardens extends Component {
           pageBACKGROUND="individual-property-springgardens-header-bg"
           pageNAME="SPRING GARDENS"
         ></EachPageHeader>
-        <PropertyDescriptionMiddleTop
+        {/* <PropertyDescriptionMiddleTop
           propertyComponentTitle="AN ADDRESS OF CASUAL SOPHISTICATION"
           propertyComponentDescription="Studio Suites, One, Two, and Three-Bedroom Apartment Homes "
+          propertyComponentPrice=""
           propertyComponentImage={springgardensmiddletopimg}
           propertyNOWLEASING="PRE-LEASING MARCH 2021"
           propertyMOVEINDATE="MOVE-IN JUNE 2021"
-        ></PropertyDescriptionMiddleTop>
+        ></PropertyDescriptionMiddleTop> */}
+        <PropertySGONLYDescriptionMiddleTop
+          propertyComponentTitle="AN ADDRESS OF CASUAL SOPHISTICATION"
+          propertyComponentDescription="Studio Suites, One, Two, and Three-Bedroom Apartment Homes "
+          propertyComponentPrice=""
+          propertyComponentImage={springgardensmiddletopimg}
+          propertyNOWLEASING="PRE-LEASING MARCH 2021"
+          propertyMOVEINDATE="MOVE-IN JUNE 2021"
+        ></PropertySGONLYDescriptionMiddleTop>
         <PropertyDescriptionLeft
           propertyComponentImage={springgardensleftimg}
           propertyComponentListShort={propertyComponentListShortLeft}
@@ -99,7 +111,14 @@ export default class SpringGardens extends Component {
         ></BlueNAC>
         <ContactThisProperty
           propertyNAME="SPRING GARDENS"
-          // propertyADDRESS="undefined address"
+          propertyADDRESS="1025 Spring Garden Road, Miami, FL 33136"
+          facebookLink="..."
+          instagramLink="..."
+          websiteLink="https://www.solesteliving.com/copy-of-soleste-grand-central"
+          mapPhotoClass="mapPhoto mPSpringGardens"
+          googlemap="https://goo.gl/maps/ehUoTnxNhxd6swd38"
+          isSocial={this.state.isSocial}
+          contactUs={this.state.contactUs}
         ></ContactThisProperty>
         <FooterPage></FooterPage>
       </div>

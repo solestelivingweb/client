@@ -84,6 +84,7 @@ export default class Alameda extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      isSocial: false,
       are1: false, //grapeland
       are2: true, //miracleMile
       are3: true, //venetian pool
@@ -144,7 +145,13 @@ your new home today."
         ></BlueNAC>
         <ContactThisProperty
           propertyNAME="ALAMEDA"
-          // propertyADDRESS="undefined address"
+          propertyADDRESS="..."
+          facebookLink="..."
+          instagramLink="..."
+          websiteLink="..."
+          mapPhotoClass="mapPhoto mPAlameda"
+          googlemap="..."
+          isSocial={this.state.isSocial}
         ></ContactThisProperty>
         <FooterPage></FooterPage>
       </div>

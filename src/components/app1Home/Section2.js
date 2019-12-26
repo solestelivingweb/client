@@ -22,7 +22,7 @@ class Section2 extends Component {
               <Fade>
                 <p className="fontSize-14 mt-5">
                   Revel in the stunning architecture and innovated interior
-                  designs curated with ele- gance, comfort, and satisfaction in
+                  designs curated with elegance, comfort, and satisfaction in
                   mind. At Soleste, you’ll find the perfect combination of
                   contemporary living with traditional charm.
                 </p>

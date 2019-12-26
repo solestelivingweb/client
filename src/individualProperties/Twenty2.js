@@ -90,6 +90,7 @@ export default class Twenty2 extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      isSocial: true,
       are1: false, //grapeland
       are2: true, //miracleMile
       are3: true, //venetian pool
@@ -151,7 +152,13 @@ Soleste Twenty2 is nestled in the heart of West Miami, in close proximity to the
         {/* <T2NAC></T2NAC> */}
         <ContactThisProperty
           propertyNAME="TWENTY2"
-          // propertyADDRESS="undefined address"
+          propertyADDRESS="2201 Ludlam Road, West Miami, FL 33155"
+          facebookLink="https://www.facebook.com/solestetwenty2/"
+          instagramLink="https://www.instagram.com/solestetwenty2/"
+          websiteLink="https://www.solestetwenty2.com/"
+          mapPhotoClass="mapPhoto mPTwenty2"
+          googlemap="https://goo.gl/maps/6azsGrhagwDbGsj58"
+          isSocial={this.state.isSocial}
         ></ContactThisProperty>
         <FooterPage></FooterPage>
       </div>

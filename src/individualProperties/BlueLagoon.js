@@ -91,6 +91,7 @@ export default class BlueLagoon extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      isSocial: true,
       are1: true, //grapeland
       are2: true, //miracleMile
       are3: true, //venetian pool
@@ -98,7 +99,7 @@ export default class BlueLagoon extends Component {
       are5: true, //biltmore
       are6: false, //wynwoodwalls
       are7: false, //viscaya
-      are8: false // brickellcc
+      are8: false // brickellcc,
     };
   }
   render() {
@@ -150,7 +151,13 @@ export default class BlueLagoon extends Component {
         ></BlueNAC>
         <ContactThisProperty
           propertyNAME="BLUE LAGOON"
-          propertyADDRESS="5375 NW 7th Street - Miami, FL 33128"
+          propertyADDRESS="5375 NW 7th Street - Miami, FL 33126"
+          facebookLink="https://www.facebook.com/Soleste-Blue-Lagoon-Luxury-Apartments-in-Miami-684982218585223/"
+          instagramLink="https://www.instagram.com/solestebluelagoon/"
+          websiteLink="https://www.solestebluelagoon.com/"
+          mapPhotoClass="mapPhoto mPBlueLagoon"
+          googlemap="https://goo.gl/maps/pcLdGgNPtTqMxTYp6"
+          isSocial={this.state.isSocial}
         ></ContactThisProperty>
         <FooterPage></FooterPage>
       </div>

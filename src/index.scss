@@ -485,9 +485,11 @@ textarea {
     border-radius: 0px;
   }
   .mapPhoto {
-    background-image: url("./images/individualProperties/section-construction-process-map.jpg");
     background-position: center;
     height: 100%;
+  }
+  .mPBlueLagoon {
+    background-image: url("./images/individualProperties/section-construction-process-map.jpg");
   }
 }
 .section-construction-process-carouser {
@@ -712,4 +714,13 @@ a.effect-underline:hover:after {
       font-size: 8px;
     }
   }
+}
+input[type="date"]:before {
+  content: attr(placeholder) !important;
+  color: #7a7c80;
+  margin-right: 0.5em;
+}
+input[type="date"]:focus:before,
+input[type="date"]:valid:before {
+  content: "";
 }

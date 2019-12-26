@@ -27,7 +27,7 @@ export default class Section1 extends Component {
           </MDBRow>
         </MDBContainer>
         <MDBRow className="mt-5 pt-5">
-          <MDBCol>
+          {/* <MDBCol>
             <Fade>
               <div style={{ height: "70vh" }}>
                 <iframe
@@ -40,7 +40,7 @@ export default class Section1 extends Component {
                 ></iframe>
               </div>
             </Fade>
-          </MDBCol>
+          </MDBCol> */}
         </MDBRow>
       </div>
     );

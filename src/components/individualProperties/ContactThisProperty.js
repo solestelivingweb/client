@@ -30,54 +30,61 @@ export default class ContactThisProperty extends Component {
                     </Fade>
                     <Fade>
                       <div className="pl-0 mb-5">
-                        <a
-                          href="https://www.facebook.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <img
-                            className="mr-3 social-row-button-white-shadow"
-                            src={instLogo}
-                            alt=""
-                          />
-                        </a>
-                        <a
-                          href="https://twitter.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <img
-                            src={faceLogo}
-                            className="social-row-button-white-shadow"
-                            alt=""
-                          />
-                        </a>
-                        <a
-                          href="https://www.linkedin.com/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <img
-                            className="ml-3 mr-3 social-row-button-white-shadow"
-                            src={pinLogo}
-                            alt=""
-                          />
-                        </a>
+                        {this.props.isSocial ? (
+                          <div>
+                            <a
+                              href={this.props.instagramLink}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <img
+                                className="mr-3 social-row-button-white-shadow"
+                                src={instLogo}
+                                alt=""
+                              />
+                            </a>
+                            <a
+                              href={this.props.facebookLink}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <img
+                                src={faceLogo}
+                                className="social-row-button-white-shadow"
+                                alt=""
+                              />
+                            </a>
+                          </div>
+                        ) : (
+                          ""
+                        )}
                       </div>
                     </Fade>
                     <Fade>
-                      <Link to="/contact">
+                      <a
+                        href={this.props.websiteLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <MDBBtn color="unique" className="pr-5 pl-5">
-                          CONTACT US
+                          {this.props.contactUs ? "CONTACT US" : "LEASE NOW"}
                         </MDBBtn>
-                      </Link>
+                      </a>
                     </Fade>
                   </div>
                 </MDBCol>
               </MDBRow>
             </MDBContainer>
           </MDBCol>
-          <MDBCol className="mapPhoto"></MDBCol>
+          <MDBCol>
+            <a
+              href={this.props.googlemap}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={this.props.mapPhotoClass}></div>
+            </a>
+          </MDBCol>
         </MDBRow>
       </div>
     );
