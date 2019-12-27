@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import { MDBContainer, MDBRow, MDBCol, MDBBtn } from "mdbreact";
 
 import faceLogo from "../../images/individualProperties/faceLogo.png";
 import instLogo from "../../images/individualProperties/instLogo.png";
-import pinLogo from "../../images/individualProperties/pinLogo.png";
 
 import Fade from "react-reveal/Fade";
 

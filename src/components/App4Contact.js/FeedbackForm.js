@@ -25,7 +25,6 @@ export default class FeedbackForm extends Component {
       community,
       moveInDate,
       unitSize,
-      date,
       priceRange
     } = this.state;
     let templateParams = {
