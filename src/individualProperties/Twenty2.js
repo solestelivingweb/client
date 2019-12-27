@@ -91,25 +91,38 @@ export default class Twenty2 extends Component {
     super(props);
     this.state = {
       isSocial: true,
-      are1: false, //grapeland
-      are2: true, //miracleMile
-      are3: true, //venetian pool
-      are4: true, //grandGolfCourse
-      are5: true, //biltmore
-      are6: false, //wynwoodwalls
-      are7: false, //viscaya
-      are8: false, // brickellcc
-      are9: false, //tropical park
-      are10: false, // the falls
-      are11: false, //deering estates
-      are12: false, //zoo miami
-      are13: false, // miami sequarium
-      are14: false, //children museum
-      are15: false, //bay side market
-      are16: false, // jungle island
-      are17: false, // parez art
-      are18: false, //aaa
-      are19: false //frost museum
+      are1: false, //Grapeland Park
+      are2: true, //Miracle Mile
+      are3: true, //Venetian Pool
+      are4: true, //Granada Gold Course
+      are5: true, //The Biltmore Hotel
+      are6: false, //Wynwood Walls
+      are7: false, //Vizcaya Museum and Gardens
+      are8: false, //Brickell City Center
+      are9: false, //Tropical Park
+      are10: false, //The Falls
+      are11: false, //Deering Estate
+      are12: false, //Zoo Miami
+      are13: false, //Miami Seaquarium
+      are14: false, //Miami Children’s Museum
+      are15: false, //Bayside Marketplace
+      are16: false, //Jungle Island
+      are17: false, //Perez Art Museum
+      are18: false, //American Airlines Arena
+      are19: false, //Frost Museum
+      are20: false, //Adrienne Arsht Center
+      are21: false, //Calle Ocho
+      are22: true, //Coconut Grove
+      are23: false, //Coral Reef Park
+      are24: false, //Country Club Prado
+      are25: false, //Dolphin Mall
+      are26: false, //Doral City Center
+      are27: false, //Downtown Dadeland
+      are28: false, //Downtown Miami
+      are29: false, //Lincoln Road
+      are30: false, //Miami International Airport
+      are31: false, //Port of Miami
+      are32: false //Virgin Trains
     };
   }
   render() {
@@ -170,6 +183,19 @@ Soleste Twenty2 is nestled in the heart of West Miami, in close proximity to the
           are17={this.state.are17}
           are18={this.state.are18}
           are19={this.state.are19}
+          are20={this.state.are20}
+          are21={this.state.are21}
+          are22={this.state.are22}
+          are23={this.state.are23}
+          are24={this.state.are24}
+          are25={this.state.are25}
+          are26={this.state.are26}
+          are27={this.state.are27}
+          are28={this.state.are28}
+          are29={this.state.are29}
+          are30={this.state.are30}
+          are31={this.state.are31}
+          are32={this.state.are32}
         ></BlueNAC>
         {/* <T2NAC></T2NAC> */}
         <ContactThisProperty

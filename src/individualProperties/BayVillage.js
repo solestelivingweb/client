@@ -7,7 +7,7 @@ import PropertyDescriptionLeft from "../components/individualProperties/pageComp
 import PropertyDescriptionRight from "../components/individualProperties/pageComponents/PropertyDescriptionRight";
 import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
 // import NearbyAttractionsCarousel from "../components/individualProperties/NearbyAttractionsCarousel";
-// import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
+import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
 
@@ -86,25 +86,38 @@ export default class BayVillage extends Component {
     super(props);
     this.state = {
       isSocial: false,
-      are1: false, //grapeland
-      are2: false, //miracleMile
-      are3: false, //venetian pool
-      are4: false, //grandGolfCourse
-      are5: false, //biltmore
-      are6: false, //wynwoodwalls
-      are7: false, //viscaya
-      are8: false, // brickellcc
-      are9: false, //tropical park
-      are10: false, // the falls
-      are11: false, //deering estates
-      are12: false, //zoo miami
-      are13: false, // miami sequarium
-      are14: false, //children museum
-      are15: false, //bay side market
-      are16: false, // jungle island
-      are17: false, // parez art
-      are18: false, //aaa
-      are19: false //frost museum
+      are1: false, //Grapeland Park
+      are2: false, //Miracle Mile
+      are3: false, //Venetian Pool
+      are4: false, //Granada Gold Course
+      are5: false, //The Biltmore Hotel
+      are6: false, //Wynwood Walls
+      are7: false, //Vizcaya Museum and Gardens
+      are8: false, //Brickell City Center
+      are9: false, //Tropical Park
+      are10: true, //The Falls
+      are11: true, //Deering Estate
+      are12: true, //Zoo Miami
+      are13: false, //Miami Seaquarium
+      are14: false, //Miami Children’s Museum
+      are15: false, //Bayside Marketplace
+      are16: false, //Jungle Island
+      are17: false, //Perez Art Museum
+      are18: false, //American Airlines Arena
+      are19: false, //Frost Museum
+      are20: false, //Adrienne Arsht Center
+      are21: false, //Calle Ocho
+      are22: false, //Coconut Grove
+      are23: true, //Coral Reef Park
+      are24: false, //Country Club Prado
+      are25: false, //Dolphin Mall
+      are26: false, //Doral City Center
+      are27: true, //Downtown Dadeland
+      are28: false, //Downtown Miami
+      are29: false, //Lincoln Road
+      are30: false, //Miami International Airport
+      are31: false, //Port of Miami
+      are32: false //Virgin Trains
     };
   }
   render() {
@@ -146,8 +159,8 @@ explore all that Soleste Bay Village has to offer."
         <PropertyDescriptionMiddleBottom
           propertyComponentImage={bayvillagemiddlebottomimg}
         ></PropertyDescriptionMiddleBottom>
-        {/* <BlueNAC
-           are1={this.state.are1}
+        <BlueNAC
+          are1={this.state.are1}
           are2={this.state.are2}
           are3={this.state.are3}
           are4={this.state.are4}
@@ -155,18 +168,31 @@ explore all that Soleste Bay Village has to offer."
           are6={this.state.are6}
           are7={this.state.are7}
           are8={this.state.are8}
-          are1={this.state.are9}
-          are2={this.state.are10}
-          are3={this.state.are11}
-          are4={this.state.are12}
-          are5={this.state.are13}
-          are6={this.state.are14}
-          are7={this.state.are15}
-          are8={this.state.are16}
-          are8={this.state.are17}
-          are8={this.state.are18}
-          are8={this.state.are19}
-        ></BlueNAC> */}
+          are9={this.state.are9}
+          are10={this.state.are10}
+          are11={this.state.are11}
+          are12={this.state.are12}
+          are13={this.state.are13}
+          are14={this.state.are14}
+          are15={this.state.are15}
+          are16={this.state.are16}
+          are17={this.state.are17}
+          are18={this.state.are18}
+          are19={this.state.are19}
+          are20={this.state.are20}
+          are21={this.state.are21}
+          are22={this.state.are22}
+          are23={this.state.are23}
+          are24={this.state.are24}
+          are25={this.state.are25}
+          are26={this.state.are26}
+          are27={this.state.are27}
+          are28={this.state.are28}
+          are29={this.state.are29}
+          are30={this.state.are30}
+          are31={this.state.are31}
+          are32={this.state.are32}
+        ></BlueNAC>
         <ContactThisProperty
           propertyNAME="BAY VILLAGE"
           propertyADDRESS="..."

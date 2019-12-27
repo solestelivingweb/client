@@ -26,6 +26,21 @@ import parezArt from "../../../images/undef/perez-art-museum.jpg";
 import aaa from "../../../images/undef/aaarena.jpg";
 import frostMuseum from "../../../images/undef/frost-science-museum.jpg";
 
+// 3rd batch
+import adrienne from "../../../images/undef2/adrienne-arsht-center.jpg";
+import calleocho from "../../../images/undef2/calle-ocho.jpg";
+import cocogrove from "../../../images/undef2/coconut-grove.jpg";
+import coralreefpark from "../../../images/undef2/coral-reef-park.jpg";
+import countryclubprado from "../../../images/undef2/country-club-prado.jpg";
+import dolphinmall from "../../../images/undef2/dolphin-mall.jpg";
+import doralcitycenter from "../../../images/undef2/dora-city-center.jpg";
+import downtowndadeland from "../../../images/undef2/downtown-dadeland.jpg";
+import dtmiami from "../../../images/undef2/downtown-miami.jpg";
+import lincolnrd from "../../../images/undef2/lincoln-road.jpg";
+import miamiairport from "../../../images/undef2/miami-airport.jpg";
+import portmiami from "../../../images/undef2/port-miami.jpg";
+import virgintrains from "../../../images/undef2/virgin-trains.jpg";
+
 // --------------------------------------
 function Are1() {
   return (
@@ -258,6 +273,163 @@ function Are19() {
   );
 }
 
+// batch 3
+function Are20() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={adrienne}
+        nbaNAME="Adrienne Arsht Center"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are21() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={calleocho}
+        nbaNAME="Calle Ocho"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are22() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={cocogrove}
+        nbaNAME="Coconut Grove"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are23() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={coralreefpark}
+        nbaNAME="Coral Reef Park"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are24() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={countryclubprado}
+        nbaNAME="Country Club Prado"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are25() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={dolphinmall}
+        nbaNAME="Dolphin Mall"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are26() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={doralcitycenter}
+        nbaNAME="Doral City Center"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are27() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={downtowndadeland}
+        nbaNAME="Downtown Dadeland"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are28() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={dtmiami}
+        nbaNAME="Downtown Miami"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are29() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={lincolnrd}
+        nbaNAME="Lincoln Road"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are30() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={miamiairport}
+        nbaNAME="Miami International Airport"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are31() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={portmiami}
+        nbaNAME="Port of Miami"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
+function Are32() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={virgintrains}
+        nbaNAME="Virgin Trains"
+        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+      />
+    </div>
+  );
+}
+
 // --------------------------------------
 
 // Each image
@@ -339,6 +511,32 @@ export default class BlueNAC extends Component {
           {this.props.are18 ? <Are18></Are18> : ""}
           {/* item */}
           {this.props.are19 ? <Are19></Are19> : ""}
+          {/* item */}
+          {this.props.are20 ? <Are20></Are20> : ""}
+          {/* item */}
+          {this.props.are21 ? <Are21></Are21> : ""}
+          {/* item */}
+          {this.props.are22 ? <Are22></Are22> : ""}
+          {/* item */}
+          {this.props.are23 ? <Are23></Are23> : ""}
+          {/* item */}
+          {this.props.are24 ? <Are24></Are24> : ""}
+          {/* item */}
+          {this.props.are25 ? <Are25></Are25> : ""}
+          {/* item */}
+          {this.props.are26 ? <Are26></Are26> : ""}
+          {/* item */}
+          {this.props.are27 ? <Are27></Are27> : ""}
+          {/* item */}
+          {this.props.are28 ? <Are28></Are28> : ""}
+          {/* item */}
+          {this.props.are29 ? <Are29></Are29> : ""}
+          {/* item */}
+          {this.props.are30 ? <Are30></Are30> : ""}
+          {/* item */}
+          {this.props.are31 ? <Are31></Are31> : ""}
+          {/* item */}
+          {this.props.are32 ? <Are32></Are32> : ""}
           {/* item */}
         </Slider>
         <Fade>
