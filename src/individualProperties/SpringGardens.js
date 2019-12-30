@@ -167,6 +167,7 @@ export default class SpringGardens extends Component {
           googlemap="https://goo.gl/maps/ehUoTnxNhxd6swd38"
           isSocial={this.state.isSocial}
           contactUs={this.state.contactUs}
+          embedMap="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=1033%20Spring%20Garden%20Road%2C%20Miami%2C%20FL+(Spring%20Gardens)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
         ></ContactThisProperty>
         <FooterPage></FooterPage>
       </div>

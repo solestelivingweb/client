@@ -201,6 +201,7 @@ export default class GrandCentral extends Component {
           mapPhotoClass="mapPhoto mPGrandCentral"
           googlemap="..."
           isSocial={this.state.isSocial}
+          embedMap="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=218%20NW%208th%20St%2C%20Miami%2C%20FL%2033136+(Grand%20Central)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
         ></ContactThisProperty>
         <FooterPage></FooterPage>
       </div>

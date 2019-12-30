@@ -75,13 +75,24 @@ export default class ContactThisProperty extends Component {
             </MDBContainer>
           </MDBCol>
           <MDBCol>
-            <a
+            {/* <a
               href={this.props.googlemap}
               target="_blank"
               rel="noopener noreferrer"
             >
               <div className={this.props.mapPhotoClass}></div>
-            </a>
+            </a> */}
+            <div style={{ width: "100%", height: "100%" }}>
+              <iframe
+                width="100%"
+                height="100%"
+                src={this.props.embedMap}
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+              ></iframe>
+            </div>
           </MDBCol>
         </MDBRow>
       </div>

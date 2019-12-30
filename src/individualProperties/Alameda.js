@@ -200,6 +200,7 @@ your new home today."
           mapPhotoClass="mapPhoto mPAlameda"
           googlemap="..."
           isSocial={this.state.isSocial}
+          embedMap="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=6320%20SW%208th%20St+(Alameda)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
         ></ContactThisProperty>
         <FooterPage></FooterPage>
       </div>

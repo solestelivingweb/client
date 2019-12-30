@@ -86,6 +86,7 @@ textarea {
 .app1Home-header-img {
   height: 100vh;
 }
+
 .app1Home-header-bg {
   // background-image: url("./images/app/app-header.jpg");
   // height: 100vh;
@@ -155,6 +156,7 @@ textarea {
   .slick-dots {
     z-index: 999;
   }
+
   .absoluteDiv {
     width: 100%;
     position: absolute;
@@ -723,4 +725,7 @@ input[type="date"]:before {
 input[type="date"]:focus:before,
 input[type="date"]:valid:before {
   content: "";
+}
+.slick-next {
+  display: none !important;
 }

@@ -206,6 +206,7 @@ export default class BlueLagoon extends Component {
           mapPhotoClass="mapPhoto mPBlueLagoon"
           googlemap="https://goo.gl/maps/pcLdGgNPtTqMxTYp6"
           isSocial={this.state.isSocial}
+          embedMap="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=5375%20NW%207th%20St%2C%20Miami%2C%20FL%2033126+(Blue%20Lagoon)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
         ></ContactThisProperty>
         <FooterPage></FooterPage>
       </div>

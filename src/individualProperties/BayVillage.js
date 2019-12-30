@@ -202,6 +202,7 @@ explore all that Soleste Bay Village has to offer."
           mapPhotoClass="mapPhoto mPBayVillage"
           googlemap="..."
           isSocial={this.state.isSocial}
+          embedMap="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=18301%20S%20Dixie%20Hwy%2C%20Miami%2C%20FL%2033157+(Bay%20Village)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
         ></ContactThisProperty>
         <FooterPage></FooterPage>
       </div>

@@ -207,6 +207,7 @@ Soleste Twenty2 is nestled in the heart of West Miami, in close proximity to the
           mapPhotoClass="mapPhoto mPTwenty2"
           googlemap="https://goo.gl/maps/6azsGrhagwDbGsj58"
           isSocial={this.state.isSocial}
+          embedMap="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=2201%20Ludlam%20Road%2C%20Miami%2C%20FL%2033155+(Twenty2)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
         ></ContactThisProperty>
         <FooterPage></FooterPage>
       </div>
