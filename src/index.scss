@@ -493,6 +493,24 @@ textarea {
   .mPBlueLagoon {
     background-image: url("./images/individualProperties/section-construction-process-map.jpg");
   }
+  .ctpid {
+    width: 100%;
+    height: 100%;
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .heightRow {
+      display: block;
+    }
+    .contact-div {
+      margin-left: 0%;
+      padding-bottom: 3rem;
+      text-align: center;
+    }
+  }
 }
 .section-construction-process-carouser {
   img {

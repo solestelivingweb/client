@@ -82,10 +82,8 @@ export default class ContactThisProperty extends Component {
             >
               <div className={this.props.mapPhotoClass}></div>
             </a> */}
-            <div style={{ width: "100%", height: "100%" }}>
+            <div className="ctpid">
               <iframe
-                width="100%"
-                height="100%"
                 src={this.props.embedMap}
                 frameborder="0"
                 scrolling="no"
