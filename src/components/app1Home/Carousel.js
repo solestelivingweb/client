@@ -13,10 +13,22 @@ import {
   MDBBtn
 } from "mdbreact";
 
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile
+} from "react-device-detect";
+
 import img1 from "../../images/app/app-header.jpg";
 import img2 from "../../images/app/app-header-2.jpg";
 import img3 from "../../images/app/app-header-3.jpg";
 import img4 from "../../images/app/app-header-4.jpg";
+
+import img1mob from "../../images/app/mobile-1.jpg";
+import img2mob from "../../images/app/mobile-2.jpg";
+import img3mob from "../../images/app/mobile-3.jpg";
+import img4mob from "../../images/app/mobile-4.jpg";
 
 function Cont2() {
   return (
@@ -59,11 +71,20 @@ const CarouselPage = () => {
       <MDBCarouselInner className="carImgs">
         <MDBCarouselItem itemId="1">
           <MDBView>
-            <img
-              className="d-block w-100 app1Home-header-img"
-              src={img1}
-              alt="First slide"
-            />
+            <BrowserView>
+              <img
+                className="d-block w-100 app1Home-header-img"
+                src={img1}
+                alt="First slide"
+              />
+            </BrowserView>
+            <MobileView>
+              <img
+                className="d-block w-100 app1Home-header-img"
+                src={img1mob}
+                alt="First slide"
+              />
+            </MobileView>
             <MDBMask />
           </MDBView>
           <MDBCarouselCaption className="app1Home-header-inner-content">
@@ -72,11 +93,20 @@ const CarouselPage = () => {
         </MDBCarouselItem>
         <MDBCarouselItem itemId="2">
           <MDBView>
-            <img
-              className="d-block w-100 app1Home-header-img"
-              src={img2}
-              alt="Second slide"
-            />
+            <BrowserView>
+              <img
+                className="d-block w-100 app1Home-header-img"
+                src={img2}
+                alt="First slide"
+              />
+            </BrowserView>
+            <MobileView>
+              <img
+                className="d-block w-100 app1Home-header-img"
+                src={img2mob}
+                alt="First slide"
+              />
+            </MobileView>
             <MDBMask />
           </MDBView>
           <MDBCarouselCaption className="app1Home-header-inner-content">
@@ -85,11 +115,20 @@ const CarouselPage = () => {
         </MDBCarouselItem>
         <MDBCarouselItem itemId="3">
           <MDBView>
-            <img
-              className="d-block w-100 app1Home-header-img"
-              src={img3}
-              alt="Third slide"
-            />
+            <BrowserView>
+              <img
+                className="d-block w-100 app1Home-header-img"
+                src={img3}
+                alt="First slide"
+              />
+            </BrowserView>
+            <MobileView>
+              <img
+                className="d-block w-100 app1Home-header-img"
+                src={img3mob}
+                alt="First slide"
+              />
+            </MobileView>
             <MDBMask />
           </MDBView>
           <MDBCarouselCaption className="app1Home-header-inner-content">
@@ -99,11 +138,20 @@ const CarouselPage = () => {
 
         <MDBCarouselItem itemId="4">
           <MDBView>
-            <img
-              className="d-block w-100 app1Home-header-img"
-              src={img4}
-              alt="Fourth slide"
-            />
+            <BrowserView>
+              <img
+                className="d-block w-100 app1Home-header-img"
+                src={img4}
+                alt="First slide"
+              />
+            </BrowserView>
+            <MobileView>
+              <img
+                className="d-block w-100 app1Home-header-img"
+                src={img4mob}
+                alt="First slide"
+              />
+            </MobileView>
             <MDBMask />
           </MDBView>
           <MDBCarouselCaption className="app1Home-header-inner-content">
