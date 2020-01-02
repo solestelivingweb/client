@@ -89,6 +89,7 @@ export default class ContactThisProperty extends Component {
                 scrolling="no"
                 marginheight="0"
                 marginwidth="0"
+                title="map"
               ></iframe>
             </div>
           </MDBCol>

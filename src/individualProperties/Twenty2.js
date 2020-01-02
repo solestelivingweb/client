@@ -5,7 +5,8 @@ import EachPageHeader from "../components/EachPageHeader";
 import PropertyDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleTop";
 import PropertyDescriptionLeft from "../components/individualProperties/pageComponents/PropertyDescriptionLeft";
 import PropertyDescriptionRight from "../components/individualProperties/pageComponents/PropertyDescriptionRight";
-import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
+// import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
+import CarouselPageTwenty2 from "../components/individualProperties/pageComponents/CarouselPageTwenty2";
 // import NearbyAttractionsCarousel from "../components/individualProperties/NearbyAttractionsCarousel";
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 // import T2NAC from "../components/individualProperties/NearbyAttractionsCarousel/T2NAC";
@@ -15,7 +16,7 @@ import FooterPage from "../components/FooterPage";
 import twenty2middletopimg from "../images/individualProperties/twenty2/twenty2-mid-top-img.jpg";
 import twenty2leftimg from "../images/individualProperties/twenty2/twenty2-left-img.jpg";
 import twenty2rightimg from "../images/individualProperties/twenty2/twenty2-right-img.jpg";
-import twenty2middlebottomimg from "../images/individualProperties/twenty2/twenty2-mid-bottom-img.jpg";
+// import twenty2middlebottomimg from "../images/individualProperties/twenty2/twenty2-mid-bottom-img.jpg";
 
 const propertyComponentListShortArrLeft = [
   "Hotel-inspired pool",
@@ -159,9 +160,10 @@ Soleste Twenty2 is nestled in the heart of West Miami, in close proximity to the
           propertyComponentListShort={propertyComponentListShortRight}
           propertyComponentListLong={propertyComponentListLongRight}
         ></PropertyDescriptionRight>
-        <PropertyDescriptionMiddleBottom
+        {/* <PropertyDescriptionMiddleBottom
           propertyComponentImage={twenty2middlebottomimg}
-        ></PropertyDescriptionMiddleBottom>
+        ></PropertyDescriptionMiddleBottom> */}
+        <CarouselPageTwenty2></CarouselPageTwenty2>
         {/* <NearbyAttractionsCarousel></NearbyAttractionsCarousel> */}
         <BlueNAC
           are1={this.state.are1}

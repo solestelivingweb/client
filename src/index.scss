@@ -410,6 +410,16 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media only screen and (max-width: 600px) {
+  .PropertyDescriptionMiddleTop {
+    h1 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+  }
+}
 .propertyDescriptionLeft {
   h1 {
     position: absolute;
@@ -419,6 +429,8 @@ textarea {
   ul {
     margin-top: 65%;
     list-style: none;
+    margin-left: -90px;
+    font-size: 14px;
   }
   li {
     margin-top: 10px;
@@ -449,6 +461,8 @@ textarea {
     margin-top: 65%;
     list-style: none;
     padding-left: 0px;
+    margin-right: -90px;
+    font-size: 14px;
   }
   li {
     margin-top: 10px;

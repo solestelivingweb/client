@@ -5,8 +5,9 @@ import EachPageHeader from "../components/EachPageHeader";
 import PropertyDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleTop";
 import PropertyDescriptionLeft from "../components/individualProperties/pageComponents/PropertyDescriptionLeft";
 import PropertyDescriptionRight from "../components/individualProperties/pageComponents/PropertyDescriptionRight";
-import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
+// import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
 // import NearbyAttractionsCarousel from "../components/individualProperties/NearbyAttractionsCarousel";
+import CarouselPageBlueLagoon from "../components/individualProperties/pageComponents/CarouselPageBlueLagoon";
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
@@ -14,8 +15,8 @@ import FooterPage from "../components/FooterPage";
 import bluelagoonmiddletopimg from "../images/individualProperties/bluelagoon/bluelagoon-mid-top-img.jpg";
 import bluelagoonleftimg from "../images/individualProperties/bluelagoon/bluelagoon-left-img.jpg";
 import bluelagoonrightimg from "../images/individualProperties/bluelagoon/bluelagoon-right-img.jpg";
-import bluelagoonmiddlebottomimg from "../images/individualProperties/bluelagoon/bluelagoon-mid-bottom-img.jpg";
-
+// slider
+// import bluelagoonmiddlebottomimg from "../images/individualProperties/bluelagoon/bluelagoon-mid-bottom-img.jpg";
 const propertyComponentListShortArrLeft = [
   "Lakeside pool and jacuzzi",
   "Expansive sun deck",
@@ -159,9 +160,10 @@ export default class BlueLagoon extends Component {
           propertyComponentListShort={propertyComponentListShortRight}
           propertyComponentListLong={propertyComponentListLongRight}
         ></PropertyDescriptionRight>
-        <PropertyDescriptionMiddleBottom
+        {/* <PropertyDescriptionMiddleBottom
           propertyComponentImage={bluelagoonmiddlebottomimg}
-        ></PropertyDescriptionMiddleBottom>
+        ></PropertyDescriptionMiddleBottom> */}
+        <CarouselPageBlueLagoon></CarouselPageBlueLagoon>
         {/* <NearbyAttractionsCarousel></NearbyAttractionsCarousel> */}
         <BlueNAC
           are1={this.state.are1}

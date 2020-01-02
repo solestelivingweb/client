@@ -13,12 +13,7 @@ import {
   MDBBtn
 } from "mdbreact";
 
-import {
-  BrowserView,
-  MobileView,
-  isBrowser,
-  isMobile
-} from "react-device-detect";
+import { BrowserView, MobileView } from "react-device-detect";
 
 import img1 from "../../images/app/app-header.jpg";
 import img2 from "../../images/app/app-header-2.jpg";

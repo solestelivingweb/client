@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade";
 export default class PropertyDescriptionMiddleTop extends Component {
   render() {
     return (
-      <div>
+      <div className="PropertyDescriptionMiddleTop">
         <MDBContainer className="pt-5 pb-5">
           <MDBRow>
             <MDBCol>
