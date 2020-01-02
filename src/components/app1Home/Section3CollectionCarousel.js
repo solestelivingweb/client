@@ -4,10 +4,6 @@ import Slider from "react-slick";
 import Fade from "react-reveal/Fade";
 import { MDBMask, MDBView, MDBBtn } from "mdbreact";
 
-// import img1 from "../../images/app/app-section3-img1.jpg";
-// import img2 from "../../images/app/app-section3-img2.jpg";
-// import img3 from "../../images/app/app-section3-img3.jpg";
-
 import bluelag from "../../images/app/z-home-soleste-bluelagoon.jpg";
 import tw2 from "../../images/app/z-home-soleste-twenty2.jpg";
 import alameda from "../../images/app/z-home-soleste-alameda.jpg";
@@ -106,11 +102,6 @@ export default class Section3CollectionCarousel extends Component {
             />
           </div>
         </Slider>
-        {/* <div>
-          <Link to="/collection">
-            <MDBBtn>VIEW ALL PROPERTIES</MDBBtn>
-          </Link>
-        </div> */}
         <Fade>
           <div className="text-center pt-5">
             <Link to="/collection">

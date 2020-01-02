@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { MDBContainer, MDBCol } from "mdbreact";
-
 import Fade from "react-reveal/Fade";
 
 class EachPageHeader extends Component {

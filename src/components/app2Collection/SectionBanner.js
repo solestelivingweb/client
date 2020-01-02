@@ -1,7 +1,6 @@
 import React from "react";
 import Parallax from "./Parallax";
 import sectionbannerbg from "../../images/app2/section-banner-bg.jpg";
-
 import Fade from "react-reveal/Fade";
 
 function SectionBanner() {

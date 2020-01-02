@@ -2,7 +2,6 @@ import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import solestelogo from "../images/general/soleste-logo.png";
 import footerpagetbclogo from "../images/footerPage/footer-page-tbc-logo.png";
-
 import Fade from "react-reveal/Fade";
 
 function ScrollToTop() {
@@ -15,7 +14,6 @@ function FooterPage() {
       <MDBContainer>
         <MDBRow className="pt-5">
           <MDBCol>
-            {/* <MDBRow> */}
             <Fade>
               <div className="text-center">
                 <img

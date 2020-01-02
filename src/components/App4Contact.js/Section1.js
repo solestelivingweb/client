@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
-
 import FeedbackForm from "./FeedbackForm.js";
-
 import Fade from "react-reveal/Fade";
 
 export default class Section1 extends Component {
@@ -26,22 +24,7 @@ export default class Section1 extends Component {
             <MDBCol></MDBCol>
           </MDBRow>
         </MDBContainer>
-        <MDBRow className="mt-5 pt-5">
-          {/* <MDBCol>
-            <Fade>
-              <div style={{ height: "70vh" }}>
-                <iframe
-                  src="https://snazzymaps.com/embed/129824"
-                  width="100%"
-                  height="100%"
-                  style={{ border: "none" }}
-                  className="m-0 p-0"
-                  title="googlemaps"
-                ></iframe>
-              </div>
-            </Fade>
-          </MDBCol> */}
-        </MDBRow>
+        <MDBRow className="mt-5 pt-5"></MDBRow>
       </div>
     );
   }

@@ -1,22 +1,16 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import EachPageHeader from "../components/EachPageHeader";
-
 import PropertyDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleTop";
 import PropertyDescriptionLeft from "../components/individualProperties/pageComponents/PropertyDescriptionLeft";
 import PropertyDescriptionRight from "../components/individualProperties/pageComponents/PropertyDescriptionRight";
-// import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
 import CarouselPageTwenty2 from "../components/individualProperties/pageComponents/CarouselPageTwenty2";
-// import NearbyAttractionsCarousel from "../components/individualProperties/NearbyAttractionsCarousel";
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
-// import T2NAC from "../components/individualProperties/NearbyAttractionsCarousel/T2NAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
-
 import twenty2middletopimg from "../images/individualProperties/twenty2/twenty2-mid-top-img.jpg";
 import twenty2leftimg from "../images/individualProperties/twenty2/twenty2-left-img.jpg";
 import twenty2rightimg from "../images/individualProperties/twenty2/twenty2-right-img.jpg";
-// import twenty2middlebottomimg from "../images/individualProperties/twenty2/twenty2-mid-bottom-img.jpg";
 
 const propertyComponentListShortArrLeft = [
   "Hotel-inspired pool",
@@ -199,7 +193,6 @@ Soleste Twenty2 is nestled in the heart of West Miami, in close proximity to the
           are31={this.state.are31}
           are32={this.state.are32}
         ></BlueNAC>
-        {/* <T2NAC></T2NAC> */}
         <ContactThisProperty
           propertyNAME="TWENTY2"
           propertyADDRESS="2201 Ludlam Road, West Miami, FL 33155"

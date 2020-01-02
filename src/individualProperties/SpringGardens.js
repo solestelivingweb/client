@@ -1,17 +1,13 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import EachPageHeader from "../components/EachPageHeader";
-
 import PropertySGONLYDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertySGONLYDescriptionMiddleTop";
-// import PropertyDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleTop";
 import PropertyDescriptionLeft from "../components/individualProperties/pageComponents/PropertyDescriptionLeft";
 import PropertyDescriptionRight from "../components/individualProperties/pageComponents/PropertyDescriptionRight";
 import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
-// import NearbyAttractionsCarousel from "../components/individualProperties/NearbyAttractionsCarousel";
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
-
 import springgardensmiddletopimg from "../images/individualProperties/springgardens/springgardens-mid-top-img.jpg";
 import springgardensleftimg from "../images/individualProperties/springgardens/springgardens-left-img.jpg";
 import springgardensrightimg from "../images/individualProperties/springgardens/springgardens-right-img.jpg";
@@ -93,14 +89,6 @@ export default class SpringGardens extends Component {
           pageBACKGROUND="individual-property-springgardens-header-bg"
           pageNAME="SPRING GARDENS"
         ></EachPageHeader>
-        {/* <PropertyDescriptionMiddleTop
-          propertyComponentTitle="AN ADDRESS OF CASUAL SOPHISTICATION"
-          propertyComponentDescription="Studio Suites, One, Two, and Three-Bedroom Apartment Homes "
-          propertyComponentPrice=""
-          propertyComponentImage={springgardensmiddletopimg}
-          propertyNOWLEASING="PRE-LEASING MARCH 2021"
-          propertyMOVEINDATE="MOVE-IN JUNE 2021"
-        ></PropertyDescriptionMiddleTop> */}
         <PropertySGONLYDescriptionMiddleTop
           propertyComponentTitle="AN ADDRESS OF CASUAL SOPHISTICATION"
           propertyComponentDescription="Studio Suites, One, Two, and Three-Bedroom Apartment Homes "

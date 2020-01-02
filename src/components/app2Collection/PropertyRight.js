@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { MDBContainer, MDBRow, MDBCol, MDBBtn } from "mdbreact";
-
 import Fade from "react-reveal/Fade";
 
 class PropertyRight extends Component {

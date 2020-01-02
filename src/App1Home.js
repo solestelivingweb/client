@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import {} from "mdbreact";
 import "./index.scss";
 import { Helmet } from "react-helmet";
 import Header from "./components/app1Home/Header";

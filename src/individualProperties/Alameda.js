@@ -1,16 +1,13 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import EachPageHeader from "../components/EachPageHeader";
-
 import PropertyDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleTop";
 import PropertyDescriptionLeft from "../components/individualProperties/pageComponents/PropertyDescriptionLeft";
 import PropertyDescriptionRight from "../components/individualProperties/pageComponents/PropertyDescriptionRight";
 import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
-// import NearbyAttractionsCarousel from "../components/individualProperties/NearbyAttractionsCarousel";
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
-
 import alamedamiddletopimg from "../images/individualProperties/alameda/alameda-mid-top-img.jpg";
 import alamedaleftimg from "../images/individualProperties/alameda/alameda-left-img.jpg";
 import alamedarightimg from "../images/individualProperties/alameda/alameda-right-img.jpg";

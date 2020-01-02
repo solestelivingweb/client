@@ -1,6 +1,5 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
-
 import app3Aboutsolestelogo from "../../images/app3/app3About-soleste-logo.png";
 import app3Aboutimg from "../../images/app3/app3About-img.jpg";
 

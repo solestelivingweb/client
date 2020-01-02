@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import * as emailjs from "emailjs-com";
 import { MDBBtn } from "mdbreact";
-
 import Fade from "react-reveal/Fade";
 
 export default class FeedbackForm extends Component {

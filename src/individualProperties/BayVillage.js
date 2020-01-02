@@ -1,16 +1,13 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import EachPageHeader from "../components/EachPageHeader";
-
 import PropertyDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleTop";
 import PropertyDescriptionLeft from "../components/individualProperties/pageComponents/PropertyDescriptionLeft";
 import PropertyDescriptionRight from "../components/individualProperties/pageComponents/PropertyDescriptionRight";
 import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
-// import NearbyAttractionsCarousel from "../components/individualProperties/NearbyAttractionsCarousel";
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
-
 import bayvillagemiddletopimg from "../images/individualProperties/bayvillage/bayvillage-mid-top-img.jpg";
 import bayvillageleftimg from "../images/individualProperties/bayvillage/bayvillage-left-img.jpg";
 import bayvillagerightimg from "../images/individualProperties/bayvillage/bayvillage-right-img.jpg";

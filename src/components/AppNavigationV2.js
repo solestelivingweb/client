@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Popup from "reactjs-popup";
-
 import AppNavV2BurgerIcon from "../components/AppNavV2/AppNavV2BurgerIcon";
 import AppNavV2Menu from "../components/AppNavV2/AppNavV2Menu";
 

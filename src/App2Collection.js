@@ -5,7 +5,6 @@ import PropertyRight from "./components/app2Collection/PropertyRight";
 import PropertyLeft from "./components/app2Collection/PropertyLeft";
 import SectionBanner from "./components/app2Collection/SectionBanner";
 import FooterPage from "./components/FooterPage";
-
 import app2bluelagoonimg1 from "./images/app2/app2-blue-lagoon-img-1.jpg";
 import app2bluelagoonimg2 from "./images/app2/app2-blue-lagoon-img-2.jpg";
 import app2twenty2img1 from "./images/app2/app2-twenty2-img-1.jpg";
