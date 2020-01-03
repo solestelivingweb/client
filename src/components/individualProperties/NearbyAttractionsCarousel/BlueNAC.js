@@ -147,7 +147,7 @@ function Are9() {
       <AttractionsImage
         nbaIMAGE={tropicalPark}
         nbaNAME="Tropical Park"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="Tropical Park is the ideal spot in Olympia Heights for a nature getaway. With miles of paved pathways, this is the perfect spot for cycling, running, or simply enjoying a walk."
       />
     </div>
   );
@@ -159,7 +159,8 @@ function Are10() {
       <AttractionsImage
         nbaIMAGE={theFalls}
         nbaNAME="The Falls"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="With over 100 stores to explore, The Falls is an upscale shopping haven located in Kendall. Whether you’re shopping or dining, you’ll always find something the whole family can enjoy.
+"
       />
     </div>
   );
@@ -171,7 +172,7 @@ function Are11() {
       <AttractionsImage
         nbaIMAGE={deeringEstate}
         nbaNAME="Deering Estate"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="One of Miami’s cultural landmarks, The Deering Estate preserves the 1920s home of Charles Deering. Enjoy tours, art exhibits, nature hikes, and more at this historical destination."
       />
     </div>
   );
@@ -183,7 +184,7 @@ function Are12() {
       <AttractionsImage
         nbaIMAGE={zooMiami}
         nbaNAME="Zoo Miami"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="The only subtropical zoo in the US, the Miami Zoo is one of South Florida’s best family friendly destinations! Interact with wildlife and endangered species at Florida’s biggest zoological garden."
       />
     </div>
   );
@@ -195,7 +196,7 @@ function Are13() {
       <AttractionsImage
         nbaIMAGE={miamiSeaquarium}
         nbaNAME="Miami Seaquarium"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="The Miami Seaquarium is one of South Florida’s favorite visitor attractions! Get up close and personal with marine life with extraordinary exhibits at Miami’s favorite aquarium."
       />
     </div>
   );
@@ -207,7 +208,7 @@ function Are14() {
       <AttractionsImage
         nbaIMAGE={childrensMuseul}
         nbaNAME="Miami Children’s Museum"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="A dreamland for every kid, the Miami Children’s Museum is a non-profit educational space that encourages kids to use their imagination and proves that learning can be fun!"
       />
     </div>
   );
@@ -219,7 +220,7 @@ function Are15() {
       <AttractionsImage
         nbaIMAGE={baysideMarketplace}
         nbaNAME="Bayside Marketplace"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="Located in Downtown Miami, Bayside Marketplace is one of Miami’s top shopping and dining destinations. Enjoy a drink by the water and explore this iconic South Florida spot!"
       />
     </div>
   );
@@ -231,7 +232,7 @@ function Are16() {
       <AttractionsImage
         nbaIMAGE={jungleIsland}
         nbaNAME="Jungle Island"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="Jungle Island is one of Miami’s most famous tourist destinations! Enjoy beautiful landscapes and exotic animals right before your eyes at one of Miami’s best landmarks."
       />
     </div>
   );
@@ -243,7 +244,7 @@ function Are17() {
       <AttractionsImage
         nbaIMAGE={parezArt}
         nbaNAME="Perez Art Museum"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="The famous flagship museum of Miami, The Perez Art Museum exhibits international art of the 20th and 21st centuries. Experience modern art while enjoying beautiful seaside views."
       />
     </div>
   );
@@ -255,7 +256,7 @@ function Are18() {
       <AttractionsImage
         nbaIMAGE={aaa}
         nbaNAME="American Airlines Arena"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="Miami’s top destination for all things sports and entertainment, the American Airlines Arena is a hub for the hottest live events in town. Check out their site for info on upcoming events."
       />
     </div>
   );
@@ -267,7 +268,7 @@ function Are19() {
       <AttractionsImage
         nbaIMAGE={frostMuseum}
         nbaNAME="Frost Museum"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="The Frost Museum is sure to entice visitors of all ages with the wonders of science! Experience features such as the aquarium and an array of interactive exhibits for the whole family to enjoy."
       />
     </div>
   );
@@ -280,7 +281,7 @@ function Are20() {
       <AttractionsImage
         nbaIMAGE={adrienne}
         nbaNAME="Adrienne Arsht Center"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="Located in the heart of Downtown Miami, the Adrienne Arsht Center is one of the leading performing arts centers in the country. Visit their website for information on upcoming live events."
       />
     </div>
   );
@@ -292,7 +293,7 @@ function Are21() {
       <AttractionsImage
         nbaIMAGE={calleocho}
         nbaNAME="Calle Ocho"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="Experience Miami’s Cuban culture at the world famous Calle Ocho! Located in Little Havana, Calle Ocho’s colorful restaurants, art, and more are sure to transport you to the heart of Havana."
       />
     </div>
   );
@@ -304,7 +305,7 @@ function Are22() {
       <AttractionsImage
         nbaIMAGE={cocogrove}
         nbaNAME="Coconut Grove"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="A hidden gem in Miami, Coconut Grove is a charming destination to enjoy brunch in one of the numerous sidewalk cafes or linger in one of the many art galleries."
       />
     </div>
   );
@@ -316,7 +317,7 @@ function Are23() {
       <AttractionsImage
         nbaIMAGE={coralreefpark}
         nbaNAME="Coral Reef Park"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="Coral Reef Park is any nature lover’s heaven. Spanning across 50 acres, this park is complete with sports fields, green spaces, and a beautifully tranquil canal."
       />
     </div>
   );
@@ -328,7 +329,7 @@ function Are24() {
       <AttractionsImage
         nbaIMAGE={countryclubprado}
         nbaNAME="Country Club Prado"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="One of the most beautiful spots in Coral Gables, Country Club Prado is the perfect place to spend your evening enjoying the gorgeous scenery this local area has to offer."
       />
     </div>
   );
@@ -340,7 +341,7 @@ function Are25() {
       <AttractionsImage
         nbaIMAGE={dolphinmall}
         nbaNAME="Dolphin Mall"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="Miami’s largest shopping center, the Dolphin Mall is a hub for retail, dining, and entertainment. Featuring over 240 retail outlets, it is the perfect place to spend an afternoon in West Miami."
       />
     </div>
   );
@@ -352,7 +353,7 @@ function Are26() {
       <AttractionsImage
         nbaIMAGE={doralcitycenter}
         nbaNAME="Doral City Center"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="City Place Doral is the newest addition to the area for retail shopping and entertainment. Featuring weekly live entertainment, bowling, and cinemas, you’ll never be bored here."
       />
     </div>
   );
@@ -364,7 +365,7 @@ function Are27() {
       <AttractionsImage
         nbaIMAGE={downtowndadeland}
         nbaNAME="Downtown Dadeland"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="Located just across the street from Dadeland Mall, Downtown Dadeland is filled with the finest restaurants, shops, fitness centers, and more to fill your day."
       />
     </div>
   );
@@ -376,7 +377,8 @@ function Are28() {
       <AttractionsImage
         nbaIMAGE={dtmiami}
         nbaNAME="Downtown Miami"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="Downtown Miami is truly the heart of the city. Spend your day walking through this cultural hub filled with restaurants, open-air malls, and department stores.
+"
       />
     </div>
   );
@@ -388,7 +390,7 @@ function Are29() {
       <AttractionsImage
         nbaIMAGE={lincolnrd}
         nbaNAME="Lincoln Road"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="Lincoln Road is Miami’s premier shopping and entertainment center. Experience the over 200 luxury stores, fine dining restaurants, and the best bars South Florida has to offer."
       />
     </div>
   );
@@ -400,7 +402,8 @@ function Are30() {
       <AttractionsImage
         nbaIMAGE={miamiairport}
         nbaNAME="Miami International Airport"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="
+Conveniently catch domestic and international flights from the Miami International Airport, and enjoy easy commuting to surrounding areas through their taxi and shuttle services."
       />
     </div>
   );
@@ -412,7 +415,7 @@ function Are31() {
       <AttractionsImage
         nbaIMAGE={portmiami}
         nbaNAME="Port of Miami"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="The Port of Miami is the largest passenger port in the world! Whether your boarding a cruise or simply ship watching, your sure to get the best ocean views from this port."
       />
     </div>
   );
@@ -424,7 +427,7 @@ function Are32() {
       <AttractionsImage
         nbaIMAGE={virgintrains}
         nbaNAME="Virgin Trains"
-        nbaDESCRIPTION="Lorem Ipsum Text, Lorwm Ipsum Text, Lorem Ipsum Text"
+        nbaDESCRIPTION="Whether you're commuting to work, or exploring Miami, Virgin Trains can take you anywhere you need to go. With speeds up to 79 mph, you’ll never have to worry about being late again."
       />
     </div>
   );
