@@ -133,8 +133,8 @@ export default class BayVillage extends Component {
         <PropertyDescriptionMiddleTop
           propertyComponentTitle="AN ADDRESS OF CASUAL SOPHISTICATION"
           propertyComponentDescription="Studio, One, Two, and Three-Bedroom Apartment Homes starting"
-          propertyComponentParagraph="A respite from the bustling city, Soleste Bay Village is located in the village of Palmetto Bay,
-just South of Kendall. Enjoy the relaxation of this quiet community tucked away from Downtown
+          propertyComponentParagraph="A respite from the bustling city, Soleste Bay Village is located in the Palmetto Bay,
+just South of Dadeland. Enjoy the relaxation of this quiet community tucked away from Downtown
 Miami, without sacrificing the convenience of urban-style amenities. Call today to
 explore all that Soleste Bay Village has to offer."
           propertyComponentPrice="1,500"
