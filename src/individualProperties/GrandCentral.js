@@ -135,7 +135,10 @@ export default class GrandCentral extends Component {
         <PropertyDescriptionMiddleTop
           propertyComponentTitle="AN ADDRESS OF CASUAL SOPHISTICATION"
           propertyComponentDescription="Studio Suites, One, Two, and Three-Bedroom Apartment Homes "
-          propertyComponentParagraph="Downtown Miami's newest residential gem, Soleste Grand Central is ideal for the urban dweller. Cutting edge amenities, stylish apartments and a superior location"
+          propertyComponentParagraph="Downtown Miami’s newest residential gem, Soleste Grand Central is ideal for the urban dweller.
+Cutting-edge amenities, stylish apartments, and an unmatched location characterize this stunning
+multi-story building in the heart of Miami. Experience the city firsthand and easily commute using
+the Brightline train, just steps away from your doorstep. Welcome home."
           propertyComponentPrice="1,500"
           propertyComponentImage={grandcentralmiddletopimg}
           propertyNOWLEASING="PRE-LEASING JANUARY 2021"

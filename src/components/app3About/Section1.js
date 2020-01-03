@@ -23,14 +23,14 @@ export default function Section1() {
                   delivered by The Estate Companies. We pride ourselves in
                   offering exceptional community-style living for the modern
                   city dweller. With every building designed to strike the
-                  perfect balance between style and functionality, it's no
+                  perfect balance between style and functionality, it’s no
                   wonder that our communities stand out in the residential
                   spectrum of South Florida. In addition to creating beautiful
                   living spaces, we are also committed to delivering the utmost
                   care and attention to detail to each of our residents because
                   we believe that coming home every day should feel effortless.
                   We are passionate about creating a welcoming environment for
-                  our residents to flourish in. At Soleste, you're certain to
+                  our residents to flourish in. At Soleste, you’re certain to
                   find a home you can thrive in with the perfect mix of
                   contemporary living and traditional charm.
                 </p>
@@ -68,16 +68,20 @@ export default function Section1() {
               </Fade>
               <Fade>
                 <p className="text-center mt-5">
-                  SOLESTE is the new standard in luxury apartment living.
-                  Offering the style and conveniences of urban life while
-                  maintaining the essence of a boutique neighborhood. Revel in
-                  the stunning architecture and innovative interior designs
-                  curated with elegance, comfort and satisfaction in mind. Work
-                  from home in our specially designed live-work residences or be
-                  inspired by the modern, chic décor each morning and relax in a
-                  private cabana in the evening. At SOLESTE, you'll find the
-                  perfect combination of contemporary living with traditional
-                  charm.
+                  Soleste is the new standard in luxury apartment living
+                  delivered by The Estate Companies. We pride ourselves in
+                  offering exceptional community-style living for the modern
+                  city dweller. With every building designed to strike the
+                  perfect balance between style and functionality, it’s no
+                  wonder that our communities stand out in the residential
+                  spectrum of South Florida. In addition to creating beautiful
+                  living spaces, we are also committed to delivering the utmost
+                  care and attention to detail to each of our residents because
+                  we believe that coming home every day should feel effortless.
+                  We are passionate about creating a welcoming environment for
+                  our residents to flourish in. At Soleste, you’re certain to
+                  find a home you can thrive in with the perfect mix of
+                  contemporary living and traditional charm.
                 </p>
               </Fade>
             </MDBCol>

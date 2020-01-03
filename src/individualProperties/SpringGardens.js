@@ -92,6 +92,10 @@ export default class SpringGardens extends Component {
         <PropertySGONLYDescriptionMiddleTop
           propertyComponentTitle="AN ADDRESS OF CASUAL SOPHISTICATION"
           propertyComponentDescription="Studio Suites, One, Two, and Three-Bedroom Apartment Homes "
+          propertyComponentParagraph="Situated adjacent to the University of Miami Health System, Soleste Spring Gardens is the Health
+District’s newest multi-unit residential destination. Easily accessible to the Dolphin Expressway,
+1-95, and more, you can stay central to it all in Miami. Join the waitlist to be the first to know when
+leasing opens for this exciting new living community."
           propertyComponentPrice=""
           propertyComponentImage={springgardensmiddletopimg}
           propertyNOWLEASING="PRE-LEASING MARCH 2021"
