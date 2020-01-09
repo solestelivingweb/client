@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Route, HashRouter, Switch } from "react-router-dom";
+import { Route, HashRouter } from "react-router-dom";
 import Analytics from "react-router-ga";
 import ScrollToTop from "./components/ScrollToTop";
 import "@fortawesome/fontawesome-free/css/all.min.css";
