@@ -10,8 +10,8 @@ function App4() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Soleste Living | Contact</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <meta name="description" content="Soleste Living" />
+        <meta name="keywords" content="Soleste Living" />
       </Helmet>
       <EachPageHeader
         pageBACKGROUND="app4Contact-header-bg"

@@ -22,7 +22,7 @@ import SpringGardens from "./individualProperties/SpringGardens";
 import registerServiceWorker from "./registerServiceWorker";
 
 const routing = (
-  <HashRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter basename={"/"}>
     <AppNavigationV2></AppNavigationV2>
     <ScrollToTop />
     <div>

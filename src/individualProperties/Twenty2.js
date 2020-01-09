@@ -126,8 +126,8 @@ export default class Twenty2 extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Soleste Living | Twenty2</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <meta name="description" content="Soleste Twenty2" />
+          <meta name="keywords" content="Soleste Twenty2" />
         </Helmet>
         <EachPageHeader
           pageBACKGROUND="individual-property-twenty2-header-bg"

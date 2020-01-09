@@ -122,8 +122,8 @@ export default class Alameda extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Soleste Living | Alameda</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <meta name="description" content="Soleste Alameda" />
+          <meta name="keywords" content="Soleste Alameda" />
         </Helmet>
         <EachPageHeader
           pageBACKGROUND="individual-property-alameda-header-bg"

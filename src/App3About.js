@@ -10,8 +10,8 @@ function App3() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Soleste Living | About</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
+        <meta name="description" content="Miami Apartments" />
+        <meta name="keywords" content="Miami Apartments" />
       </Helmet>
       <EachPageHeader
         pageBACKGROUND="app3About-header-bg"

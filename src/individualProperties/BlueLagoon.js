@@ -127,8 +127,8 @@ export default class BlueLagoon extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Soleste Living | Blue Lagoon</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <meta name="description" content="Soleste Blue Lagoon" />
+          <meta name="keywords" content="Soleste Blue Lagoon" />
         </Helmet>
         <EachPageHeader
           pageBACKGROUND="individual-property-bluelagoon-header-bg"

@@ -125,8 +125,8 @@ export default class GrandCentral extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Soleste Living | Grand Central</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <meta name="description" content="Soleste Grand Central" />
+          <meta name="keywords" content="Soleste Grand Central" />
         </Helmet>
         <EachPageHeader
           pageBACKGROUND="individual-property-grandcentral-header-bg"

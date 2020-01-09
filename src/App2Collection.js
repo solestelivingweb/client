@@ -25,8 +25,8 @@ class App2 extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Soleste Living | Collection</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <meta name="description" content="Luxury Apartments Miami" />
+          <meta name="keywords" content="Luxury Apartments Miami" />
         </Helmet>
         <EachPageHeader
           pageBACKGROUND="app2Collection-header-bg"

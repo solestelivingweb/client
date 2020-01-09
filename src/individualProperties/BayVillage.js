@@ -124,8 +124,8 @@ export default class BayVillage extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Soleste Living | Bay Village</title>
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <meta name="description" content="Soleste Bay Village" />
+          <meta name="keywords" content="Soleste Bay Village" />
         </Helmet>
         <EachPageHeader
           pageBACKGROUND="individual-property-bayvillage-header-bg"
