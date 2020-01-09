@@ -190,7 +190,7 @@ your new home today."
         ></BlueNAC>
         <ContactThisProperty
           propertyNAME="ALAMEDA"
-          propertyADDRESS="..."
+          propertyADDRESS="6320 Southwest 8th Street, West Miami, FL"
           facebookLink="..."
           instagramLink="..."
           websiteLink="..."

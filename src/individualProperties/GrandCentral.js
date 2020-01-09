@@ -194,7 +194,7 @@ the Brightline train, just steps away from your doorstep. Welcome home."
         ></BlueNAC>
         <ContactThisProperty
           propertyNAME="GRAND CENTRAL"
-          propertyADDRESS="..."
+          propertyADDRESS="218 NW 8th St, Miami, FL 33136"
           facebookLink="..."
           instagramLink="..."
           websiteLink="..."

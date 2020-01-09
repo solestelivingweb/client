@@ -83,6 +83,7 @@ export default class BayVillage extends Component {
     super(props);
     this.state = {
       isSocial: false,
+      contactUs: true,
       are1: false, //Grapeland Park
       are2: false, //Miracle Mile
       are3: false, //Venetian Pool
@@ -142,6 +143,7 @@ Bay Village has to offer."
           propertyExternalWebsite="http://solestebayvillage.com/"
           propertyNOWLEASING="PRE-LEASING NOVEMBER 2019"
           propertyMOVEINDATE="MOVE-IN MARCH 2020"
+          contactUs={this.state.contactUs}
         ></PropertyDescriptionMiddleTop>
         <PropertyDescriptionLeft
           propertyComponentImage={bayvillageleftimg}
@@ -192,15 +194,17 @@ Bay Village has to offer."
         ></BlueNAC>
         <ContactThisProperty
           propertyNAME="BAY VILLAGE"
-          propertyADDRESS="..."
+          propertyADDRESS="18055 S Dixie Hwy, Palmetto Bay, FL 33157"
           facebookLink="..."
           instagramLink="..."
           websiteLink="http://solestebayvillage.com/"
           mapPhotoClass="mapPhoto mPBayVillage"
           googlemap="..."
           isSocial={this.state.isSocial}
+          contactUs={this.state.contactUs}
           embedMap="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=18301%20S%20Dixie%20Hwy%2C%20Miami%2C%20FL%2033157+(Bay%20Village)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
         ></ContactThisProperty>
+
         <FooterPage></FooterPage>
       </div>
     );
