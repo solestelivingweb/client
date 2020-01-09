@@ -25,8 +25,8 @@ class App2 extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Soleste Living | Collection</title>
-          <meta name="description" content="Helmet application" />
-          <link rel="canonical" href="http://mysite.com/example" />
+          <meta name="description" content="" />
+          <meta name="keywords" content="" />
         </Helmet>
         <EachPageHeader
           pageBACKGROUND="app2Collection-header-bg"

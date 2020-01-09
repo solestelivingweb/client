@@ -82,8 +82,8 @@ export default class SpringGardens extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Soleste Living | Spring Gardens</title>
-          <meta name="description" content="Helmet application" />
-          <link rel="canonical" href="http://mysite.com/example" />
+          <meta name="description" content="" />
+          <meta name="keywords" content="" />
         </Helmet>
         <EachPageHeader
           pageBACKGROUND="individual-property-springgardens-header-bg"

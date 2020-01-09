@@ -15,8 +15,8 @@ class App extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Soleste Living | Home</title>
-          <meta name="description" content="Helmet application" />
-          <link rel="canonical" href="http://mysite.com/example" />
+          <meta name="description" content="" />
+          <meta name="keywords" content="" />
         </Helmet>
         <Header></Header>
         <Section2></Section2>

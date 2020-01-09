@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Route, BrowserRouter } from "react-router-dom";
+import { Route, HashRouter } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
@@ -22,7 +22,7 @@ import SpringGardens from "./individualProperties/SpringGardens";
 import registerServiceWorker from "./registerServiceWorker";
 
 const routing = (
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter basename={process.env.PUBLIC_URL}>
     <AppNavigationV2></AppNavigationV2>
     <ScrollToTop />
     <div>
@@ -38,7 +38,7 @@ const routing = (
       <Route path="/grandcentral" component={GrandCentral} />
       <Route path="/springgardens" component={SpringGardens} />
     </div>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 ReactDOM.render(routing, document.getElementById("root"));

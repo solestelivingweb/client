@@ -10,8 +10,8 @@ function App3() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Soleste Living | About</title>
-        <meta name="description" content="Helmet application" />
-        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
       </Helmet>
       <EachPageHeader
         pageBACKGROUND="app3About-header-bg"

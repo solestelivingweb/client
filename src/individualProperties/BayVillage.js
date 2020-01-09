@@ -124,8 +124,8 @@ export default class BayVillage extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Soleste Living | Bay Village</title>
-          <meta name="description" content="Helmet application" />
-          <link rel="canonical" href="http://mysite.com/example" />
+          <meta name="description" content="" />
+          <meta name="keywords" content="" />
         </Helmet>
         <EachPageHeader
           pageBACKGROUND="individual-property-bayvillage-header-bg"

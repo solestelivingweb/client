@@ -10,8 +10,8 @@ export default function ParkView() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Soleste Living | Park View</title>
-        <meta name="description" content="Helmet application" />
-        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
       </Helmet>
       <EachPageHeader
         pageBACKGROUND="individual-property-parkview-header-bg"
