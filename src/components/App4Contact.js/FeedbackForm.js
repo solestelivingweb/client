@@ -59,7 +59,6 @@ export default class FeedbackForm extends Component {
   }
   handleChange = (param, e) => {
     this.setState({ [param]: e.target.value });
-    console.log("changing");
   };
   render() {
     return (
