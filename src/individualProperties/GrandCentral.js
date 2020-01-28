@@ -85,6 +85,7 @@ export default class GrandCentral extends Component {
     super(props);
     this.state = {
       isSocial: false,
+      contactUs: true,
       are1: false, //Grapeland Park
       are2: false, //Miracle Mile
       are3: false, //Venetian Pool
@@ -143,6 +144,7 @@ the Brightline train, just steps away from your doorstep. Welcome home."
           propertyComponentImage={grandcentralmiddletopimg}
           propertyNOWLEASING="PRE-LEASING JANUARY 2021"
           propertyMOVEINDATE="MOVE-IN MARCH 2021"
+          contactUs={this.state.contactUs}
         ></PropertyDescriptionMiddleTop>
         <PropertyDescriptionLeft
           propertyComponentImage={grandcentralleftimg}
@@ -197,10 +199,10 @@ the Brightline train, just steps away from your doorstep. Welcome home."
           propertyADDRESS="218 NW 8th St, Miami, FL 33136"
           facebookLink="..."
           instagramLink="..."
-          websiteLink="..."
           mapPhotoClass="mapPhoto mPGrandCentral"
           googlemap="..."
           isSocial={this.state.isSocial}
+          contactUs={this.state.contactUs}
           embedMap="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=218%20NW%208th%20St%2C%20Miami%2C%20FL%2033136+(Grand%20Central)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
         ></ContactThisProperty>
         <FooterPage></FooterPage>

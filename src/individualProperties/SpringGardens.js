@@ -151,10 +151,9 @@ leasing opens for this exciting new living community."
         ></BlueNAC>
         <ContactThisProperty
           propertyNAME="SPRING GARDENS"
-          propertyADDRESS="1025 Spring Garden Road, Miami, FL 33136"
+          propertyADDRESS="1033 Spring Garden Road, Miami, FL 33136"
           facebookLink="..."
           instagramLink="..."
-          websiteLink="https://www.solesteliving.com/copy-of-soleste-grand-central"
           mapPhotoClass="mapPhoto mPSpringGardens"
           googlemap="https://goo.gl/maps/ehUoTnxNhxd6swd38"
           isSocial={this.state.isSocial}

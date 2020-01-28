@@ -82,6 +82,7 @@ export default class Alameda extends Component {
     super(props);
     this.state = {
       isSocial: false,
+      contactUs: true,
       are1: false, //Grapeland Park
       are2: true, //Miracle Mile
       are3: true, //Venetian Pool
@@ -140,6 +141,7 @@ your new home today."
           propertyComponentImage={alamedamiddletopimg}
           propertyNOWLEASING="PRE-LEASING JANUARY 2020"
           propertyMOVEINDATE="MOVE-IN MARCH 2020"
+          contactUs={this.state.contactUs}
         ></PropertyDescriptionMiddleTop>
         <PropertyDescriptionLeft
           propertyComponentImage={alamedaleftimg}
@@ -193,10 +195,10 @@ your new home today."
           propertyADDRESS="6320 Southwest 8th Street, West Miami, FL"
           facebookLink="..."
           instagramLink="..."
-          websiteLink="..."
           mapPhotoClass="mapPhoto mPAlameda"
           googlemap="..."
           isSocial={this.state.isSocial}
+          contactUs={this.state.contactUs}
           embedMap="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=6320%20SW%208th%20St+(Alameda)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
         ></ContactThisProperty>
         <FooterPage></FooterPage>

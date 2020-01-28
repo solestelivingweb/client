@@ -83,7 +83,7 @@ export default class BayVillage extends Component {
     super(props);
     this.state = {
       isSocial: false,
-      contactUs: true,
+      contactUs: false,
       are1: false, //Grapeland Park
       are2: false, //Miracle Mile
       are3: false, //Venetian Pool

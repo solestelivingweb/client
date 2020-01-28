@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBBtn } from "mdbreact";
+import { Link } from "react-router-dom";
 
 import faceLogo from "../../images/individualProperties/faceLogo.png";
 import instLogo from "../../images/individualProperties/instLogo.png";
@@ -59,15 +60,23 @@ export default class ContactThisProperty extends Component {
                       </div>
                     </Fade>
                     <Fade>
-                      <a
-                        href={this.props.websiteLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <MDBBtn color="unique" className="pr-5 pl-5">
-                          {this.props.contactUs ? "CONTACT US" : "LEASE NOW"}
-                        </MDBBtn>
-                      </a>
+                      {this.props.websiteLink == undefined ? (
+                        <Link to="/contact">
+                          <MDBBtn color="unique" className="pr-5 pl-5">
+                            {this.props.contactUs ? "CONTACT US" : "LEASE NOW"}
+                          </MDBBtn>
+                        </Link>
+                      ) : (
+                        <a
+                          href={this.props.websiteLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <MDBBtn color="unique" className="pr-5 pl-5">
+                            {this.props.contactUs ? "CONTACT US" : "LEASE NOW"}
+                          </MDBBtn>
+                        </a>
+                      )}
                     </Fade>
                   </div>
                 </MDBCol>

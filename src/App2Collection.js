@@ -58,7 +58,7 @@ class App2 extends Component {
           propertyIMAGE1={app2alamedaimg1}
           propertyIMAGE2={app2alamedaimg2}
           propertyNAME="ALAMEDA"
-          propertyDESCRIPTION="Studio, One and Two-Bedroom Apartment Homes starting"
+          propertyDESCRIPTION="Studio, One and Two-Bedroom Apartment"
           propertyDESCRIPTION2="Homes starting at"
           propertyPRICE="$1,475"
           propertyPAGE="/alameda"
@@ -84,7 +84,7 @@ class App2 extends Component {
           propertyIMAGE2={app2grandcentralimg2}
           propertyNAME="GRAND CENTRAL"
           propertyDESCRIPTION="Studio Suites, One, Two, and Three-Bedroom Apartment Homes"
-          propertyDESCRIPTION2="Apartment Homes"
+          propertyDESCRIPTION2=""
           propertyPAGE="grandcentral"
           propertyNOWLEASING="PRE-LEASING JANUARY 2021"
           propertyMOVEINDATE="MOVE-IN MARCH 2021"
