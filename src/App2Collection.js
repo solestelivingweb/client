@@ -49,7 +49,7 @@ class App2 extends Component {
           propertyNAME="TWENTY2"
           propertyDESCRIPTION="Studio, One, Two, and Three-Bedroom Apartment"
           propertyDESCRIPTION2="Homes starting at "
-          propertyPRICE="$1,499"
+          propertyPRICE="$1,485"
           propertyPAGE="/twenty2"
           propertyNOWLEASING="NOW LEASING"
           propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
