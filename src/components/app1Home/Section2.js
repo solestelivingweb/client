@@ -24,7 +24,7 @@ class Section2 extends Component {
                   Revel in the stunning architecture and innovated interior
                   designs curated with elegance, comfort, and satisfaction in
                   mind. At Soleste, you’ll find the perfect combination of
-                  contemporary living with traditional charm.
+                  contemporary living with traditional charm
                 </p>
               </Fade>
               <Fade>
