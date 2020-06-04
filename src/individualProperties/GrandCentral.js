@@ -140,7 +140,6 @@ export default class GrandCentral extends Component {
 Cutting-edge amenities, stylish apartments, and an unmatched location characterize this stunning
 multi-story building in the heart of Miami. Experience the city firsthand and easily commute using
 the Brightline train, just steps away from your doorstep. Welcome home."
-          propertyComponentPrice="1,500"
           propertyComponentImage={grandcentralmiddletopimg}
           propertyNOWLEASING="PRE-LEASING JANUARY 2021"
           propertyMOVEINDATE="MOVE-IN MARCH 2021"
