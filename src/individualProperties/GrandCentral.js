@@ -142,7 +142,7 @@ multi-story building in the heart of Miami. Experience the city firsthand and ea
 the Brightline train, just steps away from your doorstep. Welcome home."
           propertyComponentImage={grandcentralmiddletopimg}
           propertyNOWLEASING="PRE-LEASING JANUARY 2021"
-          propertyMOVEINDATE="MOVE-IN MARCH 2021"
+          propertyMOVEINDATE="MOVE-IN APRIL 2021"
           contactUs={this.state.contactUs}
         ></PropertyDescriptionMiddleTop>
         <PropertyDescriptionLeft
