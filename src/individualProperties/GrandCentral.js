@@ -195,7 +195,7 @@ the Brightline train, just steps away from your doorstep. Welcome home."
         ></BlueNAC>
         <ContactThisProperty
           propertyNAME="GRAND CENTRAL"
-          propertyADDRESS="218 NW 8th St, Miami, FL 33136"
+          propertyADDRESS="777 NW 3rd Ave, Miami, FL 33130"
           facebookLink="..."
           instagramLink="..."
           mapPhotoClass="mapPhoto mPGrandCentral"
