@@ -70,20 +70,20 @@ export default class PropertyDescriptionMiddleTop extends Component {
           </MDBRow>
           <MDBRow className="mt-5 mb-5 pt-5 pb-5">
             <MDBCol>
-              <MDBView hover zoom>
+              <MDBView hover>
                 <Fade>
                   {this.props.isVideo === true ? (
                     <div className="embed-responsive embed-responsive-16by9">
-                      <iframe
+                      <video
                         title="embedsPage"
                         className="embed-responsive-item"
                         src={this.props.propertyComponentVideo}
-                        allowFullscreen
-                        autoPlay="true"
-                        loop 
-                        loop 
-                        muted
-                      ></iframe>
+                        allowfullscreen
+                        loop='true'
+                        muted='false'
+                        controls='true'
+                        autoplay='true'
+                      ></video>
                     </div>
                   ) : (
                     <img
