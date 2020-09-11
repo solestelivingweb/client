@@ -59,7 +59,7 @@ export default class PropertyDescriptionRight extends Component {
                   INDIVIDUAL INDULGENCES
                 </MDBModalHeader>
                 <MDBModalBody>
-                  <ul className="text-left mr-5 mt-0">
+                  <ul className="text-left ml-4 mr-1 mt-0">
                     {this.props.propertyComponentListLong}
                   </ul>
                 </MDBModalBody>

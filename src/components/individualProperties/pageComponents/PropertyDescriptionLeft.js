@@ -71,7 +71,7 @@ export default class PropertyDescriptionLeft extends Component {
                   COLLECTIVE LUXURIES
                 </MDBModalHeader>
                 <MDBModalBody>
-                  <ul className="text-right mr-5 mt-0">
+                  <ul className="text-right mr-4 ml-1 mt-0">
                     {this.props.propertyComponentListLong}
                   </ul>
                 </MDBModalBody>
