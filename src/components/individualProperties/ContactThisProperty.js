@@ -60,7 +60,7 @@ export default class ContactThisProperty extends Component {
                       </div>
                     </Fade>
                     <Fade>
-                      {this.props.websiteLink == undefined ? (
+                      {this.props.websiteLink === undefined ? (
                         <Link to="/contact">
                           <MDBBtn color="unique" className="pr-5 pl-5">
                             {this.props.contactUs ? "CONTACT US" : "LEASE NOW"}
@@ -94,10 +94,10 @@ export default class ContactThisProperty extends Component {
             <div className="ctpid">
               <iframe
                 src={this.props.embedMap}
-                frameborder="0"
+                frameBorder="0"
                 scrolling="no"
-                marginheight="0"
-                marginwidth="0"
+                marginHeight="0"
+                marginWidth="0"
                 title="map"
               ></iframe>
             </div>

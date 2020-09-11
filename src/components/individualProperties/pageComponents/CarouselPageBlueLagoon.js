@@ -65,7 +65,7 @@ class CarouselPageBlueLagoon extends Component {
                 </MDBView>
               </MDBCarouselItem> */}
               {sliderImages.map((img, index) => (
-                <MDBCarouselItem itemId={index}>
+                <MDBCarouselItem itemId={index} key={index}>
                   <MDBView>
                     <img className="d-block w-100" src={img} alt="slide" />
                   </MDBView>
