@@ -75,6 +75,7 @@ export default class PropertyDescriptionMiddleTop extends Component {
                   {this.props.isVideo === true ? (
                     <div className="embed-responsive embed-responsive-16by9">
                       <video
+                        muted
                         title="embedsPage"
                         className="embed-responsive-item"
                         src={this.props.propertyComponentVideo}
@@ -83,8 +84,6 @@ export default class PropertyDescriptionMiddleTop extends Component {
                         loop
                         autoplay
                         controls='true'
-                        
-                        muted
                       ></video>
                     </div>
                   ) : (
