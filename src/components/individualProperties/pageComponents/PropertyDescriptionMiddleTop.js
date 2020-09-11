@@ -82,6 +82,7 @@ export default class PropertyDescriptionMiddleTop extends Component {
                         loop
                         controls='true'
                         autoplay
+                        muted
                       ></video>
                     </div>
                   ) : (
