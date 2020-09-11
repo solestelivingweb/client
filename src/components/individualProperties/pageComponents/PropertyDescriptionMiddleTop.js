@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 
 import Fade from "react-reveal/Fade";
 
+let isSafari =
+  /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
+
 export default class PropertyDescriptionMiddleTop extends Component {
   render() {
     return (
@@ -74,17 +77,32 @@ export default class PropertyDescriptionMiddleTop extends Component {
                 <Fade>
                   {this.props.isVideo === true ? (
                     <div className="embed-responsive embed-responsive-16by9">
-                      <video
-                        muted
-                        title="embedsPage"
-                        className="embed-responsive-item"
-                        src={this.props.propertyComponentVideo}
-                        preload='yes'
-                        allowfullscreen
-                        loop
-                        autoplay
-                        controls='true'
-                      ></video>
+                      {isSafari ? (
+                        <video
+                          type="video/mp4"
+                          muted
+                          title="embedsPage"
+                          className="embed-responsive-item"
+                          src={this.props.propertyComponentVideo}
+                          preload="yes"
+                          allowfullscreen
+                          loop
+                          autoplay
+                          controls="true"
+                        ></video>
+                      ) : (
+                        <video
+                          type="video/mp4"
+                          title="embedsPage"
+                          className="embed-responsive-item"
+                          src={this.props.propertyComponentVideo}
+                          preload="yes"
+                          allowfullscreen
+                          loop
+                          autoplay
+                          controls="true"
+                        ></video>
+                      )}
                     </div>
                   ) : (
                     <img
