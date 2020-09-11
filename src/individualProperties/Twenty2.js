@@ -8,7 +8,7 @@ import CarouselPageTwenty2 from "../components/individualProperties/pageComponen
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
-import twenty2middletopimg from "../images/individualProperties/twenty2/twenty2-mid-top-img.jpg";
+import twenty2middletopvid from "../videos/Soleste-Twenty2-Full-Tour-LPC.mp4";
 import twenty2leftimg from "../images/individualProperties/twenty2/twenty2-left-img.jpg";
 import twenty2rightimg from "../images/individualProperties/twenty2/twenty2-right-img.jpg";
 
@@ -17,7 +17,7 @@ const propertyComponentListShortArrLeft = [
   "Expansive sun deck",
   "Private cabanas",
   "Sky deck with grill with bistro seating",
-  "Dog park and washing station"
+  "Dog park and washing station",
 ];
 
 const propertyComponentListLongArrLeft = [
@@ -37,14 +37,14 @@ const propertyComponentListLongArrLeft = [
   "Luxer Package Room",
   "Dry cleaning lockers",
   "Controlled access garage parking",
-  "Car charging stations"
+  "Car charging stations",
 ];
 
 const propertyComponentListShortLeft = propertyComponentListShortArrLeft.map(
-  i => <li>{i}</li>
+  (i) => <li>{i}</li>
 );
 const propertyComponentListLongLeft = propertyComponentListLongArrLeft.map(
-  i => <li>{i}</li>
+  (i) => <li>{i}</li>
 );
 
 // right
@@ -53,7 +53,7 @@ const propertyComponentListShortArrRight = [
   "Quartz countertops",
   "Stainless steel appliances",
   "Designer lighting",
-  "Chef's island"
+  "Chef's island",
 ];
 
 const propertyComponentListLongArrRight = [
@@ -71,14 +71,14 @@ const propertyComponentListLongArrRight = [
   "Impact resistant windows and sliding glass doors",
   "Over-sized terraces *",
   "Pantry and linen closet *",
-  "Expansive views of Coral Gables*"
+  "Expansive views of Coral Gables*",
 ];
 
 const propertyComponentListShortRight = propertyComponentListShortArrRight.map(
-  i => <li>{i}</li>
+  (i) => <li>{i}</li>
 );
 const propertyComponentListLongRight = propertyComponentListLongArrRight.map(
-  i => <li>{i}</li>
+  (i) => <li>{i}</li>
 );
 
 export default class Twenty2 extends Component {
@@ -86,6 +86,7 @@ export default class Twenty2 extends Component {
     super(props);
     this.state = {
       isSocial: true,
+      isVideo: true,
       are1: false, //Grapeland Park
       are2: true, //Miracle Mile
       are3: true, //Venetian Pool
@@ -117,7 +118,7 @@ export default class Twenty2 extends Component {
       are29: false, //Lincoln Road
       are30: false, //Miami International Airport
       are31: false, //Port of Miami
-      are32: false //Virgin Trains
+      are32: false, //Virgin Trains
     };
   }
   render() {
@@ -135,14 +136,16 @@ export default class Twenty2 extends Component {
         ></EachPageHeader>
         <PropertyDescriptionMiddleTop
           propertyComponentTitle="AN ADDRESS OF CASUAL SOPHISTICATION"
-          propertyComponentDescription="Studio, One, Two, and Three-Bedroom Apartment Homes starting"
+          propertyComponentDescription="Studio, One, Two, and Three-Bedroom Apartment Homes"
           propertyComponentParagraph="
 Soleste Twenty2 is nestled in the heart of West Miami, in close proximity to the most historically and architecturally significant city in South Florida, Coral Gables. Stroll the pedestrian-friendly streets of Miracle Mile or experience a sensory overload with hundreds of retailers showcasing the finest names in fashion and a de- lightful array of dining choices. From its prominent location, to its unsurpassed level of quality, exceptional charm and ultimate amenities, Soleste Twenty2 is your desired destination."
-          propertyComponentPrice="1,485"
-          propertyComponentImage={twenty2middletopimg}
+          propertyComponentPrice="none"
+          // propertyComponentImage={twenty2middletopimg}
+          isVideo={this.state.isVideo}
+          propertyComponentVideo={twenty2middletopvid}
           propertyExternalWebsite="https://www.solestetwenty2.com"
           propertyNOWLEASING="NOW LEASING"
-          propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
+          // propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
         ></PropertyDescriptionMiddleTop>
         <PropertyDescriptionLeft
           propertyComponentImage={twenty2leftimg}
@@ -209,4 +212,3 @@ Soleste Twenty2 is nestled in the heart of West Miami, in close proximity to the
     );
   }
 }
-// -b

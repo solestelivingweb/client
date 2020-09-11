@@ -47,12 +47,12 @@ class App2 extends Component {
           propertyIMAGE1={app2twenty2img1}
           propertyIMAGE2={app2twenty2img2}
           propertyNAME="TWENTY2"
-          propertyDESCRIPTION="Studio, One, Two, and Three-Bedroom Apartment"
-          propertyDESCRIPTION2="Homes starting at "
-          propertyPRICE="$1,485"
+          propertyDESCRIPTION="Studio, One, Two, and Three-Bedroom Apartment Homes"
+          // propertyDESCRIPTION2="Homes starting at "
+          // propertyPRICE="$1,485"
           propertyPAGE="/twenty2"
           propertyNOWLEASING="NOW LEASING"
-          propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
+          // propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
         ></PropertyRight>
         <PropertyLeft
           propertyIMAGE1={app2alamedaimg1}

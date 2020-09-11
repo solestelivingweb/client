@@ -33,9 +33,13 @@ export default class PropertyDescriptionMiddleTop extends Component {
                 <p className="d-flex justify-content-end fontSize-14 text-left text-dark mt-5">
                   {this.props.propertyComponentDescription}
                 </p>
-                <p className="d-flex justify-content-end">
-                  at&nbsp;<b>{`$${this.props.propertyComponentPrice}`}</b>
-                </p>
+                {this.props.propertyComponentPrice === "none" ? (
+                  <p className="d-flex justify-content-end"></p>
+                ) : (
+                  <p className="d-flex justify-content-end">
+                    at&nbsp;<b>{`$${this.props.propertyComponentPrice}`}</b>
+                  </p>
+                )}
               </Fade>
               <Fade>
                 {this.props.propertyExternalWebsite === undefined ? (
@@ -68,11 +72,23 @@ export default class PropertyDescriptionMiddleTop extends Component {
             <MDBCol>
               <MDBView hover zoom>
                 <Fade>
-                  <img
-                    src={this.props.propertyComponentImage}
-                    className="img-fluid"
-                    alt=""
-                  />
+                  {this.props.isVideo === true ? (
+                    <div className="embed-responsive embed-responsive-16by9">
+                      <iframe
+                        title="embedsPage"
+                        className="embed-responsive-item"
+                        src={this.props.propertyComponentVideo}
+                        allowFullscreen
+                        autoPlay="true"
+                      ></iframe>
+                    </div>
+                  ) : (
+                    <img
+                      src={this.props.propertyComponentImage}
+                      className="img-fluid"
+                      alt=""
+                    />
+                  )}
                 </Fade>
               </MDBView>
             </MDBCol>
