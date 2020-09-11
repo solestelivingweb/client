@@ -74,15 +74,16 @@ export default class PropertyDescriptionMiddleTop extends Component {
                 <Fade>
                   {this.props.isVideo === true ? (
                     <div className="embed-responsive embed-responsive-16by9">
-                      <video
+                      <iframe
                         title="embedsPage"
                         className="embed-responsive-item"
                         src={this.props.propertyComponentVideo}
                         allowFullscreen
                         autoPlay="true"
                         loop 
-                        
-                      ></video>
+                        loop 
+                        muted
+                      ></iframe>
                     </div>
                   ) : (
                     <img
