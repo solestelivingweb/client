@@ -146,7 +146,7 @@ export default class BlueLagoon extends Component {
           propertyComponentVideo={blueLagoonMiddletopvid}
           propertyExternalWebsite="https://www.solestebluelagoon.com/"
           propertyNOWLEASING="NOW LEASING"
-          propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
+          // propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
         ></PropertyDescriptionMiddleTop>
         <PropertyDescriptionLeft
           propertyComponentImage={bluelagoonleftimg}

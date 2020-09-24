@@ -43,7 +43,7 @@ class App2 extends Component {
           // propertyPRICE="$1,499"
           propertyPAGE="/bluelagoon"
           propertyNOWLEASING="NOW LEASING"
-          propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
+          // propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
         ></PropertyLeft>
         <PropertyRight
           propertyIMAGE1={app2twenty2img1}
