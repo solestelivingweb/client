@@ -8,7 +8,8 @@ import CarouselPageBlueLagoon from "../components/individualProperties/pageCompo
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
-import bluelagoonmiddletopimg from "../images/individualProperties/bluelagoon/bluelagoon-mid-top-img.jpg";
+// import bluelagoonmiddletopimg from "../images/individualProperties/bluelagoon/bluelagoon-mid-top-img.jpg";
+import blueLagoonMiddletopvid from "../videos/Soleste Blue Lagoon Full Tour LPC.mp4";
 import bluelagoonleftimg from "../images/individualProperties/bluelagoon/bluelagoon-left-img.jpg";
 import bluelagoonrightimg from "../images/individualProperties/bluelagoon/bluelagoon-right-img.jpg";
 const propertyComponentListShortArrLeft = [
@@ -16,7 +17,7 @@ const propertyComponentListShortArrLeft = [
   "Expansive sun deck",
   "Private cabanas",
   "Summer kitchen and grills",
-  "Mail and business center"
+  "Mail and business center",
 ];
 
 const propertyComponentListLongArrLeft = [
@@ -37,14 +38,14 @@ const propertyComponentListLongArrLeft = [
   "Dry cleaning lockers",
   "Storage rooms",
   "Controlled access garage parking",
-  "Car charging stations"
+  "Car charging stations",
 ];
 
 const propertyComponentListShortLeft = propertyComponentListShortArrLeft.map(
-  i => <li key={i}>{i}</li>
+  (i) => <li key={i}>{i}</li>
 );
 const propertyComponentListLongLeft = propertyComponentListLongArrLeft.map(
-  i => <li key={i}>{i}</li>
+  (i) => <li key={i}>{i}</li>
 );
 
 // right
@@ -54,7 +55,7 @@ const propertyComponentListShortArrRight = [
   "Stainless steel appliances",
   "Designer lighting",
   "Chef's island*",
-  "Gourmet kitchen appliances package"
+  "Gourmet kitchen appliances package",
 ];
 
 const propertyComponentListLongArrRight = [
@@ -72,14 +73,14 @@ const propertyComponentListLongArrRight = [
   "Impact resistant windows and sliding glass doors",
   "Over-sized terraces *",
   "Pantry and linen closet *",
-  "Expansive views of Blue Lagoon*"
+  "Expansive views of Blue Lagoon*",
 ];
 
 const propertyComponentListShortRight = propertyComponentListShortArrRight.map(
-  i => <li key={i}>{i}</li>
+  (i) => <li key={i}>{i}</li>
 );
 const propertyComponentListLongRight = propertyComponentListLongArrRight.map(
-  i => <li key={i}>{i}</li>
+  (i) => <li key={i}>{i}</li>
 );
 
 export default class BlueLagoon extends Component {
@@ -87,6 +88,7 @@ export default class BlueLagoon extends Component {
     super(props);
     this.state = {
       isSocial: true,
+      isVideo: true,
       are1: true, //Grapeland Park
       are2: true, //Miracle Mile
       are3: false, //Venetian Pool
@@ -118,7 +120,7 @@ export default class BlueLagoon extends Component {
       are29: false, //Lincoln Road
       are30: true, //Miami International Airport
       are31: false, //Port of Miami
-      are32: false //Virgin Trains
+      are32: false, //Virgin Trains
     };
   }
   render() {
@@ -136,10 +138,12 @@ export default class BlueLagoon extends Component {
         ></EachPageHeader>
         <PropertyDescriptionMiddleTop
           propertyComponentTitle="LAKESIDE LIVING IN THE HEART OF MIAMI"
-          propertyComponentDescription="Studio, One, Two, and Three-Bedroom Apartment Homes starting"
+          propertyComponentDescription="Studio, One, Two, and Three-Bedroom Apartment Homes"
           propertyComponentParagraph="Soleste Blue Lagoon is an oasis of conveniences. From its prominent location near Miami International Airport and Waterford Business Park, to the convenient access to all major expressways and the incredible amenities offered. Relax in our co-ed sauna and steam room, cool off at our lakeside pool or feel the energy of our fitness club complete with spinning and yoga studio. At Soleste Blue Lagoon, you’ll find luxury living within your reach."
-          propertyComponentPrice="1,499"
-          propertyComponentImage={bluelagoonmiddletopimg}
+          propertyComponentPrice="none"
+          // propertyComponentImage={bluelagoonmiddletopimg}
+          isVideo={this.state.isVideo}
+          propertyComponentVideo={blueLagoonMiddletopvid}
           propertyExternalWebsite="https://www.solestebluelagoon.com/"
           propertyNOWLEASING="NOW LEASING"
           propertyMOVEINDATE="MOVE-IN OCTOBER 2019"

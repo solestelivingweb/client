@@ -4,24 +4,27 @@ import {
   MDBCarouselInner,
   MDBCarouselItem,
   MDBView,
-  MDBContainer
+  MDBContainer,
 } from "mdbreact";
 
-import blueLagoonmiddlebottomimg1 from "../../../images/individualProperties/bluelagoon/BlueLagoon-1.jpg";
-import blueLagoonmiddlebottomimg2 from "../../../images/individualProperties/bluelagoon/BlueLagoon-2.jpg";
-import blueLagoonmiddlebottomimg3 from "../../../images/individualProperties/bluelagoon/BlueLagoon-3.jpg";
-import blueLagoonmiddlebottomimg4 from "../../../images/individualProperties/bluelagoon/BlueLagoon-4.jpg";
-import blueLagoonmiddlebottomimg5 from "../../../images/individualProperties/bluelagoon/BlueLagoon-5.jpg";
-import blueLagoonmiddlebottomimg6 from "../../../images/individualProperties/bluelagoon/BlueLagoon-6.jpg";
-import blueLagoonmiddlebottomimg7 from "../../../images/individualProperties/bluelagoon/BlueLagoon-7.jpg";
-import blueLagoonmiddlebottomimg8 from "../../../images/individualProperties/bluelagoon/BlueLagoon-8.jpg";
-import blueLagoonmiddlebottomimg9 from "../../../images/individualProperties/bluelagoon/BlueLagoon-9.jpg";
-import blueLagoonmiddlebottomimg10 from "../../../images/individualProperties/bluelagoon/BlueLagoon-10.jpg";
-import blueLagoonmiddlebottomimg11 from "../../../images/individualProperties/bluelagoon/BlueLagoon-11.jpg";
-import blueLagoonmiddlebottomimg12 from "../../../images/individualProperties/bluelagoon/BlueLagoon-12.jpg";
-import blueLagoonmiddlebottomimg13 from "../../../images/individualProperties/bluelagoon/BlueLagoon-13.jpg";
-import blueLagoonmiddlebottomimg14 from "../../../images/individualProperties/bluelagoon/BlueLagoon-14.jpg";
-import blueLagoonmiddlebottomimg15 from "../../../images/individualProperties/bluelagoon/BlueLagoon-15.jpg";
+import blueLagoonmiddlebottomimg1 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-1-min.jpg";
+import blueLagoonmiddlebottomimg2 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-2-min.jpg";
+import blueLagoonmiddlebottomimg3 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-3-min.jpg";
+import blueLagoonmiddlebottomimg4 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-4-min.jpg";
+import blueLagoonmiddlebottomimg5 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-5-min.jpg";
+import blueLagoonmiddlebottomimg6 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-6-min.jpg";
+import blueLagoonmiddlebottomimg7 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-7-min.jpg";
+import blueLagoonmiddlebottomimg8 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-8-min.jpg";
+import blueLagoonmiddlebottomimg9 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-9-min.jpg";
+import blueLagoonmiddlebottomimg10 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-10-min.jpg";
+import blueLagoonmiddlebottomimg11 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-11-min.jpg";
+import blueLagoonmiddlebottomimg12 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-12-min.jpg";
+import blueLagoonmiddlebottomimg13 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-13-min.jpg";
+import blueLagoonmiddlebottomimg14 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-14-min.jpg";
+import blueLagoonmiddlebottomimg15 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-15-min.jpg";
+import blueLagoonmiddlebottomimg16 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-16-min.jpg";
+import blueLagoonmiddlebottomimg17 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-17-min.jpg";
+import blueLagoonmiddlebottomimg18 from "../../../images/individualProperties/bluelagoon2/BlueLagoon-18-min.jpg";
 
 const sliderImages = [
   blueLagoonmiddlebottomimg1,
@@ -38,7 +41,10 @@ const sliderImages = [
   blueLagoonmiddlebottomimg12,
   blueLagoonmiddlebottomimg13,
   blueLagoonmiddlebottomimg14,
-  blueLagoonmiddlebottomimg15
+  blueLagoonmiddlebottomimg15,
+  blueLagoonmiddlebottomimg16,
+  blueLagoonmiddlebottomimg17,
+  blueLagoonmiddlebottomimg18,
 ];
 
 class CarouselPageBlueLagoon extends Component {
@@ -48,7 +54,7 @@ class CarouselPageBlueLagoon extends Component {
         <MDBContainer>
           <MDBCarousel
             activeItem={0}
-            length={14}
+            length={17}
             showControls={true}
             showIndicators={false}
             className="z-depth-1"

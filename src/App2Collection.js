@@ -5,7 +5,8 @@ import PropertyRight from "./components/app2Collection/PropertyRight";
 import PropertyLeft from "./components/app2Collection/PropertyLeft";
 import SectionBanner from "./components/app2Collection/SectionBanner";
 import FooterPage from "./components/FooterPage";
-import app2bluelagoonimg1 from "./images/app2/app2-blue-lagoon-img-1.jpg";
+// import app2bluelagoonimg1 from "./images/app2/app2-blue-lagoon-img-1.jpg";
+import app2bluelagoonimg1 from "./images/app2/app2-blue-lagoon-img-1-2020.jpg";
 import app2bluelagoonimg2 from "./images/app2/app2-blue-lagoon-img-2.jpg";
 import app2twenty2img1 from "./images/app2/app2-twenty2-img-1.jpg";
 import app2twenty2img2 from "./images/app2/app2-twenty2-img-2.jpg";
@@ -35,10 +36,11 @@ class App2 extends Component {
         <PropertyLeft
           propertyIMAGE1={app2bluelagoonimg1}
           propertyIMAGE2={app2bluelagoonimg2}
+          idfor2020={"propertyLeft-absolute-img-2020"}
           propertyNAME="BLUE LAGOON"
-          propertyDESCRIPTION="Studio, One, Two, and Three-Bedroom Apartment"
-          propertyDESCRIPTION2="Homes starting at "
-          propertyPRICE="$1,499"
+          propertyDESCRIPTION="Studio, One, Two, and Three-Bedroom Apartment Homes"
+          // propertyDESCRIPTION2="Homes starting at "
+          // propertyPRICE="$1,499"
           propertyPAGE="/bluelagoon"
           propertyNOWLEASING="NOW LEASING"
           propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
