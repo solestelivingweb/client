@@ -5,13 +5,18 @@ import PropertyDescriptionMiddleTop from "../components/individualProperties/pag
 import PropertyDescriptionLeft from "../components/individualProperties/pageComponents/PropertyDescriptionLeft";
 import PropertyDescriptionRight from "../components/individualProperties/pageComponents/PropertyDescriptionRight";
 import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
+import CarouselBottom from "../components/individualProperties/pageComponents/CarouselBottom";
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
-import bayvillagemiddletopimg from "../images/individualProperties/bayvillage/bayvillage-mid-top-img.jpg";
+// import bayvillagemiddletopimg from "../images/individualProperties/bayvillage/bayvillage-mid-top-img.jpg";
+import bayvillageLagoonMiddletopvid from "../videos/Soleste Bay Village.mp4";
 import bayvillageleftimg from "../images/individualProperties/bayvillage/bayvillage-left-img.jpg";
 import bayvillagerightimg from "../images/individualProperties/bayvillage/bayvillage-right-img.jpg";
-import bayvillagemiddlebottomimg from "../images/individualProperties/bayvillage/bayvillage-mid-bottom-img.jpg";
+// import bayvillagemiddlebottomimg from "../images/individualProperties/bayvillage/bayvillage-mid-bottom-img.jpg";
+
+import sliderImages from '../images/Oct-2020-Bay-Village/sliderImages'
+
 
 const propertyComponentListShortArrLeft = [
   "Hotel-inspired pool",
@@ -82,7 +87,8 @@ export default class BayVillage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isSocial: false,
+      isSocial: true,
+      isVideo: true,
       contactUs: false,
       are1: false, //Grapeland Park
       are2: false, //Miracle Mile
@@ -133,16 +139,18 @@ export default class BayVillage extends Component {
         ></EachPageHeader>
         <PropertyDescriptionMiddleTop
           propertyComponentTitle="AN ADDRESS OF CASUAL SOPHISTICATION"
-          propertyComponentDescription="Studio, One, Two, and Three-Bedroom Apartment Homes starting"
+          propertyComponentDescription="Studio, One, Two, and Three-Bedroom Apartment Homes"
           propertyComponentParagraph="A respite from the bustling city, Soleste Bay Village is located in Palmetto Bay, just South of
 Dadeland. Enjoy the relaxation of this quiet community tucked away from Downtown Miami,
 without sacrificing the convenience of urban-style amenities. Call today to explore all that Soleste
 Bay Village has to offer."
-          propertyComponentPrice="1,500"
-          propertyComponentImage={bayvillagemiddletopimg}
+          propertyComponentPrice="none"
+          // propertyComponentImage={bayvillagemiddletopimg}
+          isVideo={this.state.isVideo}
+          propertyComponentVideo={bayvillageLagoonMiddletopvid}
           propertyExternalWebsite="http://solestebayvillage.com/"
-          propertyNOWLEASING="PRE-LEASING NOVEMBER 2019"
-          propertyMOVEINDATE="MOVE-IN MARCH 2020"
+          propertyNOWLEASING="NOW LEASING"
+          // propertyMOVEINDATE="MOVE-IN MARCH 2020"
           contactUs={this.state.contactUs}
         ></PropertyDescriptionMiddleTop>
         <PropertyDescriptionLeft
@@ -155,9 +163,10 @@ Bay Village has to offer."
           propertyComponentListShort={propertyComponentListShortRight}
           propertyComponentListLong={propertyComponentListLongRight}
         ></PropertyDescriptionRight>
-        <PropertyDescriptionMiddleBottom
+        {/* <PropertyDescriptionMiddleBottom
           propertyComponentImage={bayvillagemiddlebottomimg}
-        ></PropertyDescriptionMiddleBottom>
+        ></PropertyDescriptionMiddleBottom> */}
+        <CarouselBottom sliderImages={sliderImages}></CarouselBottom>
         <BlueNAC
           are1={this.state.are1}
           are2={this.state.are2}
@@ -195,8 +204,8 @@ Bay Village has to offer."
         <ContactThisProperty
           propertyNAME="BAY VILLAGE"
           propertyADDRESS="18055 S Dixie Hwy, Palmetto Bay, FL 33157"
-          facebookLink="..."
-          instagramLink="..."
+          facebookLink="https://www.facebook.com/SolesteBayVillage/"
+          instagramLink="https://www.instagram.com/solestebayvillage/?hl=en"
           websiteLink="http://solestebayvillage.com/"
           mapPhotoClass="mapPhoto mPBayVillage"
           googlemap="..."

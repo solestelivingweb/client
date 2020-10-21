@@ -12,8 +12,8 @@ import app2twenty2img1 from "./images/app2/app2-twenty2-img-1.jpg";
 import app2twenty2img2 from "./images/app2/app2-twenty2-img-2.jpg";
 import app2alamedaimg1 from "./images/app2/app2-alameda-img-1.jpg";
 import app2alamedaimg2 from "./images/app2/app2-alameda-img-2.jpg";
-import app2bayvillageimg1 from "./images/app2/app2-bayvillage-img-1.jpg";
-import app2bayvillageimg2 from "./images/app2/app2-bayvillage-img-2.jpg";
+import app2bayvillageimg1 from "./images/Oct-2020-Bay-Village/2. Collection Page/Soleste Bay Village (11).JPG";
+import app2bayvillageimg2 from "./images/Oct-2020-Bay-Village/2. Collection Page/Picture of Man.jpg";
 import app2grandcentralimg1 from "./images/app2/app2-grandcentral-img-1.jpg";
 import app2grandcentralimg2 from "./images/app2/app2-grandcentral-img-2.jpg";
 import app2springgardensimg1 from "./images/app2/app2-springgardens-img-1.jpg";
@@ -78,8 +78,8 @@ class App2 extends Component {
           propertyDESCRIPTION2="Homes starting at "
           propertyPRICE="$1,500"
           propertyPAGE="/bayvillage"
-          propertyNOWLEASING="PRE-LEASING NOVEMBER 2019"
-          propertyMOVEINDATE="MOVE-IN MARCH 2020"
+          propertyNOWLEASING="NOW LEASING"
+          // propertyMOVEINDATE="MOVE-IN MARCH 2020"
         ></PropertyRight>
         <PropertyLeft
           propertyIMAGE1={app2grandcentralimg1}

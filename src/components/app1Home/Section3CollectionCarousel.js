@@ -7,7 +7,7 @@ import { MDBMask, MDBView, MDBBtn } from "mdbreact";
 import bluelag from "../../images/app/z-home-soleste-bluelagoon.jpg";
 import tw2 from "../../images/app/z-home-soleste-twenty2.jpg";
 import alameda from "../../images/app/z-home-soleste-alameda.jpg";
-import bayv from "../../images/app/z-home-soleste-bayvillage.jpg";
+import bayv from "../../images/Oct-2020-Bay-Village/1. Homepage/Soleste Bay Village (16).JPG";
 import grandcentral from "../../images/app/z-home-soleste-grandcentral.jpg";
 import springgard from "../../images/app/z-home-soleste-springgardens.jpg";
 

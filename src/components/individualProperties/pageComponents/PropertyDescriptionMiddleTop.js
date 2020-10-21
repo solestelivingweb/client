@@ -83,7 +83,7 @@ export default class PropertyDescriptionMiddleTop extends Component {
                           preload="yes"
                           allowfullscreen
                           loop
-                          autoplay
+                          autoplay="true"
                           controls="true"
                         ></video>
                     </div>
