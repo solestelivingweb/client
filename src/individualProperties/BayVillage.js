@@ -84,6 +84,7 @@ export default class BayVillage extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      delayCarousel: true,
       isSocial: true,
       isVideo: true,
       contactUs: false,
@@ -121,6 +122,22 @@ export default class BayVillage extends Component {
       are32: false //Virgin Trains
     };
   }
+
+  showCarousel() {
+    this.setState({
+      delayCarousel: false,
+    });
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timerID);
+  }
+
+  componentDidMount() {
+    this.timerID = setInterval(() => this.showCarousel(), 3000);
+  }
+
+
   render() {
     return (
       <div>
@@ -163,7 +180,15 @@ Bay Village has to offer."
         {/* <PropertyDescriptionMiddleBottom
           propertyComponentImage={bayvillagemiddlebottomimg}
         ></PropertyDescriptionMiddleBottom> */}
-        <CarouselPageBayVillage></CarouselPageBayVillage>
+        {this.state.delayCarousel ? (
+          <div className="d-flex justify-content-center">
+          <div className="spinner-border" role="status">
+            <span className="sr-only">Loading...</span>
+          </div>
+        </div>
+        ) : (
+          <CarouselPageBayVillage></CarouselPageBayVillage>
+        )}
         <BlueNAC
           are1={this.state.are1}
           are2={this.state.are2}

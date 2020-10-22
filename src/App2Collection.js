@@ -78,7 +78,7 @@ class App2 extends Component {
           propertyDESCRIPTION2="Homes starting at "
           // propertyPRICE="$1,500"
           propertyPAGE="/bayvillage"
-          // propertyNOWLEASING="PRE-LEASING NOVEMBER 2019"
+          propertyNOWLEASING="NOW LEASING"
           // propertyMOVEINDATE="MOVE-IN MARCH 2020"
         ></PropertyRight>
         <PropertyLeft

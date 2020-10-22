@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Suspense } from "react";
 import { Helmet } from "react-helmet";
 import EachPageHeader from "../components/EachPageHeader";
 import PropertyDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleTop";
@@ -14,13 +14,12 @@ import alamedaMiddletopvid from "../videos/Soleste Alameda.mp4";
 import alamedaleftimg from "../images/individualProperties/alameda/alameda-left-img.jpg";
 import alamedarightimg from "../images/individualProperties/alameda/alameda-right-img.jpg";
 // import alamedamiddlebottomimg from "../images/individualProperties/alameda/alameda-mid-bottom-img.jpg";
-
 const propertyComponentListShortArrLeft = [
   "Hotel-inspired pool",
   "Expansive sun deck",
   "Private cabanas",
   "Resident lounge complete with cyber café",
-  "Business center"
+  "Business center",
 ];
 
 const propertyComponentListLongArrLeft = [
@@ -39,7 +38,7 @@ const propertyComponentListLongArrLeft = [
   "Sky lounge with life size chess and ping pong",
   "Dog Wash Station",
   "Bike Shop w/repair station",
-  "Dry cleaning lockers"
+  "Dry cleaning lockers",
 ];
 
 const propertyComponentListShortLeft = propertyComponentListShortArrLeft.map(
@@ -55,7 +54,7 @@ const propertyComponentListShortArrRight = [
   "Quartz Countertops",
   "Stainless Steel Appliances",
   "Designer lighting",
-  "Chef's island"
+  "Chef's island",
 ];
 
 const propertyComponentListLongArrRight = [
@@ -72,7 +71,7 @@ const propertyComponentListLongArrRight = [
   "Spacious walk-in closets",
   "Impact resistant windows and sliding glass doors",
   "Over-sized terraces *",
-  "Pantry and linen closet *"
+  "Pantry and linen closet *",
 ];
 
 const propertyComponentListShortRight = propertyComponentListShortArrRight.map(
@@ -86,6 +85,7 @@ export default class Alameda extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      delayCarousel: true,
       isSocial: true,
       isVideo: true,
       contactUs: true,
@@ -120,9 +120,24 @@ export default class Alameda extends Component {
       are29: false, //Lincoln Road
       are30: false, //Miami International Airport
       are31: false, //Port of Miami
-      are32: false //Virgin Trains
+      are32: false, //Virgin Trains
     };
   }
+
+  showCarousel() {
+    this.setState({
+      delayCarousel: false,
+    });
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timerID);
+  }
+
+  componentDidMount() {
+    this.timerID = setInterval(() => this.showCarousel(), 3000);
+  }
+
   render() {
     return (
       <div>
@@ -164,7 +179,16 @@ your new home today."
         {/* <PropertyDescriptionMiddleBottom
           propertyComponentImage={alamedamiddlebottomimg}
         ></PropertyDescriptionMiddleBottom> */}
-        <CarouselPageAlameda></CarouselPageAlameda>
+
+        {this.state.delayCarousel ? (
+          <div className="d-flex justify-content-center">
+          <div className="spinner-border" role="status">
+            <span className="sr-only">Loading...</span>
+          </div>
+        </div>
+        ) : (
+          <CarouselPageAlameda></CarouselPageAlameda>
+        )}
         <BlueNAC
           are1={this.state.are1}
           are2={this.state.are2}
