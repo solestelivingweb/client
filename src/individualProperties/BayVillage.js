@@ -136,12 +136,12 @@ export default class BayVillage extends Component {
         ></EachPageHeader>
         <PropertyDescriptionMiddleTop
           propertyComponentTitle="AN ADDRESS OF CASUAL SOPHISTICATION"
-          propertyComponentDescription="Studio, One, Two, and Three-Bedroom Apartment Homes starting"
+          propertyComponentDescription="Studio, One, Two, and Three-Bedroom Apartment Homes"
           propertyComponentParagraph="A respite from the bustling city, Soleste Bay Village is located in Palmetto Bay, just South of
 Dadeland. Enjoy the relaxation of this quiet community tucked away from Downtown Miami,
 without sacrificing the convenience of urban-style amenities. Call today to explore all that Soleste
 Bay Village has to offer."
-          propertyComponentPrice="1,500"
+          propertyComponentPrice="none"
           // propertyComponentImage={bayvillagemiddletopimg}
           isVideo={this.state.isVideo}
           propertyComponentVideo={bayvillageLagoonMiddletopvid}

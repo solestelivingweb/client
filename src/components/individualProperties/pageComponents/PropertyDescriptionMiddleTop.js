@@ -85,6 +85,7 @@ export default class PropertyDescriptionMiddleTop extends Component {
                           loop
                           autoPlay
                           controls
+                          playsInline
                         ></video>
                     </div>
                   ) : (

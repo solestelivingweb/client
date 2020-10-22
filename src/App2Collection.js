@@ -76,7 +76,7 @@ class App2 extends Component {
           propertyNAME="BAY VILLAGE"
           propertyDESCRIPTION="Studio, One, Two, and Three-Bedroom Apartment"
           propertyDESCRIPTION2="Homes starting at "
-          propertyPRICE="$1,500"
+          // propertyPRICE="$1,500"
           propertyPAGE="/bayvillage"
           // propertyNOWLEASING="PRE-LEASING NOVEMBER 2019"
           // propertyMOVEINDATE="MOVE-IN MARCH 2020"

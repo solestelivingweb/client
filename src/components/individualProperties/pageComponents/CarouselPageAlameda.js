@@ -12,7 +12,7 @@ import sliderImages from '../../../images/Oct-2020-Alameda/sliderImages'
 class CarouselPageAlameda extends Component {
   render() {
     return (
-      <div className="mt-5 pt-5 mb-5 pb-5">
+      <div className="mt-5 pt-5 mb-5 pb-5 carauselPage">
         <MDBContainer>
           <MDBCarousel
             activeItem={0}
