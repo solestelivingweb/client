@@ -81,10 +81,10 @@ export default class PropertyDescriptionMiddleTop extends Component {
                           className="embed-responsive-item"
                           src={this.props.propertyComponentVideo}
                           preload="yes"
-                          allowfullscreen
+                          allowFullScreen
                           loop
-                          autoplay="true"
-                          controls="true"
+                          autoPlay
+                          controls
                         ></video>
                     </div>
                   ) : (

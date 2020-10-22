@@ -4,8 +4,8 @@ import EachPageHeader from "../components/EachPageHeader";
 import PropertyDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleTop";
 import PropertyDescriptionLeft from "../components/individualProperties/pageComponents/PropertyDescriptionLeft";
 import PropertyDescriptionRight from "../components/individualProperties/pageComponents/PropertyDescriptionRight";
-import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
-import CarouselBottom from "../components/individualProperties/pageComponents/CarouselBottom";
+// import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
+import CarouselPageBayVillage from '../components/individualProperties/pageComponents/CarouselPageBayVillage'
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
@@ -14,9 +14,6 @@ import bayvillageLagoonMiddletopvid from "../videos/Soleste Bay Village.mp4";
 import bayvillageleftimg from "../images/individualProperties/bayvillage/bayvillage-left-img.jpg";
 import bayvillagerightimg from "../images/individualProperties/bayvillage/bayvillage-right-img.jpg";
 // import bayvillagemiddlebottomimg from "../images/individualProperties/bayvillage/bayvillage-mid-bottom-img.jpg";
-
-import sliderImages from '../images/Oct-2020-Bay-Village/sliderImages'
-
 
 const propertyComponentListShortArrLeft = [
   "Hotel-inspired pool",
@@ -44,10 +41,10 @@ const propertyComponentListLongArrLeft = [
 ];
 
 const propertyComponentListShortLeft = propertyComponentListShortArrLeft.map(
-  i => <li>{i}</li>
+  (i, index) => <li key={index}>{i}</li>
 );
 const propertyComponentListLongLeft = propertyComponentListLongArrLeft.map(
-  i => <li>{i}</li>
+  (i, index) => <li key={index}>{i}</li>
 );
 
 // right
@@ -77,10 +74,10 @@ const propertyComponentListLongArrRight = [
 ];
 
 const propertyComponentListShortRight = propertyComponentListShortArrRight.map(
-  i => <li>{i}</li>
+  (i, index) => <li key={index}>{i}</li>
 );
 const propertyComponentListLongRight = propertyComponentListLongArrRight.map(
-  i => <li>{i}</li>
+  (i, index) => <li key={index}>{i}</li>
 );
 
 export default class BayVillage extends Component {
@@ -139,12 +136,12 @@ export default class BayVillage extends Component {
         ></EachPageHeader>
         <PropertyDescriptionMiddleTop
           propertyComponentTitle="AN ADDRESS OF CASUAL SOPHISTICATION"
-          propertyComponentDescription="Studio, One, Two, and Three-Bedroom Apartment Homes"
+          propertyComponentDescription="Studio, One, Two, and Three-Bedroom Apartment Homes starting"
           propertyComponentParagraph="A respite from the bustling city, Soleste Bay Village is located in Palmetto Bay, just South of
 Dadeland. Enjoy the relaxation of this quiet community tucked away from Downtown Miami,
 without sacrificing the convenience of urban-style amenities. Call today to explore all that Soleste
 Bay Village has to offer."
-          propertyComponentPrice="none"
+          propertyComponentPrice="1,500"
           // propertyComponentImage={bayvillagemiddletopimg}
           isVideo={this.state.isVideo}
           propertyComponentVideo={bayvillageLagoonMiddletopvid}
@@ -166,7 +163,7 @@ Bay Village has to offer."
         {/* <PropertyDescriptionMiddleBottom
           propertyComponentImage={bayvillagemiddlebottomimg}
         ></PropertyDescriptionMiddleBottom> */}
-        <CarouselBottom sliderImages={sliderImages}></CarouselBottom>
+        <CarouselPageBayVillage></CarouselPageBayVillage>
         <BlueNAC
           are1={this.state.are1}
           are2={this.state.are2}

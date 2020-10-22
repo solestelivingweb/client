@@ -10,8 +10,8 @@ import app2bluelagoonimg1 from "./images/app2/app2-blue-lagoon-img-1-2020.jpg";
 import app2bluelagoonimg2 from "./images/app2/app2-blue-lagoon-img-2.jpg";
 import app2twenty2img1 from "./images/app2/app2-twenty2-img-1.jpg";
 import app2twenty2img2 from "./images/app2/app2-twenty2-img-2.jpg";
-import app2alamedaimg1 from "./images/app2/app2-alameda-img-1.jpg";
-import app2alamedaimg2 from "./images/app2/app2-alameda-img-2.jpg";
+import app2alamedaimg1 from "./images/Oct-2020-Alameda/2. Collection Page/Soleste Alameda (1).JPG";
+import app2alamedaimg2 from "./images/Oct-2020-Alameda/2. Collection Page/Picture of Woman.jpg";
 import app2bayvillageimg1 from "./images/Oct-2020-Bay-Village/2. Collection Page/Soleste Bay Village (11).JPG";
 import app2bayvillageimg2 from "./images/Oct-2020-Bay-Village/2. Collection Page/Picture of Man.jpg";
 import app2grandcentralimg1 from "./images/app2/app2-grandcentral-img-1.jpg";
@@ -60,12 +60,12 @@ class App2 extends Component {
           propertyIMAGE1={app2alamedaimg1}
           propertyIMAGE2={app2alamedaimg2}
           propertyNAME="ALAMEDA"
-          propertyDESCRIPTION="Studio, One and Two-Bedroom Apartment"
-          propertyDESCRIPTION2="Homes starting at"
-          propertyPRICE="$1,475"
+          propertyDESCRIPTION="Studio, One and Two-Bedroom Apartment Homes"
+          // propertyDESCRIPTION2="Homes starting at"
+          // propertyPRICE="$1,475"
           propertyPAGE="/alameda"
-          propertyNOWLEASING="PRE-LEASING JANUARY 2020"
-          propertyMOVEINDATE="MOVE-IN MARCH 2020"
+          propertyNOWLEASING="NOW LEASING"
+          // propertyMOVEINDATE="MOVE-IN MARCH 2020"
         ></PropertyLeft>
 
         <SectionBanner></SectionBanner>
@@ -78,7 +78,7 @@ class App2 extends Component {
           propertyDESCRIPTION2="Homes starting at "
           propertyPRICE="$1,500"
           propertyPAGE="/bayvillage"
-          propertyNOWLEASING="NOW LEASING"
+          // propertyNOWLEASING="PRE-LEASING NOVEMBER 2019"
           // propertyMOVEINDATE="MOVE-IN MARCH 2020"
         ></PropertyRight>
         <PropertyLeft

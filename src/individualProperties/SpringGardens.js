@@ -18,10 +18,10 @@ const propertyComponentListShortArrLeft = ["COMING SOON"];
 const propertyComponentListLongArrLeft = ["COMING SOON"];
 
 const propertyComponentListShortLeft = propertyComponentListShortArrLeft.map(
-  i => <li>{i}</li>
+  (i, index) => <li key={index}>{i}</li>
 );
 const propertyComponentListLongLeft = propertyComponentListLongArrLeft.map(
-  i => <li>{i}</li>
+  (i, index) => <li key={index}>{i}</li>
 );
 
 // right
@@ -30,10 +30,10 @@ const propertyComponentListShortArrRight = ["COMING SOON"];
 const propertyComponentListLongArrRight = ["COMING SOON"];
 
 const propertyComponentListShortRight = propertyComponentListShortArrRight.map(
-  i => <li>{i}</li>
+  (i, index) => <li key={index}>{i}</li>
 );
 const propertyComponentListLongRight = propertyComponentListLongArrRight.map(
-  i => <li>{i}</li>
+  (i, index) => <li key={index}>{i}</li>
 );
 
 export default class SpringGardens extends Component {

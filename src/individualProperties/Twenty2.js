@@ -41,10 +41,10 @@ const propertyComponentListLongArrLeft = [
 ];
 
 const propertyComponentListShortLeft = propertyComponentListShortArrLeft.map(
-  (i) => <li>{i}</li>
+  (i, index) => <li key={index}>{i}</li>
 );
 const propertyComponentListLongLeft = propertyComponentListLongArrLeft.map(
-  (i) => <li>{i}</li>
+  (i, index) => <li key={index}>{i}</li>
 );
 
 // right
@@ -75,10 +75,10 @@ const propertyComponentListLongArrRight = [
 ];
 
 const propertyComponentListShortRight = propertyComponentListShortArrRight.map(
-  (i) => <li>{i}</li>
+  (i, index) => <li key={index}>{i}</li>
 );
 const propertyComponentListLongRight = propertyComponentListLongArrRight.map(
-  (i) => <li>{i}</li>
+  (i, index) => <li key={index}>{i}</li>
 );
 
 export default class Twenty2 extends Component {

@@ -4,14 +4,16 @@ import EachPageHeader from "../components/EachPageHeader";
 import PropertyDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleTop";
 import PropertyDescriptionLeft from "../components/individualProperties/pageComponents/PropertyDescriptionLeft";
 import PropertyDescriptionRight from "../components/individualProperties/pageComponents/PropertyDescriptionRight";
-import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
+// import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
+import CarouselPageAlameda from "../components/individualProperties/pageComponents/CarouselPageAlameda";
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
-import alamedamiddletopimg from "../images/individualProperties/alameda/alameda-mid-top-img.jpg";
+// import alamedamiddletopimg from "../images/individualProperties/alameda/alameda-mid-top-img.jpg";
+import alamedaMiddletopvid from "../videos/Soleste Alameda.mp4";
 import alamedaleftimg from "../images/individualProperties/alameda/alameda-left-img.jpg";
 import alamedarightimg from "../images/individualProperties/alameda/alameda-right-img.jpg";
-import alamedamiddlebottomimg from "../images/individualProperties/alameda/alameda-mid-bottom-img.jpg";
+// import alamedamiddlebottomimg from "../images/individualProperties/alameda/alameda-mid-bottom-img.jpg";
 
 const propertyComponentListShortArrLeft = [
   "Hotel-inspired pool",
@@ -29,19 +31,22 @@ const propertyComponentListLongArrLeft = [
   "Business center",
   "Yoga & Spin studio",
   "State of the art health and fitness club featuring high tech cardio equipment and free weights",
-  "Serenity Garden",
-  "Bark park",
   "Children's Playground",
   "Bike Parking",
   "Controlled access garage parking",
-  "Car charging stations"
+  "Car charging stations",
+  "Outdoor Kitchen and Grilling",
+  "Sky lounge with life size chess and ping pong",
+  "Dog Wash Station",
+  "Bike Shop w/repair station",
+  "Dry cleaning lockers"
 ];
 
 const propertyComponentListShortLeft = propertyComponentListShortArrLeft.map(
-  i => <li>{i}</li>
+  (i, index) => <li key={index}>{i}</li>
 );
 const propertyComponentListLongLeft = propertyComponentListLongArrLeft.map(
-  i => <li>{i}</li>
+  (i, index) => <li key={index}>{i}</li>
 );
 
 // right
@@ -71,17 +76,18 @@ const propertyComponentListLongArrRight = [
 ];
 
 const propertyComponentListShortRight = propertyComponentListShortArrRight.map(
-  i => <li>{i}</li>
+  (i, index) => <li key={index}>{i}</li>
 );
 const propertyComponentListLongRight = propertyComponentListLongArrRight.map(
-  i => <li>{i}</li>
+  (i, index) => <li key={index}>{i}</li>
 );
 
 export default class Alameda extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isSocial: false,
+      isSocial: true,
+      isVideo: true,
       contactUs: true,
       are1: false, //Grapeland Park
       are2: true, //Miracle Mile
@@ -132,15 +138,17 @@ export default class Alameda extends Component {
         ></EachPageHeader>
         <PropertyDescriptionMiddleTop
           propertyComponentTitle="AN ADDRESS OF CASUAL SOPHISTICATION"
-          propertyComponentDescription="Studio, One, and Two-Bedroom Apartment Homes starting"
+          propertyComponentDescription="Studio, One, and Two-Bedroom Apartment Homes"
           propertyComponentParagraph="Located in West Miami, just a short distance from the Miami International Airport and the Coral
 Gables neighborhood, Soleste Alameda offers hotel-inspired amenities including a resort-style
 pool with private cabanas as well as a yoga and spin studio and expansive sun deck. Discover
 your new home today."
-          propertyComponentPrice="1,475"
-          propertyComponentImage={alamedamiddletopimg}
-          propertyNOWLEASING="PRE-LEASING JANUARY 2020"
-          propertyMOVEINDATE="MOVE-IN MARCH 2020"
+          propertyComponentPrice="none"
+          // propertyComponentImage={alamedamiddletopimg}
+          isVideo={this.state.isVideo}
+          propertyComponentVideo={alamedaMiddletopvid}
+          propertyNOWLEASING="NOW LEASING"
+          // propertyMOVEINDATE="MOVE-IN MARCH 2020"
           contactUs={this.state.contactUs}
         ></PropertyDescriptionMiddleTop>
         <PropertyDescriptionLeft
@@ -153,9 +161,10 @@ your new home today."
           propertyComponentListShort={propertyComponentListShortRight}
           propertyComponentListLong={propertyComponentListLongRight}
         ></PropertyDescriptionRight>
-        <PropertyDescriptionMiddleBottom
+        {/* <PropertyDescriptionMiddleBottom
           propertyComponentImage={alamedamiddlebottomimg}
-        ></PropertyDescriptionMiddleBottom>
+        ></PropertyDescriptionMiddleBottom> */}
+        <CarouselPageAlameda></CarouselPageAlameda>
         <BlueNAC
           are1={this.state.are1}
           are2={this.state.are2}
@@ -193,8 +202,8 @@ your new home today."
         <ContactThisProperty
           propertyNAME="ALAMEDA"
           propertyADDRESS="6320 Southwest 8th Street, West Miami, FL"
-          facebookLink="..."
-          instagramLink="..."
+          facebookLink="https://www.facebook.com/solestealameda/"
+          instagramLink="https://www.instagram.com/soleste_alameda/?hl=en"
           mapPhotoClass="mapPhoto mPAlameda"
           googlemap="..."
           isSocial={this.state.isSocial}

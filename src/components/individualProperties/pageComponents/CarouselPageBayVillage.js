@@ -7,14 +7,16 @@ import {
   MDBContainer,
 } from "mdbreact";
 
-class CarouselBottom extends Component {
+import sliderImages from '../../../images/Oct-2020-Bay-Village/sliderImages'
+
+class CarouselPageBayVillage extends Component {
   render() {
     return (
       <div className="mt-5 pt-5 mb-5 pb-5">
         <MDBContainer>
           <MDBCarousel
             activeItem={0}
-            length={this.props.sliderImages.length - 1}
+            length={60}
             showControls={true}
             showIndicators={false}
             className="z-depth-1"
@@ -30,7 +32,7 @@ class CarouselBottom extends Component {
                   />
                 </MDBView>
               </MDBCarouselItem> */}
-              {this.props.sliderImages.map((img, index) => (
+              {sliderImages.map((img, index) => (
                 <MDBCarouselItem itemId={index} key={index}>
                   <MDBView>
                     <img className="d-block w-100" src={img} alt="slide" />
@@ -45,4 +47,4 @@ class CarouselBottom extends Component {
   }
 }
 
-export default CarouselBottom;
+export default CarouselPageBayVillage;
