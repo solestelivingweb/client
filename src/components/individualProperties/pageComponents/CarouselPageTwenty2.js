@@ -52,7 +52,6 @@ class CarouselPageTwenty2 extends Component {
             showControls={true}
             showIndicators={false}
             className="z-depth-1"
-            slide
           >
             <MDBCarouselInner>
               {/* <MDBCarouselItem itemId="1">

@@ -16,11 +16,10 @@ class CarouselPageBayVillage extends Component {
         <MDBContainer>
           <MDBCarousel
             activeItem={0}
-            length={60}
+            length={sliderImages.lenght - 1}
             showControls={true}
             showIndicators={false}
             className="z-depth-1"
-            slide
           >
             <MDBCarouselInner>
               {/* <MDBCarouselItem itemId="1">

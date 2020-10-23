@@ -183,8 +183,8 @@ your new home today."
         {this.state.delayCarousel ? (
          ''
         ) : (
-          // <CarouselPageAlameda></CarouselPageAlameda>
-          ''
+          <CarouselPageAlameda></CarouselPageAlameda>
+          
         )}
         <BlueNAC
           are1={this.state.are1}
