@@ -22,7 +22,6 @@ import GrandCentral from "./individualProperties/GrandCentral";
 import SpringGardens from "./individualProperties/SpringGardens";
 import registerServiceWorker from "./registerServiceWorker";
 import NotFound from "./PageNotFound";
-import Fade from "react-reveal/Fade";
 
 const routing = (
   <HashRouter basename={"/"}>

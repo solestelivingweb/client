@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { MDBContainer, MDBRow, MDBCol, MDBBtn } from "mdbreact";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
 
 class PropertyLeft extends Component {
   render() {
@@ -11,62 +11,62 @@ class PropertyLeft extends Component {
           <MDBRow>
             <MDBCol>
               <div className="imgs-div">
-                <Fade>
+                {/* <Fade> */}
                   <img
                     src={this.props.propertyIMAGE1}
                     className="img-fluid"
                     alt=""
                   />
-                </Fade>
-                <Fade>
+                {/* </Fade> */}
+                {/* <Fade> */}
                   <img
                     src={this.props.propertyIMAGE2}
                     className="img-fluid propertyLeft-absolute-img"
                     id={this.props.idfor2020}
                     alt=""
                   />
-                </Fade>
+                {/* </Fade> */}
               </div>
             </MDBCol>
             <MDBCol className="col-right">
               <div>
-                <Fade>
+                {/* <Fade> */}
                   <h6 className="d-flex justify-content-end text-right">
                     SOLESTE
                   </h6>
-                </Fade>
+                {/* </Fade> */}
 
-                <Fade>
+                {/* <Fade> */}
                   <h1 className="d-flex justify-content-end fontSize-92 text-right mt-2">
                     {this.props.propertyNAME}
                   </h1>
-                </Fade>
+                {/* </Fade> */}
                 {/* --- */}
-                <Fade>
+                {/* <Fade> */}
                   <p className="d-flex justify-content-end">
                     <b>{this.props.propertyNOWLEASING}</b>
                   </p>
-                </Fade>
-                <Fade>
+                {/* </Fade> */}
+                {/* <Fade> */}
                   <p className="d-flex justify-content-end">
                     <b>{this.props.propertyMOVEINDATE}</b>
                   </p>
-                </Fade>
+                {/* </Fade> */}
                 {/* --- */}
-                <Fade>
+                {/* <Fade> */}
                   <p className="d-flex justify-content-end fontSize-14 text-right text-dark mt-5">
                     {this.props.propertyDESCRIPTION}
                     <br />
                     {this.props.propertyDESCRIPTION2}
                   </p>
-                </Fade>
-                <Fade>
+                {/* </Fade> */}
+                {/* <Fade> */}
                   <p className="d-flex justify-content-end">
                     <b>{this.props.propertyPRICE}</b>
                   </p>
-                </Fade>
+                {/* </Fade> */}
               </div>
-              <Fade>
+              {/* <Fade> */}
                 <Link to={this.props.propertyPAGE}>
                   <MDBBtn
                     color="unique"
@@ -75,7 +75,7 @@ class PropertyLeft extends Component {
                     LEARN MORE
                   </MDBBtn>
                 </Link>
-              </Fade>
+              {/* </Fade> */}
             </MDBCol>
           </MDBRow>
         </MDBContainer>
