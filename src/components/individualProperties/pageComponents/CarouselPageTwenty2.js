@@ -4,7 +4,7 @@ import {
   MDBCarouselInner,
   MDBCarouselItem,
   MDBView,
-  MDBContainer
+  MDBContainer,
 } from "mdbreact";
 
 import twenty2middlebottomimg1 from "../../../images/individualProperties/twenty2/Twenty2-1.jpg";
@@ -38,7 +38,7 @@ const sliderImages = [
   twenty2middlebottomimg12,
   twenty2middlebottomimg13,
   twenty2middlebottomimg14,
-  twenty2middlebottomimg15
+  twenty2middlebottomimg15,
 ];
 
 class CarouselPageTwenty2 extends Component {

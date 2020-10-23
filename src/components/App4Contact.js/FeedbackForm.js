@@ -12,7 +12,7 @@ export default class FeedbackForm extends Component {
     community: "",
     moveInDate: "",
     unitSize: "",
-    priceRange: ""
+    priceRange: "",
   };
   handleSubmit(e) {
     e.preventDefault();
@@ -24,7 +24,7 @@ export default class FeedbackForm extends Component {
       community,
       moveInDate,
       unitSize,
-      priceRange
+      priceRange,
     } = this.state;
     let templateParams = {
       from_name: name,
@@ -35,7 +35,7 @@ export default class FeedbackForm extends Component {
       community: community,
       moveInDate: moveInDate,
       unitSize: unitSize,
-      priceRange: priceRange
+      priceRange: priceRange,
     };
     emailjs.send(
       "gmail",
@@ -54,7 +54,7 @@ export default class FeedbackForm extends Component {
       community: "",
       moveInDate: "",
       unitSize: "",
-      priceRange: ""
+      priceRange: "",
     });
   }
   handleChange = (param, e) => {

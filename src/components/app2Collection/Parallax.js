@@ -4,7 +4,7 @@ export default class Parallax extends React.PureComponent {
   constructor() {
     super();
     this.state = {
-      translateY: 0
+      translateY: 0,
     };
   }
   UNSAFE_componentDidMount() {

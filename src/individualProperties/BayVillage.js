@@ -5,7 +5,7 @@ import PropertyDescriptionMiddleTop from "../components/individualProperties/pag
 import PropertyDescriptionLeft from "../components/individualProperties/pageComponents/PropertyDescriptionLeft";
 import PropertyDescriptionRight from "../components/individualProperties/pageComponents/PropertyDescriptionRight";
 // import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
-import CarouselPageBayVillage from '../components/individualProperties/pageComponents/CarouselPageBayVillage'
+import CarouselPageBayVillage from "../components/individualProperties/pageComponents/CarouselPageBayVillage";
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
@@ -20,7 +20,7 @@ const propertyComponentListShortArrLeft = [
   "Expansive sun deck",
   "Private cabanas",
   "Resident lounge complete with cyber café and business center",
-  "Yoga & Spin studio"
+  "Yoga & Spin studio",
 ];
 
 const propertyComponentListLongArrLeft = [
@@ -37,7 +37,7 @@ const propertyComponentListLongArrLeft = [
   "Controlled access garage parking",
   "Luxer Package Room",
   "Dry cleaning lockers",
-  "Car charging stations"
+  "Car charging stations",
 ];
 
 const propertyComponentListShortLeft = propertyComponentListShortArrLeft.map(
@@ -53,7 +53,7 @@ const propertyComponentListShortArrRight = [
   "Quartz countertops",
   "Stainless steel appliances",
   "Designer lighting",
-  "Chef's island*"
+  "Chef's island*",
 ];
 
 const propertyComponentListLongArrRight = [
@@ -70,7 +70,7 @@ const propertyComponentListLongArrRight = [
   "Spacious walk-in closets",
   "Impact resistant windows and sliding glass doors",
   "Over-sized terraces *",
-  "Pantry and linen close*"
+  "Pantry and linen close*",
 ];
 
 const propertyComponentListShortRight = propertyComponentListShortArrRight.map(
@@ -84,7 +84,6 @@ export default class BayVillage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      delayCarousel: true,
       isSocial: true,
       isVideo: true,
       contactUs: false,
@@ -119,24 +118,9 @@ export default class BayVillage extends Component {
       are29: false, //Lincoln Road
       are30: false, //Miami International Airport
       are31: false, //Port of Miami
-      are32: false //Virgin Trains
+      are32: false, //Virgin Trains
     };
   }
-
-  showCarousel() {
-    this.setState({
-      delayCarousel: false,
-    });
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.timerID);
-  }
-
-  componentDidMount() {
-    this.timerID = setInterval(() => this.showCarousel(), 3000);
-  }
-
 
   render() {
     return (
@@ -180,12 +164,7 @@ Bay Village has to offer."
         {/* <PropertyDescriptionMiddleBottom
           propertyComponentImage={bayvillagemiddlebottomimg}
         ></PropertyDescriptionMiddleBottom> */}
-        {this.state.delayCarousel ? (
-          ''
-        ) : (
-          // <CarouselPageBayVillage></CarouselPageBayVillage>
-          ''
-        )}
+        <CarouselPageBayVillage></CarouselPageBayVillage>
         <BlueNAC
           are1={this.state.are1}
           are2={this.state.are2}

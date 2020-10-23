@@ -7,7 +7,7 @@ import {
   MDBModal,
   MDBModalBody,
   MDBModalHeader,
-  MDBModalFooter
+  MDBModalFooter,
 } from "mdbreact";
 
 import Fade from "react-reveal/Fade";
@@ -15,13 +15,13 @@ import Fade from "react-reveal/Fade";
 export default class PropertyDescriptionRight extends Component {
   state = {
     modal6: false,
-    modal7: false
+    modal7: false,
   };
 
-  toggle = nr => () => {
+  toggle = (nr) => () => {
     let modalNumber = "modal" + nr;
     this.setState({
-      [modalNumber]: !this.state[modalNumber]
+      [modalNumber]: !this.state[modalNumber],
     });
   };
   render() {

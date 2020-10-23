@@ -6,7 +6,7 @@ import AppNavV2Menu from "../components/AppNavV2/AppNavV2Menu";
 const contentStyle = {
   background: "rgba(255,255,255,0)",
   width: "80%",
-  border: "none"
+  border: "none",
 };
 
 export default class AppNavV2 extends Component {
@@ -16,13 +16,13 @@ export default class AppNavV2 extends Component {
         <Popup
           modal
           overlayStyle={{
-            background: "rgba(86,76,75,0.98"
+            background: "rgba(86,76,75,0.98",
           }}
           contentStyle={contentStyle}
           closeOnDocumentClick={false}
-          trigger={open => <AppNavV2BurgerIcon open={open} />}
+          trigger={(open) => <AppNavV2BurgerIcon open={open} />}
         >
-          {close => <AppNavV2Menu close={close} />}
+          {(close) => <AppNavV2Menu close={close} />}
         </Popup>
       </div>
     );

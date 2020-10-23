@@ -7,7 +7,7 @@ import {
   MDBContainer,
 } from "mdbreact";
 
-import sliderImages from '../../../images/Oct-2020-Bay-Village/sliderImages'
+import sliderImages from "../../../images/Oct-2020-Bay-Village/sliderImages";
 
 class CarouselPageBayVillage extends Component {
   render() {
@@ -16,7 +16,7 @@ class CarouselPageBayVillage extends Component {
         <MDBContainer>
           <MDBCarousel
             activeItem={0}
-            length={sliderImages.lenght - 1}
+            length={sliderImages.length - 1}
             showControls={true}
             showIndicators={false}
             className="z-depth-1"

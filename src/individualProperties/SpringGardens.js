@@ -73,7 +73,7 @@ export default class SpringGardens extends Component {
       are29: true, //Lincoln Road
       are30: false, //Miami International Airport
       are31: false, //Port of Miami
-      are32: false //Virgin Trains
+      are32: false, //Virgin Trains
     };
   }
   render() {

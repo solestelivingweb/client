@@ -10,7 +10,7 @@ import {
   MDBContainer,
   MDBRow,
   MDBCol,
-  MDBBtn
+  MDBBtn,
 } from "mdbreact";
 
 import { BrowserView, MobileView } from "react-device-detect";

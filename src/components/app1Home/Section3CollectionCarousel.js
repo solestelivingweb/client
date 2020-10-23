@@ -48,7 +48,7 @@ export default class Section3CollectionCarousel extends Component {
       slidesToScroll: 1,
       speed: 500,
       autoplay: true,
-      autoplaySpeed: 1500
+      autoplaySpeed: 1500,
     };
 
     return (

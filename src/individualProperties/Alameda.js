@@ -85,7 +85,6 @@ export default class Alameda extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      delayCarousel: true,
       isSocial: true,
       isVideo: true,
       contactUs: true,
@@ -122,20 +121,6 @@ export default class Alameda extends Component {
       are31: false, //Port of Miami
       are32: false, //Virgin Trains
     };
-  }
-
-  showCarousel() {
-    this.setState({
-      delayCarousel: false,
-    });
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.timerID);
-  }
-
-  componentDidMount() {
-    this.timerID = setInterval(() => this.showCarousel(), 3000);
   }
 
   render() {
@@ -179,13 +164,7 @@ your new home today."
         {/* <PropertyDescriptionMiddleBottom
           propertyComponentImage={alamedamiddlebottomimg}
         ></PropertyDescriptionMiddleBottom> */}
-
-        {this.state.delayCarousel ? (
-         ''
-        ) : (
-          <CarouselPageAlameda></CarouselPageAlameda>
-          
-        )}
+        <CarouselPageAlameda></CarouselPageAlameda>
         <BlueNAC
           are1={this.state.are1}
           are2={this.state.are2}

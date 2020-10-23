@@ -18,7 +18,7 @@ const propertyComponentListShortArrLeft = [
   "Resident lounge complete with cyber café",
   "Sports lounge",
   "Gaming room with billiards, poker, table tennis and air hockey",
-  "Indoor Children’s play house"
+  "Indoor Children’s play house",
 ];
 
 const propertyComponentListLongArrLeft = [
@@ -38,7 +38,7 @@ const propertyComponentListLongArrLeft = [
   "Car charging stations",
   "Controlled access garage parking",
   "Flex rentable office spaces",
-  "Dry-cleaning lockers"
+  "Dry-cleaning lockers",
 ];
 
 const propertyComponentListShortLeft = propertyComponentListShortArrLeft.map(
@@ -54,7 +54,7 @@ const propertyComponentListShortArrRight = [
   "Sleek, modern kitchens with custom cabinets, quartz countertops, subway tile backsplash and designer lighting",
   "Gourmet stainless steel kitchen appliances",
   "Under mount kitchen and bathroom sinks",
-  "Chef’s Islands"
+  "Chef’s Islands",
 ];
 
 const propertyComponentListLongArrRight = [
@@ -70,7 +70,7 @@ const propertyComponentListLongArrRight = [
   "Spacious walk-in closets",
   "Impact resistant windows and sliding glass doors",
   "Electronic entry door lock systems",
-  "Frameless glass showers and oversized tubs"
+  "Frameless glass showers and oversized tubs",
 ];
 
 const propertyComponentListShortRight = propertyComponentListShortArrRight.map(
@@ -117,7 +117,7 @@ export default class GrandCentral extends Component {
       are29: false, //Lincoln Road
       are30: false, //Miami International Airport
       are31: true, //Port of Miami
-      are32: true //Virgin Trains
+      are32: true, //Virgin Trains
     };
   }
   render() {
