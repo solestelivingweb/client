@@ -20,7 +20,7 @@ import BayVillage from "./individualProperties/BayVillage";
 import ParkView from "./individualProperties/ParkView";
 import GrandCentral from "./individualProperties/GrandCentral";
 import SpringGardens from "./individualProperties/SpringGardens";
-// import registerServiceWorker from "./registerServiceWorker";
+import registerServiceWorker from "./registerServiceWorker";
 import NotFound from "./PageNotFound";
 
 const routing = (
@@ -48,4 +48,4 @@ const routing = (
 
 ReactDOM.render(routing, document.getElementById("root"));
 
-// registerServiceWorker();
+registerServiceWorker();
