@@ -181,13 +181,10 @@ your new home today."
         ></PropertyDescriptionMiddleBottom> */}
 
         {this.state.delayCarousel ? (
-          <div className="d-flex justify-content-center">
-          <div className="spinner-border" role="status">
-            <span className="sr-only">Loading...</span>
-          </div>
-        </div>
+         ''
         ) : (
-          <CarouselPageAlameda></CarouselPageAlameda>
+          // <CarouselPageAlameda></CarouselPageAlameda>
+          ''
         )}
         <BlueNAC
           are1={this.state.are1}
