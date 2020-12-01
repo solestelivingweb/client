@@ -43,7 +43,7 @@ class App2 extends Component {
           // propertyPRICE="$1,499"
           propertyPAGE="/bluelagoon"
           propertyNOWLEASING="NOW LEASING"
-          // propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
+        // propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
         ></PropertyLeft>
         <PropertyRight
           propertyIMAGE1={app2twenty2img1}
@@ -54,7 +54,7 @@ class App2 extends Component {
           // propertyPRICE="$1,485"
           propertyPAGE="/twenty2"
           propertyNOWLEASING="NOW LEASING"
-          // propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
+        // propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
         ></PropertyRight>
         <PropertyLeft
           propertyIMAGE1={app2alamedaimg1}
@@ -65,7 +65,7 @@ class App2 extends Component {
           // propertyPRICE="$1,475"
           propertyPAGE="/alameda"
           propertyNOWLEASING="NOW LEASING"
-          // propertyMOVEINDATE="MOVE-IN MARCH 2020"
+        // propertyMOVEINDATE="MOVE-IN MARCH 2020"
         ></PropertyLeft>
 
         <SectionBanner></SectionBanner>
@@ -79,7 +79,7 @@ class App2 extends Component {
           // propertyPRICE="$1,500"
           propertyPAGE="/bayvillage"
           propertyNOWLEASING="NOW LEASING"
-          // propertyMOVEINDATE="MOVE-IN MARCH 2020"
+        // propertyMOVEINDATE="MOVE-IN MARCH 2020"
         ></PropertyRight>
         <PropertyLeft
           propertyIMAGE1={app2grandcentralimg1}
@@ -98,8 +98,8 @@ class App2 extends Component {
           propertyDESCRIPTION="Studio Suites, One, Two, and Three-Bedroom"
           propertyDESCRIPTION2="Apartment Homes"
           propertyPAGE="springgardens"
-          propertyNOWLEASING="PRE-LEASING MARCH 2021"
-          propertyMOVEINDATE="MOVE-IN JUNE 2021"
+          propertyNOWLEASING="PRE-LEASING MARCH 2022"
+        // propertyMOVEINDATE="MOVE-IN JUNE 2021"
         ></PropertyRight>
         <br></br>
         <br></br>

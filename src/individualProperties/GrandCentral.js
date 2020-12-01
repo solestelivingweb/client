@@ -4,14 +4,15 @@ import EachPageHeader from "../components/EachPageHeader";
 import PropertyDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleTop";
 import PropertyDescriptionLeft from "../components/individualProperties/pageComponents/PropertyDescriptionLeft";
 import PropertyDescriptionRight from "../components/individualProperties/pageComponents/PropertyDescriptionRight";
-import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
+import CarouselPageGrandCentral from "../components/individualProperties/pageComponents/CarouselPageGrandCentral";
+// import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
 import grandcentralmiddletopimg from "../images/individualProperties/grandcentral/grandcentral-mid-top-img.jpg";
 import grandcentralleftimg from "../images/individualProperties/grandcentral/grandcentral-left-img.jpg";
 import grandcentralrightimg from "../images/individualProperties/grandcentral/grandcentral-right-img.jpg";
-import grandcentralmiddlebottomimg from "../images/individualProperties/grandcentral/grandcentral-mid-bottom-img.jpg";
+// import grandcentralmiddlebottomimg from "../images/individualProperties/grandcentral/grandcentral-mid-bottom-img.jpg";
 
 const propertyComponentListShortArrLeft = [
   "Vegas style pool with spa, sun deck, and private cabanas",
@@ -84,7 +85,7 @@ export default class GrandCentral extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isSocial: false,
+      isSocial: true,
       contactUs: true,
       are1: false, //Grapeland Park
       are2: false, //Miracle Mile
@@ -136,6 +137,7 @@ export default class GrandCentral extends Component {
         <PropertyDescriptionMiddleTop
           propertyComponentTitle="AN ADDRESS OF CASUAL SOPHISTICATION"
           propertyComponentDescription="Studio Suites, One, Two, and Three-Bedroom Apartment Homes "
+          propertyComponentPrice="none"
           propertyComponentParagraph="Downtown Miami’s newest residential gem, Soleste Grand Central is ideal for the urban dweller.
 Cutting-edge amenities, stylish apartments, and an unmatched location characterize this stunning
 multi-story building in the heart of Miami. Experience the city firsthand and easily commute using
@@ -155,9 +157,10 @@ the Brightline train, just steps away from your doorstep. Welcome home."
           propertyComponentListShort={propertyComponentListShortRight}
           propertyComponentListLong={propertyComponentListLongRight}
         ></PropertyDescriptionRight>
-        <PropertyDescriptionMiddleBottom
+        <CarouselPageGrandCentral></CarouselPageGrandCentral>
+        {/* <PropertyDescriptionMiddleBottom
           propertyComponentImage={grandcentralmiddlebottomimg}
-        ></PropertyDescriptionMiddleBottom>
+        ></PropertyDescriptionMiddleBottom> */}
         {/* <NearbyAttractionsCarousel></NearbyAttractionsCarousel> */}
         <BlueNAC
           are1={this.state.are1}
@@ -196,8 +199,8 @@ the Brightline train, just steps away from your doorstep. Welcome home."
         <ContactThisProperty
           propertyNAME="GRAND CENTRAL"
           propertyADDRESS="777 NW 3rd Ave, Miami, FL 33130"
-          facebookLink="..."
-          instagramLink="..."
+          facebookLink="https://www.facebook.com/SolesteGrandCentral/"
+          instagramLink="https://www.instagram.com/solestegrandcentral/"
           mapPhotoClass="mapPhoto mPGrandCentral"
           googlemap="..."
           isSocial={this.state.isSocial}

@@ -13,27 +13,61 @@ import springgardensleftimg from "../images/individualProperties/springgardens/s
 import springgardensrightimg from "../images/individualProperties/springgardens/springgardens-right-img.jpg";
 import springgardensmiddlebottomimg from "../images/individualProperties/springgardens/springgardens-mid-bottom-img.jpg";
 
-const propertyComponentListShortArrLeft = ["COMING SOON"];
+const propertyComponentListShortArrLeft = [
+  "State of the art Fitness center featuring high tech cardio equipment and free weights",
+  "Yoga and spin studio",
+  "Hotel-inspired Pool",
+  "Expansive Sun deck",
+  "Resident Lounge",
+];
 
-const propertyComponentListLongArrLeft = ["COMING SOON"];
+const propertyComponentListLongArrLeft = [
+  "State of the art Fitness center featuring high tech cardio equipment and free weights",
+  "Yoga and spin studio",
+  "Hotel-inspired Pool",
+  "Expansive Sun deck",
+  "Resident Lounge",
+  "Package room",
+  "Business Lounge",
+  "Bark Park",
+  "Bicycle storage",
+  "Controlled access parking garage",
+];
 
 const propertyComponentListShortLeft = propertyComponentListShortArrLeft.map(
-  (i, index) => <li key={index}>{i}</li>
+  (i) => <li class='shortL' key={i}>{i}</li>
 );
 const propertyComponentListLongLeft = propertyComponentListLongArrLeft.map(
-  (i, index) => <li key={index}>{i}</li>
+  (i) => <li key={i}>{i}</li>
 );
 
 // right
-const propertyComponentListShortArrRight = ["COMING SOON"];
+const propertyComponentListShortArrRight = [
+  "State of the art Fitness center featuring high tech cardio equipment and free weights",
+  "Yoga and spin studio",
+  "Hotel-inspired Pool",
+  "Expansive Sun deck",
+  "Resident Lounge",
+];
 
-const propertyComponentListLongArrRight = ["COMING SOON"];
+const propertyComponentListLongArrRight = [
+  "State of the art Fitness center featuring high tech cardio equipment and free weights",
+  "Yoga and spin studio",
+  "Hotel-inspired Pool",
+  "Expansive Sun deck",
+  "Resident Lounge",
+  "Package room",
+  "Business Lounge",
+  "Bark Park",
+  "Bicycle storage",
+  "Controlled access parking garage",
+];
 
 const propertyComponentListShortRight = propertyComponentListShortArrRight.map(
-  (i, index) => <li key={index}>{i}</li>
+  (i) => <li class='shortR' key={i}>{i}</li>
 );
 const propertyComponentListLongRight = propertyComponentListLongArrRight.map(
-  (i, index) => <li key={index}>{i}</li>
+  (i) => <li key={i}>{i}</li>
 );
 
 export default class SpringGardens extends Component {
@@ -98,8 +132,8 @@ District’s newest multi-unit residential destination. Easily accessible to the
 leasing opens for this exciting new living community."
           propertyComponentPrice=""
           propertyComponentImage={springgardensmiddletopimg}
-          propertyNOWLEASING="PRE-LEASING MARCH 2021"
-          propertyMOVEINDATE="MOVE-IN JUNE 2021"
+          propertyNOWLEASING="PRE-LEASING MARCH 2022"
+        // propertyMOVEINDATE="MOVE-IN JUNE 2021"
         ></PropertySGONLYDescriptionMiddleTop>
         <PropertyDescriptionLeft
           propertyComponentImage={springgardensleftimg}

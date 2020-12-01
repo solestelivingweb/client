@@ -12,6 +12,7 @@ import FooterPage from "../components/FooterPage";
 import blueLagoonMiddletopvid from "../videos/Soleste Blue Lagoon Full Tour LPC.mp4";
 import bluelagoonleftimg from "../images/individualProperties/bluelagoon/bluelagoon-left-img.jpg";
 import bluelagoonrightimg from "../images/individualProperties/bluelagoon/bluelagoon-right-img.jpg";
+
 const propertyComponentListShortArrLeft = [
   "Lakeside pool and jacuzzi",
   "Expansive sun deck",
@@ -146,7 +147,7 @@ export default class BlueLagoon extends Component {
           propertyComponentVideo={blueLagoonMiddletopvid}
           propertyExternalWebsite="https://www.solestebluelagoon.com/"
           propertyNOWLEASING="NOW LEASING"
-          // propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
+        // propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
         ></PropertyDescriptionMiddleTop>
         <PropertyDescriptionLeft
           propertyComponentImage={bluelagoonleftimg}

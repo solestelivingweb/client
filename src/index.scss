@@ -799,3 +799,12 @@ input[type="date"]:valid:before {
     transition: opacity 0.15s ease;
   }
 }
+
+.shortR {
+  width: 55%;
+}
+
+.shortL {
+  width: 65%;
+  float: right;
+}
