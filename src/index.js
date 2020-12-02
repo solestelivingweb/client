@@ -20,6 +20,7 @@ import BayVillage from "./individualProperties/BayVillage";
 import ParkView from "./individualProperties/ParkView";
 import GrandCentral from "./individualProperties/GrandCentral";
 import SpringGardens from "./individualProperties/SpringGardens";
+import CityLine from "./individualProperties/CityLine";
 // import registerServiceWorker from "./registerServiceWorker";
 import NotFound from "./PageNotFound";
 
@@ -40,6 +41,7 @@ const routing = (
         <Route path="/parkview" component={ParkView} />
         <Route path="/grandcentral" component={GrandCentral} />
         <Route path="/springgardens" component={SpringGardens} />
+        <Route path="/cityline" component={CityLine} />
         <Route path="*" component={NotFound} />
       </div>
     </Analytics>

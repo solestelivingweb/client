@@ -238,6 +238,13 @@ textarea {
     left: 70%;
     height: 27vh;
   }
+
+  #propertyCityline-absolute-img-2020 {
+    position: absolute;
+    top: 63%;
+    left: -10%;
+    height: 27vh;
+  }
   .col-right {
     margin-top: 100px;
   }
@@ -412,6 +419,13 @@ textarea {
 .individual-property-twenty2-header-bg {
   background: linear-gradient($linearGradient1, $linearGradient2),
     url("./images//individualProperties/twenty2/twenty2-header-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.individual-property-cityline-header-bg {
+  background: linear-gradient($linearGradient1, $linearGradient2),
+    url("./images//individualProperties/cityline/cityline-header-bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

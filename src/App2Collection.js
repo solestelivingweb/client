@@ -19,6 +19,9 @@ import app2grandcentralimg2 from "./images/app2/app2-grandcentral-img-2.jpg";
 import app2springgardensimg1 from "./images/app2/app2-springgardens-img-1.jpg";
 import app2springgardensimg2 from "./images/app2/app2-springgardens-img-2.jpg";
 
+import app2citylineimg1 from "./images/app2/app2-cityline-img-1.jpg";
+import app2citylineimg2 from "./images/app2/app2-cityline-img-2.jpg";
+
 class App2 extends Component {
   render() {
     return (
@@ -101,6 +104,17 @@ class App2 extends Component {
           propertyNOWLEASING="PRE-LEASING MARCH 2022"
         // propertyMOVEINDATE="MOVE-IN JUNE 2021"
         ></PropertyRight>
+        <PropertyLeft
+          propertyIMAGE1={app2citylineimg1}
+          propertyIMAGE2={app2citylineimg2}
+          propertyNAME="CITYLINE"
+          propertyDESCRIPTION="Studio Suites, One, Two, and Three-Bedroom Apartment Homes"
+          propertyDESCRIPTION2=""
+          propertyPAGE="cityline"
+          propertyNOWLEASING="PRELEASING SUMMER 2022"
+          idfor2020={"propertyCityline-absolute-img-2020"}
+          // propertyMOVEINDATE="MOVE-IN MARCH 2021"
+        ></PropertyLeft>
         <br></br>
         <br></br>
         <br></br>

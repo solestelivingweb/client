@@ -10,6 +10,7 @@ import alameda from "../../images/Oct-2020-Alameda/1. Homepage/Soleste Alameda (
 import bayv from "../../images/Oct-2020-Bay-Village/1. Homepage/Soleste Bay Village (16).JPG";
 import grandcentral from "../../images/app/z-home-soleste-grandcentral.jpg";
 import springgard from "../../images/app/z-home-soleste-springgardens.jpg";
+import cityline from "../../images/app/z-home-soleste-cityline.jpg";
 
 // Each image
 class PropertyImage extends Component {
@@ -99,6 +100,13 @@ export default class Section3CollectionCarousel extends Component {
               propertyIMAGE={springgard}
               propertyNAME="SOLESTE SPRING GARDENS"
               propertyPAGE="/springgardens"
+            />
+          </div>
+          <div>
+            <PropertyImage
+              propertyIMAGE={cityline}
+              propertyNAME="SOLESTE CITYLINE"
+              propertyPAGE="/cityline"
             />
           </div>
         </Slider>
