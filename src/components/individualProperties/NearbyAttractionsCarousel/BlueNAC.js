@@ -460,7 +460,7 @@ function Are34() {
     <div>
       <AttractionsImage
         nbaIMAGE={daniapointe}
-        nbaNAME="Dania Pointe (shopping)"
+        nbaNAME="Dania Pointe"
         nbaDESCRIPTION="Dania Pointe is the newest addition to the area for retail shopping and entertainment. Featuring weekly live entertainment, bowling and dining options, you’ll never be bored here."
       />
     </div>
