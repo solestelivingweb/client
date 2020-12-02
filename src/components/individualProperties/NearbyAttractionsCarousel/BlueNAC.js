@@ -1,45 +1,55 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import Slider from "react-slick";
-import Fade from "react-reveal/Fade";
-import { MDBView, MDBBtn } from "mdbreact";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import Slider from 'react-slick';
+import Fade from 'react-reveal/Fade';
+import { MDBView, MDBBtn } from 'mdbreact';
 
-import venetianPool from "../../../images/undef/venetian-pool.jpg";
-import wynwoodWalls from "../../../images/undef/wynwood-walls.jpg";
-import viscaya from "../../../images/undef/viscaya.jpg";
-import GrapelandWaterPark from "../../../images/undef/GrapelandWaterPark.jpg";
-import micracleMile from "../../../images/undef/micracle-mile.jpg";
-import granadaGolfCourse from "../../../images/undef/granada-golf-course.jpg";
-import brickellCityCenter from "../../../images/undef/brickell-city-center.jpg";
-import biltmore from "../../../images/undef/biltmore.jpg";
+import venetianPool from '../../../images/undef/venetian-pool.jpg';
+import wynwoodWalls from '../../../images/undef/wynwood-walls.jpg';
+import viscaya from '../../../images/undef/viscaya.jpg';
+import GrapelandWaterPark from '../../../images/undef/GrapelandWaterPark.jpg';
+import micracleMile from '../../../images/undef/micracle-mile.jpg';
+import granadaGolfCourse from '../../../images/undef/granada-golf-course.jpg';
+import brickellCityCenter from '../../../images/undef/brickell-city-center.jpg';
+import biltmore from '../../../images/undef/biltmore.jpg';
 
 // 2nd round of changes
-import tropicalPark from "../../../images/undef/tropical-park.jpg";
-import theFalls from "../../../images/undef/thefalls.jpg";
-import deeringEstate from "../../../images/undef/deeringstate.jpg";
-import zooMiami from "../../../images/undef/miami-zoo.jpg";
-import miamiSeaquarium from "../../../images/undef/seaquarium.jpg";
-import childrensMuseul from "../../../images/undef/miami-childrens-museum.jpg";
-import baysideMarketplace from "../../../images/undef/bayside.jpg";
-import jungleIsland from "../../../images/undef/jungle-island.jpg";
-import parezArt from "../../../images/undef/perez-art-museum.jpg";
-import aaa from "../../../images/undef/aaarena.jpg";
-import frostMuseum from "../../../images/undef/frost-science-museum.jpg";
+import tropicalPark from '../../../images/undef/tropical-park.jpg';
+import theFalls from '../../../images/undef/thefalls.jpg';
+import deeringEstate from '../../../images/undef/deeringstate.jpg';
+import zooMiami from '../../../images/undef/miami-zoo.jpg';
+import miamiSeaquarium from '../../../images/undef/seaquarium.jpg';
+import childrensMuseul from '../../../images/undef/miami-childrens-museum.jpg';
+import baysideMarketplace from '../../../images/undef/bayside.jpg';
+import jungleIsland from '../../../images/undef/jungle-island.jpg';
+import parezArt from '../../../images/undef/perez-art-museum.jpg';
+import aaa from '../../../images/undef/aaarena.jpg';
+import frostMuseum from '../../../images/undef/frost-science-museum.jpg';
 
 // 3rd batch
-import adrienne from "../../../images/undef2/adrienne-arsht-center.jpg";
-import calleocho from "../../../images/undef2/calle-ocho.jpg";
-import cocogrove from "../../../images/undef2/coconut-grove.jpg";
-import coralreefpark from "../../../images/undef2/coral-reef-park.jpg";
-import countryclubprado from "../../../images/undef2/country-club-prado.jpg";
-import dolphinmall from "../../../images/undef2/dolphin-mall.jpg";
-import doralcitycenter from "../../../images/undef2/dora-city-center.jpg";
-import downtowndadeland from "../../../images/undef2/downtown-dadeland.jpg";
-import dtmiami from "../../../images/undef2/downtown-miami.jpg";
-import lincolnrd from "../../../images/undef2/lincoln-road.jpg";
-import miamiairport from "../../../images/undef2/miami-airport.jpg";
-import portmiami from "../../../images/undef2/port-miami.jpg";
-import virgintrains from "../../../images/undef2/virgin-trains.jpg";
+import adrienne from '../../../images/undef2/adrienne-arsht-center.jpg';
+import calleocho from '../../../images/undef2/calle-ocho.jpg';
+import cocogrove from '../../../images/undef2/coconut-grove.jpg';
+import coralreefpark from '../../../images/undef2/coral-reef-park.jpg';
+import countryclubprado from '../../../images/undef2/country-club-prado.jpg';
+import dolphinmall from '../../../images/undef2/dolphin-mall.jpg';
+import doralcitycenter from '../../../images/undef2/dora-city-center.jpg';
+import downtowndadeland from '../../../images/undef2/downtown-dadeland.jpg';
+import dtmiami from '../../../images/undef2/downtown-miami.jpg';
+import lincolnrd from '../../../images/undef2/lincoln-road.jpg';
+import miamiairport from '../../../images/undef2/miami-airport.jpg';
+import portmiami from '../../../images/undef2/port-miami.jpg';
+import virgintrains from '../../../images/undef2/virgin-trains.jpg';
+
+// 2020
+import daniabeach from '../../../images/undef3/dania-beach.jpg';
+import daniapointe from '../../../images/undef3/dania-pointe.jpg';
+import fta from '../../../images/undef3/fta.png';
+import seminole from '../../../images/undef3/seminole-casino.jpg';
+import lasolas from '../../../images/undef3/lasolas.jpg';
+import brightlineft from '../../../images/undef3/brightline.jpeg';
+import browardcenter from '../../../images/undef3/broward-center.jpg';
+import thewharft from '../../../images/undef3/the-wharft.jpg';
 
 // --------------------------------------
 function Are1() {
@@ -433,6 +443,96 @@ function Are32() {
   );
 }
 
+// 2020
+function Are33() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={daniabeach}
+        nbaNAME="Dania Beach"
+        nbaDESCRIPTION="With its award-winning 'Blue Wave Beaches,' nature activities and proximity to Fort Lauderdale and Hollywood, Dania Beach is an appealing vacation spot. It's also the home of the world-famous Dania Jai Alai in the center of the city's dining and entertainment district. "
+      />
+    </div>
+  );
+}
+function Are34() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={daniapointe}
+        nbaNAME="Dania Pointe (shopping)"
+        nbaDESCRIPTION="Dania Pointe is the newest addition to the area for retail shopping and entertainment. Featuring weekly live entertainment, bowling and dining options, you’ll never be bored here."
+      />
+    </div>
+  );
+}
+function Are35() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={fta}
+        nbaNAME="Fort Lauderdale-Hollywood International Airport"
+        nbaDESCRIPTION="Fort Lauderdale–Hollywood International Airport is a major public airport in Broward County, Florida, United States, and is one of three airports serving the Miami metropolitan area. "
+      />
+    </div>
+  );
+}
+function Are36() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={seminole}
+        nbaNAME="Seminole Hardrock Hotel and Casino"
+        nbaDESCRIPTION="Seminole Hard Rock Hotel & Casino Hollywood is South Florida's iconic entertainment destination that fuses an electrifying nightlife scene and non-stop gaming action in one singular setting. "
+      />
+    </div>
+  );
+}
+function Are37() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={lasolas}
+        nbaNAME="Las Olas"
+        nbaDESCRIPTION="Las Olas Boulevard is the very heart and soul of Fort Lauderdale. Stretching from the beach at A1A and rising over the fabulous Intracoastal Waterway with magnificent views. Las Olas has become the premier destination for shopping, dining, events, entertainment, galleries or even taking a nice walk. "
+      />
+    </div>
+  );
+}
+function Are38() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={brightlineft}
+        nbaNAME="Brightline Fort Lauderdale"
+        nbaDESCRIPTION="Brightline trains are like nothing you’ve ever seen before. Fort Lauderdale station is an inter-city rail station located in City of Fort Lauderdale. Connecting you to local cities like Miami and West Palm Beach."
+      />
+    </div>
+  );
+}
+function Are39() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={browardcenter}
+        nbaNAME="Broward Center of Performing Arts"
+        nbaDESCRIPTION="Opened in 1991, the Broward Center for the Performing Arts is the destination of choice in South Florida for spectacular entertainment. Check out their site for info on upcoming events."
+      />
+    </div>
+  );
+}
+function Are40() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={thewharft}
+        nbaNAME="The Wharft Fort Lauderdale"
+        nbaDESCRIPTION="An outdoor pop-up event space anchored with live music, cocktails, eats & good times in Las Olas on the banks of the New River. The place is amazingly constructed with an open format that really highlights the best parts of living downtown."
+      />
+    </div>
+  );
+}
+
 // --------------------------------------
 
 // Each image
@@ -477,69 +577,86 @@ export default class BlueNAC extends Component {
         </div>
         <Slider {...settings}>
           {/* item */}
-          {this.props.are1 ? <Are1></Are1> : ""}
+          {this.props.are1 ? <Are1></Are1> : ''}
           {/* item */}
-          {this.props.are2 ? <Are2></Are2> : ""}
+          {this.props.are2 ? <Are2></Are2> : ''}
           {/* item */}
-          {this.props.are3 ? <Are3></Are3> : ""}
+          {this.props.are3 ? <Are3></Are3> : ''}
           {/* item */}
-          {this.props.are4 ? <Are4></Are4> : ""}
+          {this.props.are4 ? <Are4></Are4> : ''}
           {/* item */}
-          {this.props.are5 ? <Are5></Are5> : ""}
+          {this.props.are5 ? <Are5></Are5> : ''}
           {/* item */}
-          {this.props.are6 ? <Are6></Are6> : ""}
+          {this.props.are6 ? <Are6></Are6> : ''}
           {/* item */}
-          {this.props.are7 ? <Are7></Are7> : ""}
+          {this.props.are7 ? <Are7></Are7> : ''}
           {/* item */}
-          {this.props.are8 ? <Are8></Are8> : ""}
+          {this.props.are8 ? <Are8></Are8> : ''}
           {/* item */}
-          {this.props.are9 ? <Are9></Are9> : ""}
+          {this.props.are9 ? <Are9></Are9> : ''}
           {/* item */}
-          {this.props.are10 ? <Are10></Are10> : ""}
+          {this.props.are10 ? <Are10></Are10> : ''}
           {/* item */}
-          {this.props.are11 ? <Are11></Are11> : ""}
+          {this.props.are11 ? <Are11></Are11> : ''}
           {/* item */}
-          {this.props.are12 ? <Are12></Are12> : ""}
+          {this.props.are12 ? <Are12></Are12> : ''}
           {/* item */}
-          {this.props.are13 ? <Are13></Are13> : ""}
+          {this.props.are13 ? <Are13></Are13> : ''}
           {/* item */}
-          {this.props.are14 ? <Are14></Are14> : ""}
+          {this.props.are14 ? <Are14></Are14> : ''}
           {/* item */}
-          {this.props.are15 ? <Are15></Are15> : ""}
+          {this.props.are15 ? <Are15></Are15> : ''}
           {/* item */}
-          {this.props.are16 ? <Are16></Are16> : ""}
+          {this.props.are16 ? <Are16></Are16> : ''}
           {/* item */}
-          {this.props.are17 ? <Are17></Are17> : ""}
+          {this.props.are17 ? <Are17></Are17> : ''}
           {/* item */}
-          {this.props.are18 ? <Are18></Are18> : ""}
+          {this.props.are18 ? <Are18></Are18> : ''}
           {/* item */}
-          {this.props.are19 ? <Are19></Are19> : ""}
+          {this.props.are19 ? <Are19></Are19> : ''}
           {/* item */}
-          {this.props.are20 ? <Are20></Are20> : ""}
+          {this.props.are20 ? <Are20></Are20> : ''}
           {/* item */}
-          {this.props.are21 ? <Are21></Are21> : ""}
+          {this.props.are21 ? <Are21></Are21> : ''}
           {/* item */}
-          {this.props.are22 ? <Are22></Are22> : ""}
+          {this.props.are22 ? <Are22></Are22> : ''}
           {/* item */}
-          {this.props.are23 ? <Are23></Are23> : ""}
+          {this.props.are23 ? <Are23></Are23> : ''}
           {/* item */}
-          {this.props.are24 ? <Are24></Are24> : ""}
+          {this.props.are24 ? <Are24></Are24> : ''}
           {/* item */}
-          {this.props.are25 ? <Are25></Are25> : ""}
+          {this.props.are25 ? <Are25></Are25> : ''}
           {/* item */}
-          {this.props.are26 ? <Are26></Are26> : ""}
+          {this.props.are26 ? <Are26></Are26> : ''}
           {/* item */}
-          {this.props.are27 ? <Are27></Are27> : ""}
+          {this.props.are27 ? <Are27></Are27> : ''}
           {/* item */}
-          {this.props.are28 ? <Are28></Are28> : ""}
+          {this.props.are28 ? <Are28></Are28> : ''}
           {/* item */}
-          {this.props.are29 ? <Are29></Are29> : ""}
+          {this.props.are29 ? <Are29></Are29> : ''}
           {/* item */}
-          {this.props.are30 ? <Are30></Are30> : ""}
+          {this.props.are30 ? <Are30></Are30> : ''}
           {/* item */}
-          {this.props.are31 ? <Are31></Are31> : ""}
+          {this.props.are31 ? <Are31></Are31> : ''}
           {/* item */}
-          {this.props.are32 ? <Are32></Are32> : ""}
+          {this.props.are32 ? <Are32></Are32> : ''}
+          {/* item */}
+          {/* 2020 */}
+          {this.props.are33 ? <Are33></Are33> : ''}
+          {/* item */}
+          {this.props.are34 ? <Are34></Are34> : ''}
+          {/* item */}
+          {this.props.are35 ? <Are35></Are35> : ''}
+          {/* item */}
+          {this.props.are36 ? <Are36></Are36> : ''}
+          {/* item */}
+          {this.props.are37 ? <Are37></Are37> : ''}
+          {/* item */}
+          {this.props.are38 ? <Are38></Are38> : ''}
+          {/* item */}
+          {this.props.are39 ? <Are39></Are39> : ''}
+          {/* item */}
+          {this.props.are40 ? <Are40></Are40> : ''}
           {/* item */}
         </Slider>
         <Fade>

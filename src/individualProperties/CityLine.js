@@ -47,33 +47,42 @@ export default class CityLine extends Component {
       are3: false, //Venetian Pool
       are4: false, //Granada Gold Course
       are5: false, //The Biltmore Hotel
-      are6: true, //Wynwood Walls
+      are6: false, //Wynwood Walls
       are7: false, //Vizcaya Museum and Gardens
-      are8: true, //Brickell City Center
+      are8: false, //Brickell City Center
       are9: false, //Tropical Park
       are10: false, //The Falls
       are11: false, //Deering Estate
       are12: false, //Zoo Miami
-      are13: true, //Miami Seaquarium
-      are14: true, //Miami Children’s Museum
-      are15: true, //Bayside Marketplace
-      are16: true, //Jungle Island
-      are17: true, //Perez Art Museum
-      are18: true, //American Airlines Arena
-      are19: true, //Frost Museum
-      are20: true, //Adrienne Arsht Center
+      are13: false, //Miami Seaquarium
+      are14: false, //Miami Children’s Museum
+      are15: false, //Bayside Marketplace
+      are16: false, //Jungle Island
+      are17: false, //Perez Art Museum
+      are18: false, //American Airlines Arena
+      are19: false, //Frost Museum
+      are20: false, //Adrienne Arsht Center
       are21: false, //Calle Ocho
       are22: false, //Coconut Grove
       are23: false, //Coral Reef Park
       are24: false, //Country Club Prado
       are25: false, //Dolphin Mall
-      are26: true, //Doral City Center
+      are26: false, //Doral City Center
       are27: false, //Downtown Dadeland
-      are28: true, //Downtown Miami
-      are29: true, //Lincoln Road
+      are28: false, //Downtown Miami
+      are29: false, //Lincoln Road
       are30: false, //Miami International Airport
-      are31: true, //Port of Miami
-      are32: true, //Virgin Trains
+      are31: false, //Port of Miami
+      are32: false, //Virgin Trains
+      // 2020
+      are33: true, //Dania Beach
+      are34: true, //Dania Pointe (shopping)
+      are35: true, //Fort Lauderdale-Hollywood International Airport
+      are36: true, //Seminole Hardrock Hotel and Casino
+      are37: true, //Las Olas
+      are38: true, //Brightline Fort Lauderdale
+      are39: true, //Broward center of performing arts
+      are40: true, //Th awharf
     };
   }
   render() {
@@ -148,6 +157,15 @@ export default class CityLine extends Component {
           are30={this.state.are30}
           are31={this.state.are31}
           are32={this.state.are32}
+          // 2020
+          are33={this.state.are33}
+          are34={this.state.are34}
+          are35={this.state.are35}
+          are36={this.state.are36}
+          are37={this.state.are37}
+          are38={this.state.are38}
+          are39={this.state.are39}
+          are40={this.state.are40}
         ></BlueNAC>
         <ContactThisProperty
           propertyNAME="CITYLINE"
