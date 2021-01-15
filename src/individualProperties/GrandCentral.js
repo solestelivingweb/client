@@ -205,7 +205,7 @@ the Brightline train, just steps away from your doorstep. Welcome home."
           googlemap="..."
           isSocial={this.state.isSocial}
           contactUs={this.state.contactUs}
-          embedMap="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2676.2883937148595!2d-80.19995594727172!3d25.78085121891616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6bd5b747057%3A0xc5630d12ef369230!2s777%20NW%203rd%20Ave%2C%20Miami%2C%20FL%2033030!5e0!3m2!1sen!2sus!4v1610725257773!5m2!1sen!2sus"
+          embedMap="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1796.3348739945473!2d-80.20076834190118!3d25.781469695906974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6a28a07a881%3A0xa74a4e96c1dc6799!2sSoleste%20Grand%20Central!5e0!3m2!1sen!2sus!4v1610735263289!5m2!1sen!2sus"
         ></ContactThisProperty>
         <FooterPage></FooterPage>
       </div>
