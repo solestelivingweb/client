@@ -98,7 +98,7 @@ export default class FeedbackForm extends Component {
               >
                 <option>Community</option>
                 <option value="Blue Lagoon">Blue Lagoon</option>
-                <option value="Twenty2">Twenty2</option>
+                {/* <option value="Twenty2">Twenty2</option> */}
                 <option value="Alameda">Alameda</option>
                 <option value="Bay Village">Bay Village</option>
                 <option value="Grand Central">Grand Central</option>

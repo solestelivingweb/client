@@ -36,7 +36,7 @@ class App2 extends Component {
           pageBACKGROUND="app2Collection-header-bg"
           pageNAME="COLLECTION"
         ></EachPageHeader>
-        <PropertyLeft
+        <PropertyRight
           propertyIMAGE1={app2bluelagoonimg1}
           propertyIMAGE2={app2bluelagoonimg2}
           idfor2020={"propertyLeft-absolute-img-2020"}
@@ -47,8 +47,8 @@ class App2 extends Component {
           propertyPAGE="/bluelagoon"
           propertyNOWLEASING="NOW LEASING"
         // propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
-        ></PropertyLeft>
-        <PropertyRight
+        ></PropertyRight>
+        {/* <PropertyRight
           propertyIMAGE1={app2twenty2img1}
           propertyIMAGE2={app2twenty2img2}
           propertyNAME="TWENTY2"
@@ -58,7 +58,7 @@ class App2 extends Component {
           propertyPAGE="/twenty2"
           propertyNOWLEASING="NOW LEASING"
         // propertyMOVEINDATE="MOVE-IN OCTOBER 2019"
-        ></PropertyRight>
+        ></PropertyRight> */}
         <PropertyLeft
           propertyIMAGE1={app2alamedaimg1}
           propertyIMAGE2={app2alamedaimg2}
@@ -91,8 +91,8 @@ class App2 extends Component {
           propertyDESCRIPTION="Studio Suites, One, Two, and Three-Bedroom Apartment Homes"
           propertyDESCRIPTION2=""
           propertyPAGE="grandcentral"
-          propertyNOWLEASING="PRE-LEASING JANUARY 2021"
-          propertyMOVEINDATE="MOVE-IN MARCH 2021"
+          propertyNOWLEASING="NOW LEASING"
+          propertyMOVEINDATE="MOVE-IN JUNE 2021"
         ></PropertyLeft>
         <PropertyRight
           propertyIMAGE1={app2springgardensimg1}
@@ -113,7 +113,7 @@ class App2 extends Component {
           propertyPAGE="cityline"
           propertyNOWLEASING="PRELEASING SUMMER 2022"
           idfor2020={"propertyCityline-absolute-img-2020"}
-          // propertyMOVEINDATE="MOVE-IN MARCH 2021"
+        // propertyMOVEINDATE="MOVE-IN MARCH 2021"
         ></PropertyLeft>
         <br></br>
         <br></br>

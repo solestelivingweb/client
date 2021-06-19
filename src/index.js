@@ -35,7 +35,7 @@ const routing = (
         <Route path="/about" component={App3About} />
         <Route path="/contact" component={App4Contact} />
         <Route path="/bluelagoon" component={BlueLagoon} />
-        <Route path="/twenty2" component={Twenty2} />
+        {/* <Route path="/twenty2" component={Twenty2} /> */}
         <Route path="/alameda" component={Alameda} />
         <Route path="/bayvillage" component={BayVillage} />
         <Route path="/parkview" component={ParkView} />

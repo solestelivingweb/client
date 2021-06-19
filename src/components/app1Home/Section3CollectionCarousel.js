@@ -67,13 +67,13 @@ export default class Section3CollectionCarousel extends Component {
               propertyPAGE="/bluelagoon"
             />
           </div>
-          <div>
+          {/* <div>
             <PropertyImage
               propertyIMAGE={tw2}
               propertyNAME="SOLESTE TWENTY2"
               propertyPAGE="/twenty2"
             />
-          </div>
+          </div> */}
           <div>
             <PropertyImage
               propertyIMAGE={alameda}
