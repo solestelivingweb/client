@@ -13,9 +13,28 @@ import citylineleftimg from "../images/individualProperties/cityline/cityline-le
 import citylinerightimg from "../images/individualProperties/cityline/cityline-right-img.jpg";
 import citylinemiddlebottomimg from "../images/individualProperties/cityline/cityline-mid-bottom-img.jpg";
 
-const propertyComponentListShortArrLeft = ["COMING SOON"];
+const propertyComponentListShortArrLeft = [
+  'Luxer Package Room',
+  'Dry Cleaning Lockers',
+  'Bark Park',
+  'Outdoor Fitness Area',
+  'Pet Wash Station',
+];
 
-const propertyComponentListLongArrLeft = ["COMING SOON"];
+const propertyComponentListLongArrLeft = [
+  'Luxer Package Room',
+  'Dry Cleaning Lockers',
+  'Bark Park',
+  'Outdoor Fitness Area',
+  'Pet Wash Station',
+  'Resident Fitness Center featuring Hi-Tech Cardio Gear & Free Weights',
+  'Yoga & Spin Studio',
+  'Sauna & Steam Room',
+  'Resort-Inspired Pool',
+  'Cabanas',
+  'Social Lounge',
+  'Al-Fresco Dining featuring Summer Kitchen & Grills'
+];
 
 const propertyComponentListShortLeft = propertyComponentListShortArrLeft.map(
   (i) => <li key={i}>{i}</li>
@@ -25,9 +44,29 @@ const propertyComponentListLongLeft = propertyComponentListLongArrLeft.map(
 );
 
 // right
-const propertyComponentListShortArrRight = ["COMING SOON"];
+const propertyComponentListShortArrRight = [
+  'Sleek, Modern Kitchens with Custom Cabinets',
+  'Quartz Countertops',
+  'Stainless Steel Appliances',
+  'Designer Lighting',
+  'Chef’s Island*',
+];
 
-const propertyComponentListLongArrRight = ["COMING SOON"];
+const propertyComponentListLongArrRight = [
+  'Sleek, Modern Kitchens with Custom Cabinets',
+  'Quartz Countertops',
+  'Stainless Steel Appliances',
+  'Designer Lighting',
+  'Chef’s Island*',
+  'Gourmet Kitchen Appliances Package',
+  'Full-Size Washer & Dryer',
+  'Double Master-En-Suites & Private Balcones',
+  'Ceiling Fans',
+  'Spacious Walk-In Closets',
+  'Impact Resistant Windows & Sliding Glass Doors',
+  'Over-Sized Terraces*',
+  'Pantry & Linen Closet*',
+];
 
 const propertyComponentListShortRight = propertyComponentListShortArrRight.map(
   (i) => <li key={i}>{i}</li>
@@ -108,7 +147,7 @@ export default class CityLine extends Component {
           propertyComponentPrice=""
           propertyComponentImage={citylinemiddletopimg}
           propertyNOWLEASING="PRELEASING SUMMER 2022"
-          // propertyMOVEINDATE="MOVE-IN JUNE 2021"
+        // propertyMOVEINDATE="MOVE-IN JUNE 2021"
         ></PropertySGONLYDescriptionMiddleTop>
         <PropertyDescriptionLeft
           propertyComponentImage={citylineleftimg}

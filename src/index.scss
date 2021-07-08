@@ -366,6 +366,13 @@ textarea {
 }
 
 // Individual properties
+.individual-property-nomi-header-bg {
+  background: linear-gradient($linearGradient1, $linearGradient2),
+    url("./images/individualProperties/nomi/laura-chouette-G2xsltZ_rHk-unsplash.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .individual-property-alameda-header-bg {
   background: linear-gradient($linearGradient1, $linearGradient2),
     url("./images/individualProperties/alameda/alameda-header-bg.jpg");

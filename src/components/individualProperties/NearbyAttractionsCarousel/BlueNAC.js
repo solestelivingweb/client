@@ -51,6 +51,16 @@ import brightlineft from '../../../images/undef3/brightline.jpeg';
 import browardcenter from '../../../images/undef3/broward-center.jpg';
 import thewharft from '../../../images/undef3/the-wharft.jpg';
 
+// 2021
+import tidalcovewaterpark from '../../../images/undef/2021/tidalcovewaterpark.jpeg';
+import sunnyislesbeach from '../../../images/undef/2021/sunnyislesbeach.jpeg';
+import oletariverstatepark from '../../../images/undef/2021/oletariverstatepark.jpeg';
+import judgesrthursnydertenniscenter from '../../../images/undef/2021/judgesrthursnydertenniscenter.jpeg';
+import hardrockstadium from '../../../images/undef/2021/hardrockstadium.jpeg';
+import gulfstreamparkracingandcasino from '../../../images/undef/2021/gulfstreamparkracingandcasino.jpeg';
+import balharborshops from '../../../images/undef/2021/balharborshops.jpeg';
+import aventuramall from '../../../images/undef/2021/aventuramall.jpeg';
+
 // --------------------------------------
 function Are1() {
   return (
@@ -532,6 +542,103 @@ function Are40() {
     </div>
   );
 }
+// TODO:
+// nomi
+function Are41() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={oletariverstatepark}
+        nbaNAME="Oleta River State Park"
+        nbaDESCRIPTION="............."
+      />
+    </div>
+  );
+}
+
+function Are42() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={balharborshops}
+        nbaNAME="Bal Harbour Shops"
+        nbaDESCRIPTION="............."
+      />
+    </div>
+  );
+}
+
+function Are43() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={tidalcovewaterpark}
+        nbaNAME="Tidal Cove Water Park"
+        nbaDESCRIPTION="............."
+      />
+    </div>
+  );
+}
+
+function Are44() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={gulfstreamparkracingandcasino}
+        nbaNAME="Gulfstream Park Racing and Casino"
+        nbaDESCRIPTION="............."
+      />
+    </div>
+  );
+}
+
+function Are45() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={aventuramall}
+        nbaNAME="Aventura Mall"
+        nbaDESCRIPTION="............."
+      />
+    </div>
+  );
+}
+
+function Are46() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={sunnyislesbeach}
+        nbaNAME="Sunny Isles Beach"
+        nbaDESCRIPTION="............."
+      />
+    </div>
+  );
+}
+
+function Are47() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={judgesrthursnydertenniscenter}
+        nbaNAME="Judge Arthur Snyder Tennis Center"
+        nbaDESCRIPTION="............."
+      />
+    </div>
+  );
+}
+
+function Are48() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={hardrockstadium}
+        nbaNAME="Hard Rock Stadium"
+        nbaDESCRIPTION="............."
+      />
+    </div>
+  );
+}
 
 // --------------------------------------
 
@@ -657,6 +764,23 @@ export default class BlueNAC extends Component {
           {this.props.are39 ? <Are39></Are39> : ''}
           {/* item */}
           {this.props.are40 ? <Are40></Are40> : ''}
+          {/* item */}
+          {/* nomi */}
+          {this.props.are41 ? <Are41></Are41> : ''}
+          {/* item */}
+          {this.props.are42 ? <Are42></Are42> : ''}
+          {/* item */}
+          {this.props.are43 ? <Are43></Are43> : ''}
+          {/* item */}
+          {this.props.are44 ? <Are44></Are44> : ''}
+          {/* item */}
+          {this.props.are45 ? <Are45></Are45> : ''}
+          {/* item */}
+          {this.props.are46 ? <Are46></Are46> : ''}
+          {/* item */}
+          {this.props.are47 ? <Are47></Are47> : ''}
+          {/* item */}
+          {this.props.are48 ? <Are48></Are48> : ''}
           {/* item */}
         </Slider>
         <Fade>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as emailjs from "emailjs-com";
-import { MDBBtn } from "mdbreact";
+import { MDBBtn, MDBAlert } from "mdbreact";
 import Fade from "react-reveal/Fade";
 
 export default class FeedbackForm extends Component {
@@ -13,37 +13,49 @@ export default class FeedbackForm extends Component {
     moveInDate: "",
     unitSize: "",
     priceRange: "",
+    errors: {
+      community: false
+    }
   };
   handleSubmit(e) {
-    e.preventDefault();
-    const {
-      name,
-      email,
-      phoneNumber,
-      message,
-      community,
-      moveInDate,
-      unitSize,
-      priceRange,
-    } = this.state;
-    let templateParams = {
-      from_name: name,
-      from_email: email,
-      to_name: "Soleste Living",
-      phoneNumber: phoneNumber,
-      message_html: message,
-      community: community,
-      moveInDate: moveInDate,
-      unitSize: unitSize,
-      priceRange: priceRange,
-    };
-    emailjs.send(
-      "gmail",
-      "template_pS8Fo0Xc",
-      templateParams,
-      "user_Yc2XoxwXHDhbolo6bkiGw"
-    );
-    this.resetForm();
+    if (this.state.community === '') {
+      e.preventDefault();
+      this.setState({
+        errors: {
+          community: true
+        }
+      })
+    } else {
+      e.preventDefault();
+      const {
+        name,
+        email,
+        phoneNumber,
+        message,
+        community,
+        moveInDate,
+        unitSize,
+        priceRange,
+      } = this.state;
+      let templateParams = {
+        from_name: name,
+        from_email: email,
+        to_name: "Soleste Living",
+        phoneNumber: phoneNumber,
+        message_html: message,
+        community: community,
+        moveInDate: moveInDate,
+        unitSize: unitSize,
+        priceRange: priceRange,
+      };
+      emailjs.send(
+        "gmail",
+        "template_pS8Fo0Xc",
+        templateParams,
+        "user_Yc2XoxwXHDhbolo6bkiGw"
+      );
+      this.resetForm();
+    }
   }
   resetForm() {
     this.setState({
@@ -54,7 +66,9 @@ export default class FeedbackForm extends Component {
       community: "",
       moveInDate: "",
       unitSize: "",
-      priceRange: "",
+      priceRange: "", errors: {
+        community: false
+      }
     });
   }
   handleChange = (param, e) => {
@@ -96,7 +110,8 @@ export default class FeedbackForm extends Component {
                 onChange={this.handleChange.bind(this, "community")}
                 value={this.state.comunnity}
               >
-                <option>Community</option>
+                <option value=''>Community</option>
+                <option value="NoMi">NoMi</option>
                 <option value="Blue Lagoon">Blue Lagoon</option>
                 {/* <option value="Twenty2">Twenty2</option> */}
                 <option value="Alameda">Alameda</option>
@@ -105,6 +120,10 @@ export default class FeedbackForm extends Component {
                 <option value="Spring Gardens">Spring Gardens</option>
                 <option value="Cityline">Cityline</option>
               </select>
+              {this.state.errors.community === true ? <MDBAlert color="warning" >
+                Please select a property.
+              </MDBAlert> : ''}
+
               <select
                 className="browser-default custom-select form-control rounded-0 mt-3"
                 onChange={this.handleChange.bind(this, "unitSize")}
@@ -155,7 +174,7 @@ export default class FeedbackForm extends Component {
             </div>
           </form>
         </div>
-      </Fade>
+      </Fade >
     );
   }
 }

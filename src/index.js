@@ -21,6 +21,7 @@ import ParkView from "./individualProperties/ParkView";
 import GrandCentral from "./individualProperties/GrandCentral";
 import SpringGardens from "./individualProperties/SpringGardens";
 import CityLine from "./individualProperties/CityLine";
+import NoMi from "./individualProperties/NoMi";
 // import registerServiceWorker from "./registerServiceWorker";
 import NotFound from "./PageNotFound";
 
@@ -42,6 +43,7 @@ const routing = (
         <Route path="/grandcentral" component={GrandCentral} />
         <Route path="/springgardens" component={SpringGardens} />
         <Route path="/cityline" component={CityLine} />
+        <Route path="/nomi" component={NoMi} />
         <Route path="*" component={NotFound} />
       </div>
     </Analytics>

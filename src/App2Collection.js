@@ -12,10 +12,15 @@ import app2twenty2img1 from "./images/app2/app2-twenty2-img-1.jpg";
 import app2twenty2img2 from "./images/app2/app2-twenty2-img-2.jpg";
 import app2alamedaimg1 from "./images/Oct-2020-Alameda/2. Collection Page/Soleste Alameda (1).JPG";
 import app2alamedaimg2 from "./images/Oct-2020-Alameda/2. Collection Page/Picture of Woman.jpg";
+// nomi
+import app2nomiimg1 from "./images/individualProperties/nomi/Escultura-Final.png";
+import app2nomiimg2 from "./images/individualProperties/nomi/ivan-dodig-R21SyyJDFgc-unsplash.jpg";
 import app2bayvillageimg1 from "./images/Oct-2020-Bay-Village/2. Collection Page/Soleste Bay Village (11).JPG";
 import app2bayvillageimg2 from "./images/Oct-2020-Bay-Village/2. Collection Page/Picture of Man.jpg";
 import app2grandcentralimg1 from "./images/app2/app2-grandcentral-img-1.jpg";
 import app2grandcentralimg2 from "./images/app2/app2-grandcentral-img-2.jpg";
+// grand central image 2021
+import app2grandcentralimg3 from "./images/app2/AdobeStock_327756309 (1).jpeg";
 import app2springgardensimg1 from "./images/app2/app2-springgardens-img-1.jpg";
 import app2springgardensimg2 from "./images/app2/app2-springgardens-img-2.jpg";
 
@@ -36,6 +41,18 @@ class App2 extends Component {
           pageBACKGROUND="app2Collection-header-bg"
           pageNAME="COLLECTION"
         ></EachPageHeader>
+        {/* TODO: */}
+        <PropertyLeft
+          propertyIMAGE1={app2nomiimg1}
+          propertyIMAGE2={app2nomiimg2}
+          propertyNAME="NOMI"
+          propertyDESCRIPTION="Studio, One and Two-Bedroom Apartment Homes"
+          // propertyDESCRIPTION2="Homes starting at"
+          // propertyPRICE="$1,475"
+          propertyPAGE="/nomi"
+          propertyNOWLEASING="TO BE ANNOUNCED"
+        // propertyMOVEINDATE="MOVE-IN MARCH 2020"
+        ></PropertyLeft>
         <PropertyRight
           propertyIMAGE1={app2bluelagoonimg1}
           propertyIMAGE2={app2bluelagoonimg2}
@@ -86,7 +103,7 @@ class App2 extends Component {
         ></PropertyRight>
         <PropertyLeft
           propertyIMAGE1={app2grandcentralimg1}
-          propertyIMAGE2={app2grandcentralimg2}
+          propertyIMAGE2={app2grandcentralimg3}
           propertyNAME="GRAND CENTRAL"
           propertyDESCRIPTION="Studio Suites, One, Two, and Three-Bedroom Apartment Homes"
           propertyDESCRIPTION2=""
