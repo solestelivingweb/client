@@ -41,7 +41,6 @@ class App2 extends Component {
           pageBACKGROUND="app2Collection-header-bg"
           pageNAME="COLLECTION"
         ></EachPageHeader>
-        {/* TODO: */}
         <PropertyLeft
           propertyIMAGE1={app2nomiimg1}
           propertyIMAGE2={app2nomiimg2}

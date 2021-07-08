@@ -110,7 +110,6 @@ export default class Section3CollectionCarousel extends Component {
               propertyPAGE="/cityline"
             />
           </div>
-          {/* TODO: */}
           <div>
             <PropertyImage
               propertyIMAGE={nomi}

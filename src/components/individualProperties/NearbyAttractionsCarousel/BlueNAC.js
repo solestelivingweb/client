@@ -542,7 +542,6 @@ function Are40() {
     </div>
   );
 }
-// TODO:
 // nomi
 function Are41() {
   return (
@@ -550,7 +549,7 @@ function Are41() {
       <AttractionsImage
         nbaIMAGE={oletariverstatepark}
         nbaNAME="Oleta River State Park"
-        nbaDESCRIPTION="............."
+        nbaDESCRIPTION="The Oleta River State Park is a 1,043-acre Florida State Park on Biscayne Bay in the municipal suburb of North Miami in metropolitan Miami, Florida."
       />
     </div>
   );
@@ -562,7 +561,7 @@ function Are42() {
       <AttractionsImage
         nbaIMAGE={balharborshops}
         nbaNAME="Bal Harbour Shops"
-        nbaDESCRIPTION="............."
+        nbaDESCRIPTION="Bal Harbour Shops is an open-air shopping mall in Bal Harbour, a suburb of Miami, Florida"
       />
     </div>
   );
@@ -574,7 +573,7 @@ function Are43() {
       <AttractionsImage
         nbaIMAGE={tidalcovewaterpark}
         nbaNAME="Tidal Cove Water Park"
-        nbaDESCRIPTION="............."
+        nbaDESCRIPTION="Tidal Cove is an Aventura waterpark with multiple thrilling waterslides, a gravity-​defying raft ride, a slow-moving lazy river, and a kid-friendly water playground."
       />
     </div>
   );
@@ -586,7 +585,7 @@ function Are44() {
       <AttractionsImage
         nbaIMAGE={gulfstreamparkracingandcasino}
         nbaNAME="Gulfstream Park Racing and Casino"
-        nbaDESCRIPTION="............."
+        nbaDESCRIPTION="Gulfstream Park | Entertainment destination featuring thoroughbred racing, casinos, shopping & dining. In Hallandale Beach, FL. Minutes from Miami."
       />
     </div>
   );
@@ -598,7 +597,7 @@ function Are45() {
       <AttractionsImage
         nbaIMAGE={aventuramall}
         nbaNAME="Aventura Mall"
-        nbaDESCRIPTION="............."
+        nbaDESCRIPTION="Chic 3-story mall features luxe designer shops, dining & a theater, plus an interactive playground."
       />
     </div>
   );
@@ -610,7 +609,7 @@ function Are46() {
       <AttractionsImage
         nbaIMAGE={sunnyislesbeach}
         nbaNAME="Sunny Isles Beach"
-        nbaDESCRIPTION="............."
+        nbaDESCRIPTION="Sunny Isles Beach is a city located on a barrier island in northeast Miami-Dade County, Florida, United States. The city is bounded by the Atlantic Ocean on the east and the Intracoastal Waterway on the west."
       />
     </div>
   );
@@ -622,7 +621,7 @@ function Are47() {
       <AttractionsImage
         nbaIMAGE={judgesrthursnydertenniscenter}
         nbaNAME="Judge Arthur Snyder Tennis Center"
-        nbaDESCRIPTION="............."
+        nbaDESCRIPTION="The Judge Arthur I. Snyder Tennis Center in North Miami Beach has ample digs for tennis, paddleball and racquet ball. To be specific, there are 12 clay courts."
       />
     </div>
   );
@@ -634,7 +633,7 @@ function Are48() {
       <AttractionsImage
         nbaIMAGE={hardrockstadium}
         nbaNAME="Hard Rock Stadium"
-        nbaDESCRIPTION="............."
+        nbaDESCRIPTION="Hard Rock Stadium is a multi-purpose stadium located in Miami Gardens, Florida, a city north of Miami. It is the home stadium of the Miami Dolphins of the National Football League."
       />
     </div>
   );

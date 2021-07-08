@@ -156,7 +156,6 @@ export default class CityLine extends Component {
                     pageNAME="NOMI"
                 ></EachPageHeader>
                 <PropertySGONLYDescriptionMiddleTop
-                    // TODO:
                     propertyComponentTitle="FEATURING LUXURIOUS AMENITIES AND RESORT-STYLE LIVING"
                     propertyComponentDescription="Studio Suites, One, Two, and Three-Bedroom Apartment Homes"
                     propertyComponentParagraph="Step into our community where our staff will welcome you at our lobby and reception area. Featuring luxurious amenities and resort-style living, Soleste NoMi Beach invites you to comfort and leisure, a place you can proudly call home. Located in between Sunny Isles and Aventura, a haven for commuters, beach goers and shoppers there’s an array of convenient and attractive locations just a few miles away."
