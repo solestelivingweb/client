@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 import { MDBMask, MDBView, MDBBtn } from "mdbreact";
 
 import bluelag from "../../images/app/z-home-soleste-bluelagoon.jpg";
-import tw2 from "../../images/app/z-home-soleste-twenty2.jpg";
+// import tw2 from "../../images/app/z-home-soleste-twenty2.jpg";
 import alameda from "../../images/Oct-2020-Alameda/1. Homepage/Soleste Alameda (48).JPG";
 import bayv from "../../images/Oct-2020-Bay-Village/1. Homepage/Soleste Bay Village (16).JPG";
 import grandcentral from "../../images/app/z-home-soleste-grandcentral.jpg";
@@ -113,7 +113,7 @@ export default class Section3CollectionCarousel extends Component {
           <div>
             <PropertyImage
               propertyIMAGE={nomi}
-              propertyNAME="NOMI"
+              propertyNAME="SOLESTE NOMI"
               propertyPAGE="/nomi"
             />
           </div>

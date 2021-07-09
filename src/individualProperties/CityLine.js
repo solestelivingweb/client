@@ -146,7 +146,7 @@ export default class CityLine extends Component {
           to spend your time, there is so much to see and do. It’s all waiting for you at Soleste Cityline."
           propertyComponentPrice=""
           propertyComponentImage={citylinemiddletopimg}
-          propertyNOWLEASING="PRELEASING SUMMER 2022"
+          propertyNOWLEASING="PRE-LEASING SUMMER 2022"
         // propertyMOVEINDATE="MOVE-IN JUNE 2021"
         ></PropertySGONLYDescriptionMiddleTop>
         <PropertyDescriptionLeft

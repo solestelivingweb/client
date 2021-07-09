@@ -8,8 +8,8 @@ import FooterPage from "./components/FooterPage";
 // import app2bluelagoonimg1 from "./images/app2/app2-blue-lagoon-img-1.jpg";
 import app2bluelagoonimg1 from "./images/app2/app2-blue-lagoon-img-1-2020.jpg";
 import app2bluelagoonimg2 from "./images/app2/app2-blue-lagoon-img-2.jpg";
-import app2twenty2img1 from "./images/app2/app2-twenty2-img-1.jpg";
-import app2twenty2img2 from "./images/app2/app2-twenty2-img-2.jpg";
+// import app2twenty2img1 from "./images/app2/app2-twenty2-img-1.jpg";
+// import app2twenty2img2 from "./images/app2/app2-twenty2-img-2.jpg";
 import app2alamedaimg1 from "./images/Oct-2020-Alameda/2. Collection Page/Soleste Alameda (1).JPG";
 import app2alamedaimg2 from "./images/Oct-2020-Alameda/2. Collection Page/Picture of Woman.jpg";
 // nomi
@@ -18,7 +18,7 @@ import app2nomiimg2 from "./images/individualProperties/nomi/ivan-dodig-R21SyyJD
 import app2bayvillageimg1 from "./images/Oct-2020-Bay-Village/2. Collection Page/Soleste Bay Village (11).JPG";
 import app2bayvillageimg2 from "./images/Oct-2020-Bay-Village/2. Collection Page/Picture of Man.jpg";
 import app2grandcentralimg1 from "./images/app2/app2-grandcentral-img-1.jpg";
-import app2grandcentralimg2 from "./images/app2/app2-grandcentral-img-2.jpg";
+// import app2grandcentralimg2 from "./images/app2/app2-grandcentral-img-2.jpg";
 // grand central image 2021
 import app2grandcentralimg3 from "./images/app2/AdobeStock_327756309 (1).jpeg";
 import app2springgardensimg1 from "./images/app2/app2-springgardens-img-1.jpg";
@@ -127,7 +127,7 @@ class App2 extends Component {
           propertyDESCRIPTION="Studio Suites, One, Two, and Three-Bedroom Apartment Homes"
           propertyDESCRIPTION2=""
           propertyPAGE="cityline"
-          propertyNOWLEASING="PRELEASING SUMMER 2022"
+          propertyNOWLEASING="PRE-LEASING SUMMER 2022"
           idfor2020={"propertyCityline-absolute-img-2020"}
         // propertyMOVEINDATE="MOVE-IN MARCH 2021"
         ></PropertyLeft>

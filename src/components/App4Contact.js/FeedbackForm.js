@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as emailjs from "emailjs-com";
-import { MDBBtn, MDBAlert } from "mdbreact";
+import { MDBBtn, MDBBadge } from "mdbreact";
 import Fade from "react-reveal/Fade";
 
 export default class FeedbackForm extends Component {
@@ -13,17 +13,13 @@ export default class FeedbackForm extends Component {
     moveInDate: "",
     unitSize: "",
     priceRange: "",
-    errors: {
-      community: false
-    }
+    errors: false
   };
   handleSubmit(e) {
     if (this.state.community === '') {
       e.preventDefault();
       this.setState({
-        errors: {
-          community: true
-        }
+        errors: true
       })
     } else {
       e.preventDefault();
@@ -66,9 +62,8 @@ export default class FeedbackForm extends Component {
       community: "",
       moveInDate: "",
       unitSize: "",
-      priceRange: "", errors: {
-        community: false
-      }
+      priceRange: "",
+      errors: false
     });
   }
   handleChange = (param, e) => {
@@ -97,6 +92,8 @@ export default class FeedbackForm extends Component {
                 placeholder="Email"
                 className="form-control rounded-0 mt-3"
               />
+              {this.state.errors === true ? <MDBBadge color="warning">Required</MDBBadge> : ''}
+
               <input
                 type="number"
                 name="phoneNumber"
@@ -120,9 +117,7 @@ export default class FeedbackForm extends Component {
                 <option value="Spring Gardens">Spring Gardens</option>
                 <option value="Cityline">Cityline</option>
               </select>
-              {this.state.errors.community === true ? <MDBAlert color="warning" >
-                Please select a property.
-              </MDBAlert> : ''}
+              {this.state.errors === true ? <MDBBadge color="warning">Required</MDBBadge> : ''}
 
               <select
                 className="browser-default custom-select form-control rounded-0 mt-3"

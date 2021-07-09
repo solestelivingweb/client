@@ -536,7 +536,7 @@ function Are40() {
     <div>
       <AttractionsImage
         nbaIMAGE={thewharft}
-        nbaNAME="The Wharft Fort Lauderdale"
+        nbaNAME="The Wharf Fort Lauderdale"
         nbaDESCRIPTION="An outdoor pop-up event space anchored with live music, cocktails, eats & good times in Las Olas on the banks of the New River. The place is amazingly constructed with an open format that really highlights the best parts of living downtown."
       />
     </div>

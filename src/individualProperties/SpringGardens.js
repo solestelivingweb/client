@@ -43,24 +43,27 @@ const propertyComponentListLongLeft = propertyComponentListLongArrLeft.map(
 
 // right
 const propertyComponentListShortArrRight = [
-  "State of the art Fitness center featuring high tech cardio equipment and free weights",
-  "Yoga and spin studio",
-  "Hotel-inspired Pool",
-  "Expansive Sun deck",
-  "Resident Lounge",
+  'Sleek, Modern Kitchens with Custom Cabinets',
+  'Quartz Countertops',
+  'Stainless Steel Appliances',
+  'Designer Lighting',
+  'Chef’s Island*',
 ];
 
 const propertyComponentListLongArrRight = [
-  "State of the art Fitness center featuring high tech cardio equipment and free weights",
-  "Yoga and spin studio",
-  "Hotel-inspired Pool",
-  "Expansive Sun deck",
-  "Resident Lounge",
-  "Package room",
-  "Business Lounge",
-  "Bark Park",
-  "Bicycle storage",
-  "Controlled access parking garage",
+  'Sleek, Modern Kitchens with Custom Cabinets',
+  'Quartz Countertops',
+  'Stainless Steel Appliances',
+  'Designer Lighting',
+  'Chef’s Island*',
+  'Gourmet Kitchen Appliances Package',
+  'Full-Size Washer & Dryer',
+  'Double Master-En-Suites & Private Balcones',
+  'Ceiling Fans',
+  'Spacious Walk-In Closets',
+  'Impact Resistant Windows & Sliding Glass Doors',
+  'Over-Sized Terraces*',
+  'Pantry & Linen Closet*'
 ];
 
 const propertyComponentListShortRight = propertyComponentListShortArrRight.map(
@@ -185,17 +188,18 @@ leasing opens for this exciting new living community."
         ></BlueNAC>
         <ContactThisProperty
           propertyNAME="SPRING GARDENS"
-          propertyADDRESS="1033 Spring Garden Road, Miami, FL 33136"
+          propertyADDRESS="1005 Spring Garden Road, Miami, FL 33136"
           facebookLink="..."
           instagramLink="..."
           mapPhotoClass="mapPhoto mPSpringGardens"
           googlemap="https://goo.gl/maps/ehUoTnxNhxd6swd38"
           isSocial={this.state.isSocial}
           contactUs={this.state.contactUs}
-          embedMap="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=1033%20Spring%20Garden%20Road%2C%20Miami%2C%20FL+(Spring%20Gardens)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
+          embedMap="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1796.2724231055656!2d-80.21240032398681!3d25.78559329588647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6c0ece12a57%3A0xbed96c45709307dd!2s1005%20Spring%20Garden%20Rd%2C%20Miami%2C%20FL%2033136!5e0!3m2!1sen!2sus!4v1625834671699!5m2!1sen!2sus"
         ></ContactThisProperty>
         <FooterPage></FooterPage>
       </div>
     );
   }
 }
+

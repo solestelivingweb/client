@@ -14,7 +14,7 @@ import App3About from "./App3About";
 import App4Contact from "./App4Contact";
 import AppNavigationV2 from "./components/AppNavigationV2";
 import BlueLagoon from "./individualProperties/BlueLagoon";
-import Twenty2 from "./individualProperties/Twenty2";
+// import Twenty2 from "./individualProperties/Twenty2";
 import Alameda from "./individualProperties/Alameda";
 import BayVillage from "./individualProperties/BayVillage";
 import ParkView from "./individualProperties/ParkView";
