@@ -16,7 +16,7 @@ export default class FeedbackForm extends Component {
     errors: false
   };
   handleSubmit(e) {
-    if (this.state.community === '') {
+    if (this.state.community === '' || this.state.email === '') {
       e.preventDefault();
       this.setState({
         errors: true
