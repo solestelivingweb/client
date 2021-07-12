@@ -44,7 +44,7 @@ class App2 extends Component {
         <PropertyLeft
           propertyIMAGE1={app2nomiimg1}
           propertyIMAGE2={app2nomiimg2}
-          propertyNAME="NOMI"
+          propertyNAME="NOMI BEACH"
           propertyDESCRIPTION="Studio, One and Two-Bedroom Apartment Homes"
           // propertyDESCRIPTION2="Homes starting at"
           // propertyPRICE="$1,475"

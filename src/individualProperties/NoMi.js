@@ -22,45 +22,14 @@ import citylinerightimg from "../images/individualProperties/nomi/ishan-seefromt
 import citylinemiddlebottomimg from "../images/individualProperties/nomi/4 (2).png";
 
 const propertyComponentListShortArrLeft = [
-    'Sleek, Modern Kitchens with Custom Cabinets',
-    'Quartz Countertops',
-    'Stainless Steel Appliances',
-    'Designer Lighting',
-    'Chef’s Island*',
-];
-
-const propertyComponentListLongArrLeft = [
-    'Sleek, Modern Kitchens with Custom Cabinets',
-    'Quartz Countertops',
-    'Stainless Steel Appliances',
-    'Designer Lighting',
-    'Chef’s Island*',
-    'Gourmet Kitchen Appliances Package',
-    'Full-Size Washer & Dryer',
-    'Double Master-En-Suites & Private Balcones',
-    'Ceiling Fans',
-    'Spacious Walk-In Closets',
-    'Impact Resistant Windows & Sliding Glass Doors',
-    'Over-Sized Terraces*',
-    'Pantry & Linen Closet*',
-];
-
-const propertyComponentListShortLeft = propertyComponentListShortArrLeft.map(
-    (i) => <li key={i}>{i}</li>
-);
-const propertyComponentListLongLeft = propertyComponentListLongArrLeft.map(
-    (i) => <li key={i}>{i}</li>
-);
-
-// right
-const propertyComponentListShortArrRight = [
     'Lobby & Reception Area',
     'Tech Bar',
     'Work/Study Station',
     'Hammock Garden',
-    'Dry Cleaning Lockers',];
+    'Dry Cleaning Lockers',
+];
 
-const propertyComponentListLongArrRight = [
+const propertyComponentListLongArrLeft = [
     'Lobby & Reception Area',
     'Tech Bar',
     'Work/Study Station',
@@ -74,6 +43,38 @@ const propertyComponentListLongArrRight = [
     'Resort-Inspired Pool',
     'Cabanas',
     'Al-Fresco Dining featuring Summer Kitchen, Grills & Central Bar',
+];
+
+const propertyComponentListShortLeft = propertyComponentListShortArrLeft.map(
+    (i) => <li key={i}>{i}</li>
+);
+const propertyComponentListLongLeft = propertyComponentListLongArrLeft.map(
+    (i) => <li key={i}>{i}</li>
+);
+
+// right
+const propertyComponentListShortArrRight = [
+    'Sleek, Modern Kitchens with Custom Cabinets',
+    'Quartz Countertops',
+    'Stainless Steel Appliances',
+    'Designer Lighting',
+    'Chef’s Island*',
+];
+
+const propertyComponentListLongArrRight = [
+    'Sleek, Modern Kitchens with Custom Cabinets',
+    'Quartz Countertops',
+    'Stainless Steel Appliances',
+    'Designer Lighting',
+    'Chef’s Island*',
+    'Gourmet Kitchen Appliances Package',
+    'Full-Size Washer & Dryer',
+    'Double Master-En-Suites & Private Balcones',
+    'Ceiling Fans',
+    'Spacious Walk-In Closets',
+    'Impact Resistant Windows & Sliding Glass Doors',
+    'Over-Sized Terraces*',
+    'Pantry & Linen Closet*',
 ];
 
 const propertyComponentListShortRight = propertyComponentListShortArrRight.map(
