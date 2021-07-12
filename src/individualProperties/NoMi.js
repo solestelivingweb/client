@@ -154,7 +154,7 @@ export default class CityLine extends Component {
                 </Helmet>
                 <EachPageHeader
                     pageBACKGROUND="individual-property-nomi-header-bg"
-                    pageNAME="NOMI"
+                    pageNAME="NOMI BEACH"
                 ></EachPageHeader>
                 <PropertySGONLYDescriptionMiddleTop
                     propertyComponentTitle="FEATURING LUXURIOUS AMENITIES AND RESORT-STYLE LIVING"
