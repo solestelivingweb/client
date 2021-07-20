@@ -114,7 +114,7 @@ export default class Section3CollectionCarousel extends Component {
             <PropertyImage
               propertyIMAGE={nomi}
               propertyNAME="SOLESTE NOMI"
-              propertyPAGE="/nomi"
+              propertyPAGE="/nomibeach"
             />
           </div>
         </Slider>

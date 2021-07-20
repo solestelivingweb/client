@@ -43,7 +43,7 @@ const routing = (
         <Route path="/grandcentral" component={GrandCentral} />
         <Route path="/springgardens" component={SpringGardens} />
         <Route path="/cityline" component={CityLine} />
-        <Route path="/nomi" component={NoMi} />
+        <Route path="/nomibeach" component={NoMi} />
         <Route path="*" component={NotFound} />
       </div>
     </Analytics>

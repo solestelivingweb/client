@@ -45,10 +45,10 @@ class App2 extends Component {
           propertyIMAGE1={app2nomiimg1}
           propertyIMAGE2={app2nomiimg2}
           propertyNAME="NOMI BEACH"
-          propertyDESCRIPTION="Studio, One and Two-Bedroom Apartment Homes"
-          // propertyDESCRIPTION2="Homes starting at"
+          propertyDESCRIPTION="Studio Suites, One, Two, and Three-Bedroom"
+          propertyDESCRIPTION2="Apartment Homes"
           // propertyPRICE="$1,475"
-          propertyPAGE="/nomi"
+          propertyPAGE="/nomibeach"
           propertyNOWLEASING="TO BE ANNOUNCED"
         // propertyMOVEINDATE="MOVE-IN MARCH 2020"
         ></PropertyLeft>

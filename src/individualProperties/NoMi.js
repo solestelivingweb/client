@@ -232,7 +232,7 @@ export default class CityLine extends Component {
                     are48={this.state.are48}
                 ></BlueNAC>
                 <ContactThisProperty
-                    propertyNAME="NOMI"
+                    propertyNAME=" NOMI BEACH"
                     propertyADDRESS="16395 Biscayne Blvd, North Miami Beach, FL 33160"
                     facebookLink="..."
                     instagramLink="..."
