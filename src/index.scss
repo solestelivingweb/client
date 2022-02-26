@@ -238,6 +238,16 @@ textarea {
     left: 70%;
     height: 27vh;
   }
+  // 2022
+  #propertyWestgate-img-2022 {
+    top: 32%;
+  }
+  @media only screen and (max-width: 600px) {
+    #propertyWestgate-img-2022 {
+      top: 42%;
+    }
+  }
+
   .col-right {
     margin-top: 100px;
   }
@@ -252,6 +262,15 @@ textarea {
   }
   .col-left {
     margin-top: 100px;
+  }
+  // 2022
+  #propertyHollywood-img-2022 {
+    top: 37%;
+  }
+  @media only screen and (max-width: 600px) {
+    #propertyHollywood-img-2022 {
+      top: 43%;
+    }
   }
 }
 // .section-banner-bg {
@@ -426,6 +445,20 @@ textarea {
 .individual-property-cityline-header-bg {
   background: linear-gradient($linearGradient1, $linearGradient2),
     url("./images//individualProperties/cityline/cityline-header-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.individual-property-hollywood-header-bg {
+  background: linear-gradient($linearGradient1, $linearGradient2),
+    url("./images/Feb-2022-Hollywood/hollywood-header-bg.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.individual-property-westgate-header-bg {
+  background: linear-gradient($linearGradient1, $linearGradient2),
+    url("./images/Feb-2022-Westgate/westgate-header-bg.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

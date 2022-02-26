@@ -9,11 +9,11 @@ import CarouselPageGrandCentral from "../components/individualProperties/pageCom
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
-import grandcentralmiddletopimg from "../images/individualProperties/grandcentral/grandcentral-mid-top-img.jpg";
+// import grandcentralmiddletopimg from "../images/individualProperties/grandcentral/grandcentral-mid-top-img.jpg";
 import grandcentralleftimg from "../images/individualProperties/grandcentral/grandcentral-left-img.jpg";
 import grandcentralrightimg from "../images/individualProperties/grandcentral/grandcentral-right-img.jpg";
 // import grandcentralmiddlebottomimg from "../images/individualProperties/grandcentral/grandcentral-mid-bottom-img.jpg";
-
+import grandCentralLagoonMiddletopvid from '../videos/Soleste Grand Central.mp4';
 const propertyComponentListShortArrLeft = [
   "Vegas style pool with spa, sun deck, and private cabanas",
   "Resident lounge complete with cyber café",
@@ -86,6 +86,7 @@ export default class GrandCentral extends Component {
     super(props);
     this.state = {
       isSocial: true,
+      isVideo: true,
       contactUs: true,
       are1: false, //Grapeland Park
       are2: false, //Miracle Mile
@@ -142,9 +143,11 @@ export default class GrandCentral extends Component {
 Cutting-edge amenities, stylish apartments, and an unmatched location characterize this stunning
 multi-story building in the heart of Miami. Experience the city firsthand and easily commute using
 the Brightline train, just steps away from your doorstep. Welcome home."
-          propertyComponentImage={grandcentralmiddletopimg}
+          // propertyComponentImage={grandcentralmiddletopimg}
+          isVideo={this.state.isVideo}
+          propertyComponentVideo={grandCentralLagoonMiddletopvid}
           propertyNOWLEASING="NOW LEASING"
-          propertyMOVEINDATE="MOVE-IN JUNE 2021"
+          // propertyMOVEINDATE="MOVE-IN JUNE 2021"
           contactUs={this.state.contactUs}
         ></PropertyDescriptionMiddleTop>
         <PropertyDescriptionLeft

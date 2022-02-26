@@ -61,6 +61,14 @@ import gulfstreamparkracingandcasino from '../../../images/undef/2021/gulfstream
 import balharborshops from '../../../images/undef/2021/balharborshops.jpeg';
 import aventuramall from '../../../images/undef/2021/aventuramall.jpeg';
 
+// 2022
+import swampshopandthunderbirddriveintheater from '../../../images/Feb-2022-near-by-attractions/swampshopandthunderbirddriveintheater.png';
+import drvpnkstadium from '../../../images/Feb-2022-near-by-attractions/drvpnkstadium.jpeg';
+import lauderdalebeach from '../../../images/Feb-2022-near-by-attractions/lauderdalebeach.png';
+import uncleberniesamusementpark from '../../../images/Feb-2022-near-by-attractions/uncleberniesamusementpark.jpeg';
+import bbandtcenter from '../../../images/Feb-2022-near-by-attractions/bbandtcenter.jpeg';
+import roundup from '../../../images/Feb-2022-near-by-attractions/roundup.jpeg';
+
 // --------------------------------------
 function Are1() {
   return (
@@ -639,6 +647,82 @@ function Are48() {
   );
 }
 
+// 2022
+
+function Are49() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={swampshopandthunderbirddriveintheater}
+        nbaNAME="Swamp Shop & Thunderbird Drive-In Theater"
+        nbaDESCRIPTION="The Fort Lauderdale Swap Shop is a 14-screen drive-in theater in Fort Lauderdale, Florida, that doubles as the largest drive-in and largest daily flea market in the world."
+      />
+    </div>
+  );
+}
+
+function Are50() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={drvpnkstadium}
+        nbaNAME="DRV PNK Stadium"
+        nbaDESCRIPTION="DRV PNK Stadium is a soccer-specific stadium in Fort Lauderdale, Florida. Built on the site of the former Lockhart Stadium, the 18,000-seat stadium is the home pitch of Inter Miami CF of Major League Soccer and its MLS Next Pro reserve side Inter Miami CF II."
+      />
+    </div>
+  );
+}
+
+function Are51() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={lauderdalebeach}
+        nbaNAME="Lauderdale Beach"
+        nbaDESCRIPTION="Located on a barrier island that’s seven feet above sea level, the seaside town of Lauderdale-By-The-Sea features beach views that stretch for miles. Below the water, you’ll find a cool shipwreck snorkel trail where you can dive to see the SS Copenhagen, a British cargo steamer that struck a reef and sank in 1900."
+      />
+    </div>
+  );
+}
+
+function Are52() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={uncleberniesamusementpark}
+        nbaNAME="Uncle Bernie’s Amusement Park"
+        nbaDESCRIPTION="Admission-free family destination featuring pay-by-the-ride carnival attractions."
+      />
+    </div>
+  );
+}
+
+function Are53() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={bbandtcenter}
+        nbaNAME="BB&T Center"
+        nbaDESCRIPTION="BB&T Arena, formerly The Bank of Kentucky Center, is a 10,000-seat multi-purpose arena in Highland Heights, Kentucky, on the campus of Northern Kentucky University. The arena was topped off on June 21, 2007, and the first event held there was NKU's graduation ceremony on May 10, 2008."
+      />
+    </div>
+  );
+}
+
+function Are54() {
+  return (
+    <div>
+      <AttractionsImage
+        nbaIMAGE={roundup}
+        nbaNAME="Round Up"
+        nbaDESCRIPTION="The ArtsPark at Young Circle is located in a 10-acre circle named after the City's founder, Joseph Wesley Young at US 1 and Hollywood Boulevard in downtown Hollywood. Dedicated in March 2007, the ArtsPark offers residents and visitors a wide array of visual and performing arts themed educational, recreational, and entertainment activities."
+      />
+    </div>
+  );
+}
+
+
+
 // --------------------------------------
 
 // Each image
@@ -781,6 +865,19 @@ export default class BlueNAC extends Component {
           {/* item */}
           {this.props.are48 ? <Are48></Are48> : ''}
           {/* item */}
+          {this.props.are49 ? <Are49></Are49> : ''}
+          {/* item */}
+          {this.props.are50 ? <Are50></Are50> : ''}
+          {/* item */}
+          {this.props.are51 ? <Are51></Are51> : ''}
+          {/* item */}
+          {this.props.are52 ? <Are52></Are52> : ''}
+          {/* item */}
+          {this.props.are53 ? <Are53></Are53> : ''}
+          {/* item */}
+          {this.props.are54 ? <Are54></Are54> : ''}
+          {/* item */}
+
         </Slider>
         <Fade>
           <div className="text-center pt-5 nbabtn">

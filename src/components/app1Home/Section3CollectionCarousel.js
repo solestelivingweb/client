@@ -4,14 +4,16 @@ import Slider from "react-slick";
 import Fade from "react-reveal/Fade";
 import { MDBMask, MDBView, MDBBtn } from "mdbreact";
 
-import bluelag from "../../images/app/z-home-soleste-bluelagoon.jpg";
+// import bluelag from "../../images/app/z-home-soleste-bluelagoon.jpg";
 // import tw2 from "../../images/app/z-home-soleste-twenty2.jpg";
-import alameda from "../../images/Oct-2020-Alameda/1. Homepage/Soleste Alameda (48).JPG";
-import bayv from "../../images/Oct-2020-Bay-Village/1. Homepage/Soleste Bay Village (16).JPG";
+// import alameda from "../../images/Oct-2020-Alameda/1. Homepage/Soleste Alameda (48).JPG";
+// import bayv from "../../images/Oct-2020-Bay-Village/1. Homepage/Soleste Bay Village (16).JPG";
 import grandcentral from "../../images/app/z-home-soleste-grandcentral.jpg";
 import springgard from "../../images/app/z-home-soleste-springgardens.jpg";
 import cityline from "../../images/app/z-home-soleste-cityline.jpg";
 import nomi from "../../images/app/5 (1).png";
+import hollywood from '../../images/app/z-home-hollywood.jpg';
+import westgate from '../../images/app/z-home-westgate.png';
 
 // Each image
 class PropertyImage extends Component {
@@ -61,13 +63,13 @@ export default class Section3CollectionCarousel extends Component {
           </div>
         </div>
         <Slider {...settings}>
-          <div>
+          {/* <div>
             <PropertyImage
               propertyIMAGE={bluelag}
               propertyNAME="SOLESTE BLUE LAGOON"
               propertyPAGE="/bluelagoon"
             />
-          </div>
+          </div> */}
           {/* <div>
             <PropertyImage
               propertyIMAGE={tw2}
@@ -75,18 +77,25 @@ export default class Section3CollectionCarousel extends Component {
               propertyPAGE="/twenty2"
             />
           </div> */}
-          <div>
+          {/* <div>
             <PropertyImage
               propertyIMAGE={alameda}
               propertyNAME="SOLESTE ALAMEDA"
               propertyPAGE="/alameda"
             />
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <PropertyImage
               propertyIMAGE={bayv}
               propertyNAME="SOLESTE BAY VILLAGE"
               propertyPAGE="/bayvillage"
+            />
+          </div> */}
+          <div>
+            <PropertyImage
+              propertyIMAGE={cityline}
+              propertyNAME="SOLESTE CITYLINE"
+              propertyPAGE="/cityline"
             />
           </div>
           <div>
@@ -98,6 +107,20 @@ export default class Section3CollectionCarousel extends Component {
           </div>
           <div>
             <PropertyImage
+              propertyIMAGE={hollywood}
+              propertyNAME="SOLESTE HOLLYWOOD"
+              propertyPAGE="/hollywood"
+            />
+          </div>
+          <div>
+            <PropertyImage
+              propertyIMAGE={nomi}
+              propertyNAME="SOLESTE NOMI BEACH"
+              propertyPAGE="/nomibeach"
+            />
+          </div>
+          <div>
+            <PropertyImage
               propertyIMAGE={springgard}
               propertyNAME="SOLESTE SPRING GARDENS"
               propertyPAGE="/springgardens"
@@ -105,16 +128,9 @@ export default class Section3CollectionCarousel extends Component {
           </div>
           <div>
             <PropertyImage
-              propertyIMAGE={cityline}
-              propertyNAME="SOLESTE CITYLINE"
-              propertyPAGE="/cityline"
-            />
-          </div>
-          <div>
-            <PropertyImage
-              propertyIMAGE={nomi}
-              propertyNAME="SOLESTE NOMI"
-              propertyPAGE="/nomibeach"
+              propertyIMAGE={westgate}
+              propertyNAME="SOLESTE WESTGATE"
+              propertyPAGE="/westgate"
             />
           </div>
         </Slider>

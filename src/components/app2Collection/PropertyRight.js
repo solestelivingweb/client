@@ -62,6 +62,7 @@ class PropertyRight extends Component {
                   <img
                     src={this.props.propertyIMAGE2}
                     className="img-fluid propertyRight-absolute-img"
+                    id={this.props.idfor2020}
                     alt=""
                   />
                 </Fade>
