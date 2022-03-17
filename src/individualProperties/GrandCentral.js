@@ -87,7 +87,7 @@ export default class GrandCentral extends Component {
     this.state = {
       isSocial: true,
       isVideo: true,
-      contactUs: true,
+      contactUs: false,
       are1: false, //Grapeland Park
       are2: false, //Miracle Mile
       are3: false, //Venetian Pool
@@ -149,6 +149,7 @@ the Brightline train, just steps away from your doorstep. Welcome home."
           propertyNOWLEASING="NOW LEASING"
           // propertyMOVEINDATE="MOVE-IN JUNE 2021"
           contactUs={this.state.contactUs}
+          propertyExternalWebsite="https://solestegrandcentral.com/"
         ></PropertyDescriptionMiddleTop>
         <PropertyDescriptionLeft
           propertyComponentImage={grandcentralleftimg}
@@ -208,6 +209,7 @@ the Brightline train, just steps away from your doorstep. Welcome home."
           googlemap="..."
           isSocial={this.state.isSocial}
           contactUs={this.state.contactUs}
+          websiteLink="https://solestegrandcentral.com/"
           embedMap="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1796.3348739945473!2d-80.20076834190118!3d25.781469695906974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6a28a07a881%3A0xa74a4e96c1dc6799!2sSoleste%20Grand%20Central!5e0!3m2!1sen!2sus!4v1610735263289!5m2!1sen!2sus"
         ></ContactThisProperty>
         <FooterPage></FooterPage>
