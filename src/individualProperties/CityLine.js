@@ -4,14 +4,15 @@ import EachPageHeader from "../components/EachPageHeader";
 import PropertySGONLYDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertySGONLYDescriptionMiddleTop";
 import PropertyDescriptionLeft from "../components/individualProperties/pageComponents/PropertyDescriptionLeft";
 import PropertyDescriptionRight from "../components/individualProperties/pageComponents/PropertyDescriptionRight";
-import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
+// import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
+import CarouselPageCityline from "../components/individualProperties/pageComponents/CarouselPageCityline";
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
 import citylinemiddletopimg from "../images/individualProperties/cityline/cityline-mid-top-img.jpg";
 import citylineleftimg from "../images/individualProperties/cityline/cityline-left-img.jpg";
 import citylinerightimg from "../images/individualProperties/cityline/cityline-right-img.jpg";
-import citylinemiddlebottomimg from "../images/individualProperties/cityline/cityline-mid-bottom-img.jpg";
+// import citylinemiddlebottomimg from "../images/individualProperties/cityline/cityline-mid-bottom-img.jpg";
 
 const propertyComponentListShortArrLeft = [
   'Luxer Package Room',
@@ -146,7 +147,7 @@ export default class CityLine extends Component {
           to spend your time, there is so much to see and do. It’s all waiting for you at Soleste Cityline."
           propertyComponentPrice=""
           propertyComponentImage={citylinemiddletopimg}
-          propertyNOWLEASING="PRE-LEASING SUMMER 2022"
+          propertyNOWLEASING="COMING SOON"
         // propertyMOVEINDATE="MOVE-IN JUNE 2021"
         ></PropertySGONLYDescriptionMiddleTop>
         <PropertyDescriptionLeft
@@ -159,10 +160,10 @@ export default class CityLine extends Component {
           propertyComponentListShort={propertyComponentListShortRight}
           propertyComponentListLong={propertyComponentListLongRight}
         ></PropertyDescriptionRight>
-        <PropertyDescriptionMiddleBottom
+        {/* <PropertyDescriptionMiddleBottom
           propertyComponentImage={citylinemiddlebottomimg}
-        ></PropertyDescriptionMiddleBottom>
-        {/* <NearbyAttractionsCarousel></NearbyAttractionsCarousel> */}
+        ></PropertyDescriptionMiddleBottom> */}
+        <CarouselPageCityline></CarouselPageCityline>
         <BlueNAC
           are1={this.state.are1}
           are2={this.state.are2}

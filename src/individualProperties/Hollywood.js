@@ -4,13 +4,14 @@ import EachPageHeader from "../components/EachPageHeader";
 import PropertySGONLYDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertySGONLYDescriptionMiddleTop";
 import PropertyDescriptionLeft from "../components/individualProperties/pageComponents/PropertyDescriptionLeft";
 import PropertyDescriptionRight from "../components/individualProperties/pageComponents/PropertyDescriptionRight";
-import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
+// import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
+import CarouselPageHollywood from "../components/individualProperties/pageComponents/CarouselPageHollywood";
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
 // 2022
 import hollywoodmiddletopimg from "../images/Feb-2022-Hollywood/Soleste Hollywood Rendering 5.jpg";
-import hollywoodmiddlebottomimg from "../images/Feb-2022-Hollywood/Soleste Hollywood Rendering 1.jpg";
+// import hollywoodmiddlebottomimg from "../images/Feb-2022-Hollywood/Soleste Hollywood Rendering 1.jpg";
 
 const propertyComponentListShortArrLeft = [
     "Luxer Package Room",
@@ -79,14 +80,16 @@ export default class Hollywood extends Component {
         this.state = {
             isSocial: false,
             contactUs: true,
-            are48: true, //Hard Rock Stadium
-            are49: true, //Swamp Shop & Thunderbird Drive-In Theater
-            are50: true, //DRV PNK Stadium
-            are51: true, //Lauderdale Beach
-            are52: true, //Uncle Bernie’s Amusement Park
-            are53: true, //BB&T Center
-            are54: true, //Round Up
             are55: true, //Seminole2
+            are56: true, //artsparkatyoungcircle
+            are57: true, //downtownhollywood
+            are58: true, // holllywoodbeach
+            are61: true, //fta2
+            are59: true, // holllywoodbeachboardwalk 
+            are60: true, //waterwayadventures
+
+
+
 
         };
     }
@@ -101,15 +104,15 @@ export default class Hollywood extends Component {
                 </Helmet>
                 <EachPageHeader
                     pageBACKGROUND="individual-property-hollywood-header-bg"
-                    pageNAME="HOLLYWOOD"
+                    pageNAME="HOLLYWOOD BOULEVARD"
                 ></EachPageHeader>
                 <PropertySGONLYDescriptionMiddleTop
                     propertyComponentTitle="FEATURING LUXURIOUS AMENITIES AND RESORT-STYLE LIVING"
-                    propertyComponentDescription="Studio Suites, One, and Two-Bedroom Apartment Homes"
-                    propertyComponentParagraph="Located near Hollywood's beautiful beach and its renowned attractions, Soleste Hollywood on the Blvd will reside, offering residents an oasis surrounded by attractive luxury amenities and resort-style living. Conveniently set between Dania Beach, Fort Lauderdale, Miami and Aventura, you can unwind and spend a day at the ocean, or enjoy a retreat in your own backyard with our resort-inspired pool and cabanas. Whatever you choose, Soleste Hollywood on the Blvd lets you stay in the center of it all. Welcome to paradise. "
+                    propertyComponentDescription="Studio Suites, One, Two, and Three-Bedroom Apartment Homes"
+                    propertyComponentParagraph="Located near Hollywood's beautiful beach and its renowned attractions, Soleste Hollywood Boulevard will reside, offering residents an oasis surrounded by attractive luxury amenities and resort-style living. Conveniently set between Dania Beach, Fort Lauderdale, Miami and Aventura, you can unwind and spend a day at the ocean, or enjoy a retreat in your own backyard with our resort-inspired pool and cabanas. Whatever you choose, Soleste Hollywood Boulevard lets you stay in the center of it all. Welcome to paradise. "
                     propertyComponentPrice=""
                     propertyComponentImage={hollywoodmiddletopimg}
-                    propertyNOWLEASING="TO BE ANNOUNCED"
+                    propertyNOWLEASING="COMING SOON"
                 // propertyMOVEINDATE="MOVE-IN JUNE 2021"
                 ></PropertySGONLYDescriptionMiddleTop>
                 <PropertyDescriptionLeft
@@ -122,22 +125,23 @@ export default class Hollywood extends Component {
                     propertyComponentListShort={propertyComponentListShortRight}
                     propertyComponentListLong={propertyComponentListLongRight}
                 ></PropertyDescriptionRight>
-                <PropertyDescriptionMiddleBottom
+                <CarouselPageHollywood></CarouselPageHollywood>
+                {/* <PropertyDescriptionMiddleBottom
                     propertyComponentImage={hollywoodmiddlebottomimg}
-                ></PropertyDescriptionMiddleBottom>
+                ></PropertyDescriptionMiddleBottom> */}
                 {/* <NearbyAttractionsCarousel></NearbyAttractionsCarousel> */}
                 <BlueNAC
-                    are48={this.state.are48}
-                    are49={this.state.are49}
-                    are50={this.state.are50}
-                    are51={this.state.are51}
-                    are52={this.state.are52}
-                    are53={this.state.are53}
-                    are54={this.state.are54}
                     are55={this.state.are55}
+                    are56={this.state.are56}
+                    are57={this.state.are57}
+                    are58={this.state.are58}
+                    are61={this.state.are61}
+                    are59={this.state.are59}
+                    are60={this.state.are60}
+
                 ></BlueNAC>
                 <ContactThisProperty
-                    propertyNAME="HOLLYWOOD"
+                    propertyNAME="HOLLYWOOD BOULEVARD"
                     propertyADDRESS="2001 Hollywood Boulevard, Hollywood, FL 33020"
                     facebookLink="..."
                     instagramLink="..."

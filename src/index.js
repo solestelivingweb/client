@@ -18,12 +18,16 @@ import BlueLagoon from "./individualProperties/BlueLagoon";
 import Alameda from "./individualProperties/Alameda";
 import BayVillage from "./individualProperties/BayVillage";
 import ParkView from "./individualProperties/ParkView";
-import GrandCentral from "./individualProperties/GrandCentral";
+// import GrandCentral from "./individualProperties/GrandCentral";
 import SpringGardens from "./individualProperties/SpringGardens";
 import CityLine from "./individualProperties/CityLine";
 import NoMi from "./individualProperties/NoMi";
 import Hollywood from "./individualProperties/Hollywood";
 import Westgate from "./individualProperties/Westgate";
+import OnTheBay from "./individualProperties/OnTheBay";
+import HollywoodVillage from "./individualProperties/HollywoodVillage";
+import OnTheTrail from "./individualProperties/OnTheTrail";
+import PalmStation from "./individualProperties/PalmStation";
 // import registerServiceWorker from "./registerServiceWorker";
 import NotFound from "./PageNotFound";
 
@@ -42,12 +46,17 @@ const routing = (
         <Route path="/alameda" component={Alameda} />
         <Route path="/bayvillage" component={BayVillage} />
         <Route path="/parkview" component={ParkView} />
-        <Route path="/grandcentral" component={GrandCentral} />
+        {/* <Route path="/grandcentral" component={GrandCentral} /> */}
         <Route path="/springgardens" component={SpringGardens} />
         <Route path="/cityline" component={CityLine} />
         <Route path="/nomibeach" component={NoMi} />
         <Route path="/hollywood" component={Hollywood} />
         <Route path="/westgate" component={Westgate} />
+
+        <Route path="/onthebay" component={OnTheBay} />
+        <Route path="/hollywoodvillage" component={HollywoodVillage} />
+        <Route path="/onthetrail" component={OnTheTrail} />
+        <Route path="/palmstation" component={PalmStation} />
         <Route path="*" component={NotFound} />
       </div>
     </Analytics>

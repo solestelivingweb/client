@@ -78,14 +78,15 @@ export default class SpringGardens extends Component {
     super(props);
     this.state = {
       isSocial: false,
-      contactUs: true,
+      contactUs: false,
+      propertyExternalWebsite: true,
       are1: false, //Grapeland Park
       are2: false, //Miracle Mile
       are3: false, //Venetian Pool
       are4: false, //Granada Gold Course
       are5: false, //The Biltmore Hotel
-      are6: false, //Wynwood Walls
-      are7: true, //Vizcaya Museum and Gardens
+      are6: true, //Wynwood Walls
+      are7: false, //Vizcaya Museum and Gardens
       are8: true, //Brickell City Center
       are9: false, //Tropical Park
       are10: false, //The Falls
@@ -111,6 +112,7 @@ export default class SpringGardens extends Component {
       are30: false, //Miami International Airport
       are31: false, //Port of Miami
       are32: false, //Virgin Trains
+      are63: true, //Marlins Park
     };
   }
   render() {
@@ -127,15 +129,13 @@ export default class SpringGardens extends Component {
           pageNAME="SPRING GARDENS"
         ></EachPageHeader>
         <PropertySGONLYDescriptionMiddleTop
-          propertyComponentTitle="AN ADDRESS OF CASUAL SOPHISTICATION"
+          propertyComponentTitle="THE EPICENTER OF LUXURY & CONVENIENCE"
           propertyComponentDescription="Studio Suites, One, Two, and Three-Bedroom Apartment Homes "
-          propertyComponentParagraph="Situated adjacent to the University of Miami Health System, Soleste Spring Gardens is the Health
-District’s newest multi-unit residential destination. Easily accessible to the Dolphin Expressway,
-1-95, and more, you can stay central to it all in Miami. Join the waitlist to be the first to know when
-leasing opens for this exciting new living community."
+          propertyComponentParagraph="Welcome to Soleste Spring Gardens, an enviable collection of luxury apartments in the very heart of the city. A stone's throw from Miami's thriving Health District and historic Overtown, home will never be far from sunny beaches, colorful Wynwood, and Downtown. All our units are thoughtfully designed for working professionals who love the urban energy of city-living as much as they want an easy and elegant retreat from the bustle."
           propertyComponentPrice=""
           propertyComponentImage={springgardensmiddletopimg}
-          propertyNOWLEASING="PRE-LEASING MARCH 2022"
+          propertyNOWLEASING="NOW LEASING"
+          propertyExternalWebsite='https://www.solestespringgardens.com/'
         // propertyMOVEINDATE="MOVE-IN JUNE 2021"
         ></PropertySGONLYDescriptionMiddleTop>
         <PropertyDescriptionLeft
@@ -185,6 +185,7 @@ leasing opens for this exciting new living community."
           are30={this.state.are30}
           are31={this.state.are31}
           are32={this.state.are32}
+          are63={this.state.are63}
         ></BlueNAC>
         <ContactThisProperty
           propertyNAME="SPRING GARDENS"
@@ -195,6 +196,7 @@ leasing opens for this exciting new living community."
           googlemap="https://goo.gl/maps/ehUoTnxNhxd6swd38"
           isSocial={this.state.isSocial}
           contactUs={this.state.contactUs}
+          websiteLink='https://www.solestespringgardens.com/'
           embedMap="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1796.2724231055656!2d-80.21240032398681!3d25.78559329588647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6c0ece12a57%3A0xbed96c45709307dd!2s1005%20Spring%20Garden%20Rd%2C%20Miami%2C%20FL%2033136!5e0!3m2!1sen!2sus!4v1625834671699!5m2!1sen!2sus"
         ></ContactThisProperty>
         <FooterPage></FooterPage>

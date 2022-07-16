@@ -12,8 +12,6 @@ import micracleMile from '../../../images/undef/micracle-mile.jpg';
 import granadaGolfCourse from '../../../images/undef/granada-golf-course.jpg';
 import brickellCityCenter from '../../../images/undef/brickell-city-center.jpg';
 import biltmore from '../../../images/undef/biltmore.jpg';
-
-// 2nd round of changes
 import tropicalPark from '../../../images/undef/tropical-park.jpg';
 import theFalls from '../../../images/undef/thefalls.jpg';
 import deeringEstate from '../../../images/undef/deeringstate.jpg';
@@ -25,720 +23,1009 @@ import jungleIsland from '../../../images/undef/jungle-island.jpg';
 import parezArt from '../../../images/undef/perez-art-museum.jpg';
 import aaa from '../../../images/undef/aaarena.jpg';
 import frostMuseum from '../../../images/undef/frost-science-museum.jpg';
+import adrienne from '../../../images/undef/adrienne-arsht-center.jpg';
+import calleocho from '../../../images/undef/calle-ocho.jpg';
+import cocogrove from '../../../images/undef/coconut-grove.jpg';
+import coralreefpark from '../../../images/undef/coral-reef-park.jpg';
+import countryclubprado from '../../../images/undef/country-club-prado.jpg';
+import dolphinmall from '../../../images/undef/dolphin-mall.jpg';
+import doralcitycenter from '../../../images/undef/dora-city-center.jpg';
+import downtowndadeland from '../../../images/undef/downtown-dadeland.jpg';
+import dtmiami from '../../../images/undef/downtown-miami.jpg';
+import lincolnrd from '../../../images/undef/lincoln-road.jpg';
+import miamiairport from '../../../images/undef/miami-airport.jpg';
+import portmiami from '../../../images/undef/port-miami.jpg';
+import virgintrains from '../../../images/undef/virgin-trains.jpg';
+import daniabeach from '../../../images/undef/dania-beach.jpg';
+import daniapointe from '../../../images/undef/dania-pointe.jpg';
+import fta from '../../../images/undef/fta.png';
+import seminole from '../../../images/undef/seminole-casino.jpg';
+import lasolas from '../../../images/undef/lasolas.jpg';
+import brightlineft from '../../../images/undef/brightline.jpeg';
+import browardcenter from '../../../images/undef/broward-center.jpg';
+import thewharft from '../../../images/undef/the-wharft.jpg';
+import tidalcovewaterpark from '../../../images/undef/tidalcovewaterpark.jpeg';
+import sunnyislesbeach from '../../../images/undef/sunnyislesbeach.jpeg';
+import oletariverstatepark from '../../../images/undef/oletariverstatepark.jpeg';
+import judgesrthursnydertenniscenter from '../../../images/undef/judgesrthursnydertenniscenter.jpeg';
+import hardrockstadium from '../../../images/undef/hardrockstadium.jpeg';
+import gulfstreamparkracingandcasino from '../../../images/undef/gulfstreamparkracingandcasino.jpeg';
+import balharborshops from '../../../images/undef/balharborshops.jpeg';
+import aventuramall from '../../../images/undef/aventuramall.jpeg';
+import swampshopandthunderbirddriveintheater from '../../../images//undef/swampshopandthunderbirddriveintheater.png';
+import drvpnkstadium from '../../../images/undef/drvpnkstadium.jpeg';
+import lauderdalebeach from '../../../images/undef/lauderdalebeach.png';
+import uncleberniesamusementpark from '../../../images/undef/uncleberniesamusementpark.jpeg';
+import bbandtcenter from '../../../images/undef/bbandtcenter.jpeg';
+import roundup from '../../../images/undef/roundup.jpeg';
+import seminole2 from '../../../images/undef/seminole2.jpg';
+import artsparkatyoungcircle from '../../../images/undef/artsparkatyoungcircle.jpg';
+import downtownhollywood from '../../../images/undef/downtownhollywood.jpg';
+import holllywoodbeach from '../../../images/undef/holllywoodbeach.jpeg';
+import holllywoodbeachboardwalk from '../../../images/undef/holllywoodbeachboardwalk.jpg';
+import waterwayadventures from '../../../images/undef/waterwayadventures.jpg';
+import fta2 from '../../../images/undef/fta2.png';
+import sawgrassmillsoutlets from '../../../images/undef/sawgrassmillsoutlets.jpg';
+import marlinsstadiumloandepotpark from '../../../images/undef/marlinsstadiumloandepotpark.jpeg';
+import mocanorthmiami from '../../../images/undef/mocanorthmiami.jpeg';
+import ipictheaters from '../../../images/undef/ipictheaters.jpeg';
+import theancientspanishmonastery from '../../../images/undef/theancientspanishmonastery.jpeg';
+import meyeramphitheater from '../../../images/undef/meyeramphitheater.jpeg';
+import palmbeachinternationalairport from '../../../images/undef/palmbeachinternationalairport.jpeg';
+import thesquare from '../../../images/undef/thesquare.jpeg';
+import palmbeachisland from '../../../images/undef/palmbeachisland.jpeg';
+import flaglermuseum from '../../../images/undef/flaglermuseum.jpeg';
+import worthavenue from '../../../images/undef/worthavenue.jpeg';
+import greencomplexforsportsrecreation from '../../../images/undef/greencomplexforsportsrecreation.jpeg';
+import amccityplace20 from '../../../images/undef/amccityplace20.jpeg';
+import rapidswaterpark from '../../../images/undef/rapidswaterpark.jpeg';
+import manateelagoon from '../../../images/undef/manateelagoon.jpeg';
+import palmbeachzooconservationsociety from '../../../images/undef/palmbeachzooconservationsociety.jpeg';
+import johndmacarthurbeachstatepark from '../../../images/undef/johndmacarthurbeachstatepark.jpeg';
+import ballparkofthepalmbeaches from '../../../images/undef/ballparkofthepalmbeaches.jpeg';
+import thegardensmall from '../../../images/undef/thegardensmall.jpeg';
+import westpalmbeachinternationalairport from '../../../images/undef/palmbeachinternationalairport.jpeg';
+import fortlauderdalehollywoodinternationalairport from '../../../images/undef/fortlauderdalehollywoodinternationalairport.jpeg';
+import hollywoodbeachgolfclub from '../../../images/undef/hollywoodbeachgolfclub.jpeg';
+import hollywoodbeachbroadwalk from '../../../images/undef/hollywoodbeachbroadwalk.jpeg';
+import youngcircleshoppingcenter from '../../../images/undef/youngcircleshoppingcenter.jpeg';
 
-// 3rd batch
-import adrienne from '../../../images/undef2/adrienne-arsht-center.jpg';
-import calleocho from '../../../images/undef2/calle-ocho.jpg';
-import cocogrove from '../../../images/undef2/coconut-grove.jpg';
-import coralreefpark from '../../../images/undef2/coral-reef-park.jpg';
-import countryclubprado from '../../../images/undef2/country-club-prado.jpg';
-import dolphinmall from '../../../images/undef2/dolphin-mall.jpg';
-import doralcitycenter from '../../../images/undef2/dora-city-center.jpg';
-import downtowndadeland from '../../../images/undef2/downtown-dadeland.jpg';
-import dtmiami from '../../../images/undef2/downtown-miami.jpg';
-import lincolnrd from '../../../images/undef2/lincoln-road.jpg';
-import miamiairport from '../../../images/undef2/miami-airport.jpg';
-import portmiami from '../../../images/undef2/port-miami.jpg';
-import virgintrains from '../../../images/undef2/virgin-trains.jpg';
 
-// 2020
-import daniabeach from '../../../images/undef3/dania-beach.jpg';
-import daniapointe from '../../../images/undef3/dania-pointe.jpg';
-import fta from '../../../images/undef3/fta.png';
-import seminole from '../../../images/undef3/seminole-casino.jpg';
-import lasolas from '../../../images/undef3/lasolas.jpg';
-import brightlineft from '../../../images/undef3/brightline.jpeg';
-import browardcenter from '../../../images/undef3/broward-center.jpg';
-import thewharft from '../../../images/undef3/the-wharft.jpg';
-
-// 2021
-import tidalcovewaterpark from '../../../images/undef/2021/tidalcovewaterpark.jpeg';
-import sunnyislesbeach from '../../../images/undef/2021/sunnyislesbeach.jpeg';
-import oletariverstatepark from '../../../images/undef/2021/oletariverstatepark.jpeg';
-import judgesrthursnydertenniscenter from '../../../images/undef/2021/judgesrthursnydertenniscenter.jpeg';
-import hardrockstadium from '../../../images/undef/2021/hardrockstadium.jpeg';
-import gulfstreamparkracingandcasino from '../../../images/undef/2021/gulfstreamparkracingandcasino.jpeg';
-import balharborshops from '../../../images/undef/2021/balharborshops.jpeg';
-import aventuramall from '../../../images/undef/2021/aventuramall.jpeg';
-
-// 2022
-import swampshopandthunderbirddriveintheater from '../../../images/Feb-2022-near-by-attractions/swampshopandthunderbirddriveintheater.png';
-import drvpnkstadium from '../../../images/Feb-2022-near-by-attractions/drvpnkstadium.jpeg';
-import lauderdalebeach from '../../../images/Feb-2022-near-by-attractions/lauderdalebeach.png';
-import uncleberniesamusementpark from '../../../images/Feb-2022-near-by-attractions/uncleberniesamusementpark.jpeg';
-import bbandtcenter from '../../../images/Feb-2022-near-by-attractions/bbandtcenter.jpeg';
-import roundup from '../../../images/Feb-2022-near-by-attractions/roundup.jpeg';
-import seminole2 from '../../../images/Feb-2022-near-by-attractions/seminole2.jpg';
-
-// --------------------------------------
-function Are1() {
+const AreTmp = (i, n, d) => {
   return (
     <div>
       <AttractionsImage
-        nbaIMAGE={GrapelandWaterPark}
-        nbaNAME="Grapeland Water Park"
-        nbaDESCRIPTION="Perfect for families, the Grapeland Water Park features 4 pools with interactive activities for kids of all ages. It is open seasonally. Visit website for hours of operation."
+        nbaIMAGE={i}
+        nbaNAME={n}
+        nbaDESCRIPTION={d}
       />
     </div>
+  )
+}
+
+
+const Are1 = () => {
+  return (
+    AreTmp(
+      GrapelandWaterPark,
+      "GrapelandWaterPark",
+      "Perfect for families, the Grapeland Water Park features 4 pools with interactive activities for kids of all ages. It is open seasonally. Visit website for hours of operation."
+    )
   );
 }
 
-function Are2() {
+const Are2 = () => {
   return (
-    <div>
-      <div>
-        <AttractionsImage
-          nbaIMAGE={micracleMile}
-          nbaNAME="Miracle Mile"
-          nbaDESCRIPTION="Located near the Business District in Coral Gables, Miracle Mile is the Gables’ favorite hot spot for dining, boutique shopping, and discovering local art. Take the trolley for easy commuting."
-        />
-      </div>
-    </div>
+    AreTmp(
+      micracleMile,
+      "Miracle Mile",
+      "Located near the Business District in Coral Gables, Miracle Mile is the Gables’ favorite hot spot for dining, boutique shopping, and discovering local art. Take the trolley for easy commuting."
+    )
   );
 }
 
-function Are3() {
+const Are3 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={venetianPool}
-        nbaNAME="Venetian Pool"
-        nbaDESCRIPTION="Open seasonally for swimmers, the Venetian Pool is a public pool fed with natural spring water. Originally built in 1923, the pool maintains much of its original charm and beauty."
-      />
-    </div>
+    AreTmp(
+      venetianPool,
+      "Venetian Pool",
+      "Open seasonally for swimmers, the Venetian Pool is a public pool fed with natural spring water. Originally built in 1923, the pool maintains much of its original charm and beauty."
+    )
   );
 }
 
-function Are4() {
+const Are4 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={granadaGolfCourse}
-        nbaNAME="Granada Golf Course"
-        nbaDESCRIPTION="Florida’s oldest 9-hole course, the Granada Golf Course is a favorite attraction for locals and visitors alike. The course features a variety of options for golfers of any skill level."
-      />
-    </div>
+    AreTmp(
+      granadaGolfCourse,
+      "Granada Golf Course",
+      "Florida’s oldest 9-hole course, the Granada Golf Course is a favorite attraction for locals and visitors alike. The course features a variety of options for golfers of any skill level."
+    )
   );
 }
 
-function Are5() {
+const Are5 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={biltmore}
-        nbaNAME="The Biltmore"
-        nbaDESCRIPTION="A luxury hotel in the heart of Coral Gables, The Biltmore is the perfect place to enjoy a relaxing stay. Enjoy a dip in the stunning pool or indulge in their Sunday Brunch."
-      />
-    </div>
+    AreTmp(
+      biltmore,
+      "The Biltmore",
+      "A luxury hotel in the heart of Coral Gables, The Biltmore is the perfect place to enjoy a relaxing stay. Enjoy a dip in the stunning pool or indulge in their Sunday Brunch."
+    )
   );
 }
 
-function Are6() {
+const Are6 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={wynwoodWalls}
-        nbaNAME="Wynwood Walls"
-        nbaDESCRIPTION="Established in 2009 and grown to become one of Miami’s favorite artistic destinations, the Wynwood Walls is a public exhibition featuring urban graffiti wall art from global artists."
-      />
-    </div>
+    AreTmp(
+      wynwoodWalls,
+      "Wynwood Walls",
+      "Established in 2009 and grown to become one of Miami’s favorite artistic destinations, the Wynwood Walls is a public exhibition featuring urban graffiti wall art from global artists."
+    )
   );
 }
 
-function Are7() {
+const Are7 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={viscaya}
-        nbaNAME="Vizcaya Museum & Gardens"
-        nbaDESCRIPTION="Experience a piece of history in Miami’s backyard. Originally built in 1916, Vizcaya Museum & Gardens is a 10-acre property filled with gardens, a 34-room estate, and waterfront views."
-      />
-    </div>
+    AreTmp(
+      viscaya,
+      "Vizcaya Museum & Gardens",
+      "Experience a piece of history in Miami’s backyard. Originally built in 1916, Vizcaya Museum & Gardens is a 10-acre property filled with gardens, a 34-room estate, and waterfront views."
+    )
   );
 }
 
-function Are8() {
+const Are8 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={brickellCityCenter}
-        nbaNAME="Brickell City Centre"
-        nbaDESCRIPTION="One of Brickell’s most notable attractions, Brickell City Centre is a crossroads for fashion and cuisine, while offering the best in residential and office spaces."
-      />
-    </div>
+    AreTmp(
+      brickellCityCenter,
+      "Brickell City Centre",
+      "One of Brickell’s most notable attractions, Brickell City Centre is a crossroads for fashion and cuisine, while offering the best in residential and office spaces."
+    )
   );
 }
 
 // 2nd round of changes
-function Are9() {
+const Are9 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={tropicalPark}
-        nbaNAME="Tropical Park"
-        nbaDESCRIPTION="Tropical Park is the ideal spot in Olympia Heights for a nature getaway. With miles of paved pathways, this is the perfect spot for cycling, running, or simply enjoying a walk."
-      />
-    </div>
+    AreTmp(
+      tropicalPark,
+      "Tropical Park",
+      "Tropical Park is the ideal spot in Olympia Heights for a nature getaway. With miles of paved pathways, this is the perfect spot for cycling, running, or simply enjoying a walk."
+    )
   );
 }
 
-function Are10() {
+const Are10 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={theFalls}
-        nbaNAME="The Falls"
-        nbaDESCRIPTION="With over 100 stores to explore, The Falls is an upscale shopping haven located in Kendall. Whether you’re shopping or dining, you’ll always find something the whole family can enjoy.
-"
-      />
-    </div>
+    AreTmp(
+      theFalls,
+      "The Falls",
+      "With over 100 stores to explore, The Falls is an upscale shopping haven located in Kendall. Whether you’re shopping or dining, you’ll always find something the whole family can enjoy."
+    )
   );
 }
 
-function Are11() {
+const Are11 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={deeringEstate}
-        nbaNAME="Deering Estate"
-        nbaDESCRIPTION="One of Miami’s cultural landmarks, The Deering Estate preserves the 1920s home of Charles Deering. Enjoy tours, art exhibits, nature hikes, and more at this historical destination."
-      />
-    </div>
+    AreTmp(
+      deeringEstate,
+      "Deering Estate",
+      "One of Miami’s cultural landmarks, The Deering Estate preserves the 1920s home of Charles Deering. Enjoy tours, art exhibits, nature hikes, and more at this historical destination."
+
+    )
   );
 }
 
-function Are12() {
+const Are12 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={zooMiami}
-        nbaNAME="Zoo Miami"
-        nbaDESCRIPTION="The only subtropical zoo in the US, the Miami Zoo is one of South Florida’s best family friendly destinations! Interact with wildlife and endangered species at Florida’s biggest zoological garden."
-      />
-    </div>
+    AreTmp(
+      zooMiami,
+      "Zoo Miami",
+      "The only subtropical zoo in the US, the Miami Zoo is one of South Florida’s best family friendly destinations! Interact with wildlife and endangered species at Florida’s biggest zoological garden."
+
+    )
   );
 }
 
-function Are13() {
+const Are13 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={miamiSeaquarium}
-        nbaNAME="Miami Seaquarium"
-        nbaDESCRIPTION="The Miami Seaquarium is one of South Florida’s favorite visitor attractions! Get up close and personal with marine life with extraordinary exhibits at Miami’s favorite aquarium."
-      />
-    </div>
+    AreTmp(
+      miamiSeaquarium,
+      "Miami Seaquarium",
+      "The Miami Seaquarium is one of South Florida’s favorite visitor attractions! Get up close and personal with marine life with extraordinary exhibits at Miami’s favorite aquarium."
+
+    )
   );
 }
 
-function Are14() {
+const Are14 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={childrensMuseul}
-        nbaNAME="Miami Children’s Museum"
-        nbaDESCRIPTION="A dreamland for every kid, the Miami Children’s Museum is a non-profit educational space that encourages kids to use their imagination and proves that learning can be fun!"
-      />
-    </div>
+    AreTmp(
+      childrensMuseul,
+      "Miami Children’s Museum",
+      "A dreamland for every kid, the Miami Children’s Museum is a non-profit educational space that encourages kids to use their imagination and proves that learning can be fun!"
+
+    )
   );
 }
 
-function Are15() {
+const Are15 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={baysideMarketplace}
-        nbaNAME="Bayside Marketplace"
-        nbaDESCRIPTION="Located in Downtown Miami, Bayside Marketplace is one of Miami’s top shopping and dining destinations. Enjoy a drink by the water and explore this iconic South Florida spot!"
-      />
-    </div>
+    AreTmp(
+      baysideMarketplace,
+      "Bayside Marketplace",
+      "Located in Downtown Miami, Bayside Marketplace is one of Miami’s top shopping and dining destinations. Enjoy a drink by the water and explore this iconic South Florida spot!"
+
+    )
   );
 }
 
-function Are16() {
+const Are16 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={jungleIsland}
-        nbaNAME="Jungle Island"
-        nbaDESCRIPTION="Jungle Island is one of Miami’s most famous tourist destinations! Enjoy beautiful landscapes and exotic animals right before your eyes at one of Miami’s best landmarks."
-      />
-    </div>
+    AreTmp(
+      jungleIsland,
+      "Jungle Island",
+      "Jungle Island is one of Miami’s most famous tourist destinations! Enjoy beautiful landscapes and exotic animals right before your eyes at one of Miami’s best landmarks."
+
+    )
   );
 }
 
-function Are17() {
+const Are17 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={parezArt}
-        nbaNAME="Perez Art Museum"
-        nbaDESCRIPTION="The famous flagship museum of Miami, The Perez Art Museum exhibits international art of the 20th and 21st centuries. Experience modern art while enjoying beautiful seaside views."
-      />
-    </div>
+    AreTmp(
+      parezArt,
+      "Perez Art Museum",
+      "The famous flagship museum of Miami, The Perez Art Museum exhibits international art of the 20th and 21st centuries. Experience modern art while enjoying beautiful seaside views."
+
+    )
   );
 }
 
-function Are18() {
+const Are18 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={aaa}
-        nbaNAME="American Airlines Arena"
-        nbaDESCRIPTION="Miami’s top destination for all things sports and entertainment, the American Airlines Arena is a hub for the hottest live events in town. Check out their site for info on upcoming events."
-      />
-    </div>
+    AreTmp(
+      aaa,
+      "American Airlines Arena",
+      "Miami’s top destination for all things sports and entertainment, the American Airlines Arena is a hub for the hottest live events in town. Check out their site for info on upcoming events."
+
+    )
   );
 }
 
-function Are19() {
+const Are19 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={frostMuseum}
-        nbaNAME="Frost Museum"
-        nbaDESCRIPTION="The Frost Museum is sure to entice visitors of all ages with the wonders of science! Experience features such as the aquarium and an array of interactive exhibits for the whole family to enjoy."
-      />
-    </div>
+    AreTmp(
+      frostMuseum,
+      "Frost Museum",
+      "The Frost Museum is sure to entice visitors of all ages with the wonders of science! Experience features such as the aquarium and an array of interactive exhibits for the whole family to enjoy."
+
+    )
   );
 }
 
 // batch 3
-function Are20() {
+const Are20 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={adrienne}
-        nbaNAME="Adrienne Arsht Center"
-        nbaDESCRIPTION="Located in the heart of Downtown Miami, the Adrienne Arsht Center is one of the leading performing arts centers in the country. Visit their website for information on upcoming live events."
-      />
-    </div>
+    AreTmp(
+      adrienne,
+      "Adrienne Arsht Center",
+      "Located in the heart of Downtown Miami, the Adrienne Arsht Center is one of the leading performing arts centers in the country. Visit their website for information on upcoming live events."
+
+    )
   );
 }
 
-function Are21() {
+const Are21 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={calleocho}
-        nbaNAME="Calle Ocho"
-        nbaDESCRIPTION="Experience Miami’s Cuban culture at the world famous Calle Ocho! Located in Little Havana, Calle Ocho’s colorful restaurants, art, and more are sure to transport you to the heart of Havana."
-      />
-    </div>
+    AreTmp(
+      calleocho,
+      "Calle Ocho",
+      "Experience Miami’s Cuban culture at the world famous Calle Ocho! Located in Little Havana, Calle Ocho’s colorful restaurants, art, and more are sure to transport you to the heart of Havana."
+
+    )
   );
 }
 
-function Are22() {
+const Are22 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={cocogrove}
-        nbaNAME="Coconut Grove"
-        nbaDESCRIPTION="A hidden gem in Miami, Coconut Grove is a charming destination to enjoy brunch in one of the numerous sidewalk cafes or linger in one of the many art galleries."
-      />
-    </div>
+    AreTmp(
+      cocogrove,
+      "Coconut Grove",
+      "A hidden gem in Miami, Coconut Grove is a charming destination to enjoy brunch in one of the numerous sidewalk cafes or linger in one of the many art galleries."
+
+    )
   );
 }
 
-function Are23() {
+const Are23 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={coralreefpark}
-        nbaNAME="Coral Reef Park"
-        nbaDESCRIPTION="Coral Reef Park is any nature lover’s heaven. Spanning across 50 acres, this park is complete with sports fields, green spaces, and a beautifully tranquil canal."
-      />
-    </div>
+    AreTmp(
+      coralreefpark,
+      "Coral Reef Park",
+      "Coral Reef Park is any nature lover’s heaven. Spanning across 50 acres, this park is complete with sports fields, green spaces, and a beautifully tranquil canal."
+
+    )
   );
 }
 
-function Are24() {
+const Are24 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={countryclubprado}
-        nbaNAME="Country Club Prado"
-        nbaDESCRIPTION="One of the most beautiful spots in Coral Gables, Country Club Prado is the perfect place to spend your evening enjoying the gorgeous scenery this local area has to offer."
-      />
-    </div>
+    AreTmp(
+      countryclubprado,
+      "Country Club Prado",
+      "One of the most beautiful spots in Coral Gables, Country Club Prado is the perfect place to spend your evening enjoying the gorgeous scenery this local area has to offer."
+
+    )
   );
 }
 
-function Are25() {
+const Are25 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={dolphinmall}
-        nbaNAME="Dolphin Mall"
-        nbaDESCRIPTION="Miami’s largest shopping center, the Dolphin Mall is a hub for retail, dining, and entertainment. Featuring over 240 retail outlets, it is the perfect place to spend an afternoon in West Miami."
-      />
-    </div>
+    AreTmp(
+      dolphinmall,
+      "Dolphin Mall",
+      "Miami’s largest shopping center, the Dolphin Mall is a hub for retail, dining, and entertainment. Featuring over 240 retail outlets, it is the perfect place to spend an afternoon in West Miami."
+
+    )
   );
 }
 
-function Are26() {
+const Are26 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={doralcitycenter}
-        nbaNAME="Doral City Center"
-        nbaDESCRIPTION="City Place Doral is the newest addition to the area for retail shopping and entertainment. Featuring weekly live entertainment, bowling, and cinemas, you’ll never be bored here."
-      />
-    </div>
+    AreTmp(
+      doralcitycenter,
+      "Doral City Center",
+      "City Place Doral is the newest addition to the area for retail shopping and entertainment. Featuring weekly live entertainment, bowling, and cinemas, you’ll never be bored here."
+
+    )
   );
 }
 
-function Are27() {
+const Are27 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={downtowndadeland}
-        nbaNAME="Downtown Dadeland"
-        nbaDESCRIPTION="Located just across the street from Dadeland Mall, Downtown Dadeland is filled with the finest restaurants, shops, fitness centers, and more to fill your day."
-      />
-    </div>
+    AreTmp(
+      downtowndadeland,
+      "Downtown Dadeland",
+      "Located just across the street from Dadeland Mall, Downtown Dadeland is filled with the finest restaurants, shops, fitness centers, and more to fill your day."
+
+    )
   );
 }
 
-function Are28() {
+const Are28 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={dtmiami}
-        nbaNAME="Downtown Miami"
-        nbaDESCRIPTION="Downtown Miami is truly the heart of the city. Spend your day walking through this cultural hub filled with restaurants, open-air malls, and department stores.
-"
-      />
-    </div>
+    AreTmp(
+      dtmiami,
+      "Downtown Miami",
+      "Downtown Miami is truly the heart of the city. Spend your day walking through this cultural hub filled with restaurants, open-air malls, and department stores."
+    )
   );
 }
 
-function Are29() {
+const Are29 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={lincolnrd}
-        nbaNAME="Lincoln Road"
-        nbaDESCRIPTION="Lincoln Road is Miami’s premier shopping and entertainment center. Experience the over 200 luxury stores, fine dining restaurants, and the best bars South Florida has to offer."
-      />
-    </div>
+    AreTmp(
+      lincolnrd,
+      "Lincoln Road",
+      "Lincoln Road is Miami’s premier shopping and entertainment center. Experience the over 200 luxury stores, fine dining restaurants, and the best bars South Florida has to offer."
+
+    )
   );
 }
 
-function Are30() {
+const Are30 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={miamiairport}
-        nbaNAME="Miami International Airport"
-        nbaDESCRIPTION="
-Conveniently catch domestic and international flights from the Miami International Airport, and enjoy easy commuting to surrounding areas through their taxi and shuttle services."
-      />
-    </div>
+    AreTmp(
+      miamiairport,
+      "Miami International Airport",
+      "Conveniently catch domestic and international flights from the Miami International Airport, and enjoy easy commuting to surrounding areas through their taxi and shuttle services."
+
+    )
   );
 }
 
-function Are31() {
+const Are31 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={portmiami}
-        nbaNAME="Port of Miami"
-        nbaDESCRIPTION="The Port of Miami is the largest passenger port in the world! Whether your boarding a cruise or simply ship watching, your sure to get the best ocean views from this port."
-      />
-    </div>
+    AreTmp(
+      portmiami,
+      "Port of Miami",
+      "The Port of Miami is the largest passenger port in the world! Whether your boarding a cruise or simply ship watching, your sure to get the best ocean views from this port."
+
+    )
   );
 }
 
-function Are32() {
+const Are32 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={virgintrains}
-        nbaNAME="Virgin Trains"
-        nbaDESCRIPTION="Whether you're commuting to work, or exploring Miami, Virgin Trains can take you anywhere you need to go. With speeds up to 79 mph, you’ll never have to worry about being late again."
-      />
-    </div>
+    AreTmp(
+      virgintrains,
+      "Virgin Trains",
+      "Whether you're commuting to work, or exploring Miami, Virgin Trains can take you anywhere you need to go. With speeds up to 79 mph, you’ll never have to worry about being late again."
+
+    )
   );
 }
 
 // 2020
-function Are33() {
+const Are33 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={daniabeach}
-        nbaNAME="Dania Beach"
-        nbaDESCRIPTION="With its award-winning 'Blue Wave Beaches,' nature activities and proximity to Fort Lauderdale and Hollywood, Dania Beach is an appealing vacation spot. It's also the home of the world-famous Dania Jai Alai in the center of the city's dining and entertainment district. "
-      />
-    </div>
+    AreTmp(
+      daniabeach,
+      "Dania Beach",
+      "With its award-winning 'Blue Wave Beaches,' nature activities and proximity to Fort Lauderdale and Hollywood, Dania Beach is an appealing vacation spot. It's also the home of the world-famous Dania Jai Alai in the center of the city's dining and entertainment district. "
+
+    )
   );
 }
-function Are34() {
+const Are34 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={daniapointe}
-        nbaNAME="Dania Pointe"
-        nbaDESCRIPTION="Dania Pointe is the newest addition to the area for retail shopping and entertainment. Featuring weekly live entertainment, bowling and dining options, you’ll never be bored here."
-      />
-    </div>
+    AreTmp(
+      daniapointe,
+      "Dania Pointe",
+      "Dania Pointe is the newest addition to the area for retail shopping and entertainment. Featuring weekly live entertainment, bowling and dining options, you’ll never be bored here."
+
+    )
   );
 }
-function Are35() {
+const Are35 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={fta}
-        nbaNAME="Fort Lauderdale-Hollywood International Airport"
-        nbaDESCRIPTION="Fort Lauderdale–Hollywood International Airport is a major public airport in Broward County, Florida, United States, and is one of three airports serving the Miami metropolitan area. "
-      />
-    </div>
+    AreTmp(
+      fta,
+      "Fort Lauderdale-Hollywood International Airport",
+      "Fort Lauderdale–Hollywood International Airport is a major public airport in Broward County, Florida, United States, and is one of three airports serving the Miami metropolitan area. "
+
+    )
   );
 }
-function Are36() {
+const Are36 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={seminole}
-        nbaNAME="Seminole Hardrock Hotel and Casino"
-        nbaDESCRIPTION="Seminole Hard Rock Hotel & Casino Hollywood is South Florida's iconic entertainment destination that fuses an electrifying nightlife scene and non-stop gaming action in one singular setting. "
-      />
-    </div>
+    AreTmp(
+      seminole,
+      "Seminole Hardrock Hotel and Casino",
+      "Seminole Hard Rock Hotel & Casino Hollywood is South Florida's iconic entertainment destination that fuses an electrifying nightlife scene and non-stop gaming action in one singular setting. "
+
+    )
   );
 }
-function Are37() {
+const Are37 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={lasolas}
-        nbaNAME="Las Olas"
-        nbaDESCRIPTION="Las Olas Boulevard is the very heart and soul of Fort Lauderdale. Stretching from the beach at A1A and rising over the fabulous Intracoastal Waterway with magnificent views. Las Olas has become the premier destination for shopping, dining, events, entertainment, galleries or even taking a nice walk. "
-      />
-    </div>
+    AreTmp(
+      lasolas,
+      "Las Olas",
+      "Las Olas Boulevard is the very heart and soul of Fort Lauderdale. Stretching from the beach at A1A and rising over the fabulous Intracoastal Waterway with magnificent views. Las Olas has become the premier destination for shopping, dining, events, entertainment, galleries or even taking a nice walk. "
+
+    )
   );
 }
-function Are38() {
+const Are38 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={brightlineft}
-        nbaNAME="Brightline Fort Lauderdale"
-        nbaDESCRIPTION="Brightline trains are like nothing you’ve ever seen before. Fort Lauderdale station is an inter-city rail station located in City of Fort Lauderdale. Connecting you to local cities like Miami and West Palm Beach."
-      />
-    </div>
+    AreTmp(
+      brightlineft,
+      "Brightline Fort Lauderdale",
+      "Brightline trains are like nothing you’ve ever seen before. Fort Lauderdale station is an inter-city rail station located in City of Fort Lauderdale. Connecting you to local cities like Miami and West Palm Beach."
+
+    )
   );
 }
-function Are39() {
+const Are39 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={browardcenter}
-        nbaNAME="Broward Center of Performing Arts"
-        nbaDESCRIPTION="Opened in 1991, the Broward Center for the Performing Arts is the destination of choice in South Florida for spectacular entertainment. Check out their site for info on upcoming events."
-      />
-    </div>
+    AreTmp(
+      browardcenter,
+      "Broward Center of Performing Arts",
+      "Opened in 1991, the Broward Center for the Performing Arts is the destination of choice in South Florida for spectacular entertainment. Check out their site for info on upcoming events."
+
+    )
   );
 }
-function Are40() {
+const Are40 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={thewharft}
-        nbaNAME="The Wharf Fort Lauderdale"
-        nbaDESCRIPTION="An outdoor pop-up event space anchored with live music, cocktails, eats & good times in Las Olas on the banks of the New River. The place is amazingly constructed with an open format that really highlights the best parts of living downtown."
-      />
-    </div>
+    AreTmp(
+      thewharft,
+      "The Wharf Fort Lauderdale",
+      "An outdoor pop-up event space anchored with live music, cocktails, eats & good times in Las Olas on the banks of the New River. The place is amazingly constructed with an open format that really highlights the best parts of living downtown."
+
+    )
   );
 }
 // nomi
-function Are41() {
+const Are41 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={oletariverstatepark}
-        nbaNAME="Oleta River State Park"
-        nbaDESCRIPTION="The Oleta River State Park is a 1,043-acre Florida State Park on Biscayne Bay in the municipal suburb of North Miami in metropolitan Miami, Florida."
-      />
-    </div>
+    AreTmp(
+      oletariverstatepark,
+      "Oleta River State Park",
+      "The Oleta River State Park is a 1,043-acre Florida State Park on Biscayne Bay in the municipal suburb of North Miami in metropolitan Miami, Florida."
+
+    )
   );
 }
 
-function Are42() {
+const Are42 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={balharborshops}
-        nbaNAME="Bal Harbour Shops"
-        nbaDESCRIPTION="Bal Harbour Shops is an open-air shopping mall in Bal Harbour, a suburb of Miami, Florida"
-      />
-    </div>
+    AreTmp(
+      balharborshops,
+      "Bal Harbour Shops",
+      "Bal Harbour Shops is an open-air shopping mall in Bal Harbour, a suburb of Miami, Florida"
+
+    )
   );
 }
 
-function Are43() {
+const Are43 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={tidalcovewaterpark}
-        nbaNAME="Tidal Cove Water Park"
-        nbaDESCRIPTION="Tidal Cove is an Aventura waterpark with multiple thrilling waterslides, a gravity-​defying raft ride, a slow-moving lazy river, and a kid-friendly water playground."
-      />
-    </div>
+    AreTmp(
+      tidalcovewaterpark,
+      "Tidal Cove Water Park",
+      "Tidal Cove is an Aventura waterpark with multiple thrilling waterslides, a gravity-​defying raft ride, a slow-moving lazy river, and a kid-friendly water playground."
+
+    )
   );
 }
 
-function Are44() {
+const Are44 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={gulfstreamparkracingandcasino}
-        nbaNAME="Gulfstream Park Racing and Casino"
-        nbaDESCRIPTION="Gulfstream Park | Entertainment destination featuring thoroughbred racing, casinos, shopping & dining. In Hallandale Beach, FL. Minutes from Miami."
-      />
-    </div>
+    AreTmp(
+      gulfstreamparkracingandcasino,
+      "Gulfstream Park Racing and Casino",
+      "Gulfstream Park | Entertainment destination featuring thoroughbred racing, casinos, shopping & dining. In Hallandale Beach, FL. Minutes from Miami."
+
+    )
   );
 }
 
-function Are45() {
+const Are45 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={aventuramall}
-        nbaNAME="Aventura Mall"
-        nbaDESCRIPTION="Chic 3-story mall features luxe designer shops, dining & a theater, plus an interactive playground."
-      />
-    </div>
+    AreTmp(
+      aventuramall,
+      "Aventura Mall",
+      "Chic 3-story mall features luxe designer shops, dining & a theater, plus an interactive playground."
+
+    )
   );
 }
 
-function Are46() {
+const Are46 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={sunnyislesbeach}
-        nbaNAME="Sunny Isles Beach"
-        nbaDESCRIPTION="Sunny Isles Beach is a city located on a barrier island in northeast Miami-Dade County, Florida, United States. The city is bounded by the Atlantic Ocean on the east and the Intracoastal Waterway on the west."
-      />
-    </div>
+    AreTmp(
+      sunnyislesbeach,
+      "Sunny Isles Beach",
+      "Sunny Isles Beach is a city located on a barrier island in northeast Miami-Dade County, Florida, United States. The city is bounded by the Atlantic Ocean on the east and the Intracoastal Waterway on the west."
+
+    )
   );
 }
 
-function Are47() {
+const Are47 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={judgesrthursnydertenniscenter}
-        nbaNAME="Judge Arthur Snyder Tennis Center"
-        nbaDESCRIPTION="The Judge Arthur I. Snyder Tennis Center in North Miami Beach has ample digs for tennis, paddleball and racquet ball. To be specific, there are 12 clay courts."
-      />
-    </div>
+    AreTmp(
+      judgesrthursnydertenniscenter,
+      "Judge Arthur Snyder Tennis Center",
+      "The Judge Arthur I. Snyder Tennis Center in North Miami Beach has ample digs for tennis, paddleball and racquet ball. To be specific, there are 12 clay courts."
+
+    )
   );
 }
 
-function Are48() {
+const Are48 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={hardrockstadium}
-        nbaNAME="Hard Rock Stadium"
-        nbaDESCRIPTION="Hard Rock Stadium is a multi-purpose stadium located in Miami Gardens, Florida, a city north of Miami. It is the home stadium of the Miami Dolphins of the National Football League."
-      />
-    </div>
+    AreTmp(
+      hardrockstadium,
+      "Hard Rock Stadium",
+      "Hard Rock Stadium is a multi-purpose stadium located in Miami Gardens, Florida, a city north of Miami. It is the home stadium of the Miami Dolphins of the National Football League."
+
+    )
   );
 }
 
 // 2022
 
-function Are49() {
+const Are49 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={swampshopandthunderbirddriveintheater}
-        nbaNAME="Swap Shop & Thunderbird Drive-In Theater"
-        nbaDESCRIPTION="The Fort Lauderdale Swap Shop is a 14-screen drive-in theater in Fort Lauderdale, Florida, that doubles as the largest drive-in and largest daily flea market in the world."
-      />
-    </div>
+    AreTmp(
+      swampshopandthunderbirddriveintheater,
+      "Swap Shop & Thunderbird Drive-In Theater",
+      "The Fort Lauderdale Swap Shop is a 14-screen drive-in theater in Fort Lauderdale, Florida, that doubles as the largest drive-in and largest daily flea market in the world."
+
+    )
   );
 }
 
-function Are50() {
+const Are50 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={drvpnkstadium}
-        nbaNAME="DRV PNK Stadium"
-        nbaDESCRIPTION="DRV PNK Stadium is a soccer-specific stadium in Fort Lauderdale, Florida. Built on the site of the former Lockhart Stadium, the 18,000-seat stadium is the home pitch of Inter Miami CF of Major League Soccer and its MLS Next Pro reserve side Inter Miami CF II."
-      />
-    </div>
+    AreTmp(
+      drvpnkstadium,
+      "DRV PNK Stadium",
+      "DRV PNK Stadium is a soccer-specific stadium in Fort Lauderdale, Florida. Built on the site of the former Lockhart Stadium, the 18,000-seat stadium is the home pitch of Inter Miami CF of Major League Soccer and its MLS Next Pro reserve side Inter Miami CF II."
+
+    )
   );
 }
 
-function Are51() {
+const Are51 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={lauderdalebeach}
-        nbaNAME="Lauderdale Beach"
-        nbaDESCRIPTION="Located on a barrier island that’s seven feet above sea level, the seaside town of Lauderdale-By-The-Sea features beach views that stretch for miles. Below the water, you’ll find a cool shipwreck snorkel trail where you can dive to see the SS Copenhagen, a British cargo steamer that struck a reef and sank in 1900."
-      />
-    </div>
+    AreTmp(
+      lauderdalebeach,
+      "Lauderdale Beach",
+      "Located on a barrier island that’s seven feet above sea level, the seaside town of Lauderdale-By-The-Sea features beach views that stretch for miles. Below the water, you’ll find a cool shipwreck snorkel trail where you can dive to see the SS Copenhagen, a British cargo steamer that struck a reef and sank in 1900."
+
+    )
   );
 }
 
-function Are52() {
+const Are52 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={uncleberniesamusementpark}
-        nbaNAME="Uncle Bernie’s Amusement Park"
-        nbaDESCRIPTION="Admission-free family destination featuring pay-by-the-ride carnival attractions."
-      />
-    </div>
+    AreTmp(
+      uncleberniesamusementpark,
+      "Uncle Bernie’s Amusement Park",
+      "Admission-free family destination featuring pay-by-the-ride carnival attractions."
+
+    )
   );
 }
 
-function Are53() {
+const Are53 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={bbandtcenter}
-        nbaNAME="BB&T Center"
-        nbaDESCRIPTION="BB&T Arena, formerly The Bank of Kentucky Center, is a 10,000-seat multi-purpose arena in Highland Heights, Kentucky, on the campus of Northern Kentucky University. The arena was topped off on June 21, 2007, and the first event held there was NKU's graduation ceremony on May 10, 2008."
-      />
-    </div>
+    AreTmp(
+      bbandtcenter,
+      "BB&T Center",
+      "BB&T Arena, formerly The Bank of Kentucky Center, is a 10,000-seat multi-purpose arena in Highland Heights, Kentucky, on the campus of Northern Kentucky University. The arena was topped off on June 21, 2007, and the first event held there was NKU's graduation ceremony on May 10, 2008."
+
+    )
   );
 }
 
-function Are54() {
+const Are54 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={roundup}
-        nbaNAME="Round Up"
-        nbaDESCRIPTION="Round Up Nightclub is known worldwide for its unique Country Western Dancing, Fun Atmosphere & Live Entertainment.  Located in 'Cowboy Town' -  Davie Florida, Round Up has been named #1 Dance Club & Best Country Bar in South Florida"
-      />
-    </div>
+    AreTmp(
+      roundup,
+      "Round Up",
+      "Round Up Nightclub is known worldwide for its unique Country Western Dancing, Fun Atmosphere & Live Entertainment.  Located in 'Cowboy Town' -  Davie Florida, Round Up has been named #1 Dance Club & Best Country Bar in South Florida"
+
+    )
   );
 }
 
-function Are55() {
+const Are55 = () => {
   return (
-    <div>
-      <AttractionsImage
-        nbaIMAGE={seminole2}
-        nbaNAME="Seminole Hardrock Hotel and Casino"
-        nbaDESCRIPTION="Seminole Hard Rock Hotel & Casino Hollywood is South Florida's iconic entertainment destination that fuses an electrifying nightlife scene and non-stop gaming action in one singular setting."
-      />
-    </div>
+    AreTmp(
+      seminole2,
+      "Seminole Hardrock Hotel and Casino",
+      "Seminole Hard Rock Hotel & Casino Hollywood is South Florida's iconic entertainment destination that fuses an electrifying nightlife scene and non-stop gaming action in one singular setting."
+
+    )
+  );
+}
+
+const Are56 = () => {
+  return (
+    AreTmp(
+      artsparkatyoungcircle,
+      "ArtsPark at Young Circle",
+      "Opened in 2007, this 10-acre park features an amphitheater, a playground, an arts pavilion & more."
+
+    )
+  );
+}
+
+const Are57 = () => {
+  return (
+    AreTmp(
+      downtownhollywood,
+      "Downtown Hollywood",
+      "Characterized by quaint sidewalk cafés, brick-lined walks, and six blocks of unique boutiques, shops, art galleries and dozens of excellent restaurants along Hollywood Boulevard and Harrison Street, this pedestrian-friendly environment is the perfect place to enjoy South Florida."
+
+    )
+  );
+}
+
+const Are58 = () => {
+  return (
+    AreTmp(
+      holllywoodbeach,
+      "Hollywood Beach",
+      "Hollywood Beach is known for its Atlantic Ocean-facing beaches and 'Old Florida' feel. Locals and visitors skate, cycle, stroll, and ride foot pedal buggies along Hollywood Beach Broadwalk, a palm-lined brick promenade with tiki bars, seafood eateries, motels, and hotels, including the splashy Margaritaville Hollywood Beach Resort."
+
+    )
+  );
+}
+
+const Are59 = () => {
+  return (
+    AreTmp(
+      holllywoodbeachboardwalk,
+      "Hollywood Beach Broadwalk",
+      "Nestled between Fort Lauderdale and Miami is Hollywood, a classic Florida beachtown that’s enchanted visitors since the 1920s. A trip Advisor Traveler’s Choice Winner, Hollywood Beach features a one-of-a-kind oceanfront promenade called the Hollywood Beach Broadwalk that stretches nearly two and a half miles along the Atlantic. "
+
+    )
+  );
+}
+
+const Are60 = () => {
+  return (
+    AreTmp(
+      waterwayadventures,
+      "Waterway Adventures)",
+      "Unique hop on hop off boat tour with 16 different stops. With the unlimited all day pass you can explore downtown Fort Lauderdale with it’s breathtaking real estate and diverse bar selection, you can head up the Intracoastal to see some of the finest yachts in the world as you pass the marina and Fort Lauderdale Beach."
+
+    )
+  );
+}
+
+const Are61 = () => {
+  return (
+    AreTmp(
+      fta2,
+      "Fort Lauderdale-Hollywood International Airport",
+      "Fort Lauderdale–Hollywood International Airport is a major public airport in Broward County, Florida, United States, and is one of three airports serving the Miami metropolitan area. "
+
+    )
+  );
+}
+
+const Are62 = () => {
+  return (
+    AreTmp(
+      sawgrassmillsoutlets,
+      "Sawgrass Mills Outlets",
+      "Sawgrass Mills Outlet Mall is located in Sunrise, Florida. It is the largest mall in Broward County and all of Florida. When we say “largest”, we mean wear the most comfortable shoes you have and print out a map of the mall because you will be in Sawgrass for a long time. Sawgrass is so big that the mall itself is divided into 3 parts: The main mall “Avenue”, “Fashion Avenue”, and the “Oasis”. "
+
+    )
+  );
+}
+
+const Are63 = () => {
+  return (
+    AreTmp(
+      marlinsstadiumloandepotpark,
+      "Marlins Stadium",
+      "LoanDepot Park is a retractable roof stadium located in Miami, Florida. It is the home of Major League Baseball's Miami Marlins. It is located on 17 acres of the former Miami Orange Bowl site in Little Havana, about 2 miles west of Downtown. Construction was completed in March 2012 for the 2012 season."
+
+    )
+  );
+}
+
+const Are64 = () => {
+  return (
+    AreTmp(
+      mocanorthmiami,
+      "Moca North Miami",
+      "The Museum of Contemporary Art is a collecting museum located in North Miami, Florida. The 23,000-square-foot building was designed by the architecture firm Gwathmey Siegel & Associates Architects, New York City. "
+
+    )
+  );
+}
+
+const Are65 = () => {
+  return (
+    AreTmp(
+      theancientspanishmonastery,
+      "The Ancient Spanish Monastery",
+      "he Ancient Spanish Monastery is located at 16711 West Dixie Highway, North Miami Beach, FL 33160. It is open from 10:00 a.m. to 4:00 p.m., Monday through Friday. Operating hours vary on the weekends. The latest any visitor is allowed to come on property, unless they have special permission, is 4:00 p.m."
+
+    )
+  );
+}
+
+const Are66 = () => {
+  return (
+    AreTmp(
+      ipictheaters,
+      "IPIC Theaters",
+      "Entertainment and fine dining coincide at IPIC, North Miami Beach, located in the Intracoastal Mall right across from the Oleta River State Park. Elevate your movie-going experience with chef-driven cuisine and handmade cocktails at our North Miami Beach movie theater."
+
+    )
+  );
+}
+
+const Are67 = () => {
+  return (
+    AreTmp(
+      meyeramphitheater,
+      "Meyer Amphitheater",
+      "This 10,000 square foot band shell hosts special events throughout the year, including 4th on Flagler festivities, Irish Fest, and regular concerts throughout the year There is lush, soft grass on which to sit and picnic, benches, tables, a walking path, bathrooms, and a tree-lined knoll from which to look into the park or out to the intracoastal."
+    )
+  );
+}
+
+const Are68 = () => {
+  return (
+    AreTmp(
+      palmbeachinternationalairport,
+      "Palm Beach International Airport",
+      "Palm Beach International Airport is a public airport in Palm Beach County, Florida, located just west of the city of West Palm Beach, Florida, United States, which it serves as the primary airport for."
+
+    )
+  );
+}
+
+const Are69 = () => {
+  return (
+    AreTmp(
+      thesquare,
+      "The Square",
+      "The Square  is an upscale lifestyle center in downtown West Palm Beach, Florida, along South Rosemary Avenue. Considered a New Urbanist mixed-use development, The Square is architecturally composed of Mediterranean and Venetian elements. The 600,000-square-foot (56,000 m2)-center contains more than 60 restaurants and stores, as well as rental apartments, condos, and offices."
+
+    )
+  );
+}
+
+const Are70 = () => {
+  return (
+    AreTmp(
+      palmbeachisland,
+      "Palm Beach Island",
+      "Palm Beach is a town in South Florida, separated from the mainland by the Lake Worth Lagoon. It’s known for its glitzy estates and its beaches, including the long, sandy Palm Beach Municipal Beach. Worth Avenue is lined with upscale boutiques, galleries and restaurants."
+
+    )
+  );
+}
+
+const Are71 = () => {
+  return (
+    AreTmp(
+      flaglermuseum,
+      "Flagler Museum",
+      "The Museum is pleased to offer a diverse series of visitor and member programs in addition to General Admission. In-person programs include live music performances, holiday-themed celebrations, and educational lectures. "
+
+    )
+  );
+}
+
+const Are72 = () => {
+  return (
+    AreTmp(
+      worthavenue,
+      "Worth Avenue",
+      "Worth Avenue is a shopping and dining enclave that is internationally revered for its beauty, its history and its unparalleled legacy of fine customer service."
+
+    )
+  );
+}
+
+const Are73 = () => {
+  return (
+    AreTmp(
+      greencomplexforsportsrecreation,
+      "Green Complex for Sports & Recreation",
+      "The Greene Complex for Sports and Recreation is PBA's health and fitness center, and offers a wealth of state-of-the-art fitness and training equipment."
+
+    )
+  );
+}
+
+const Are74 = () => {
+  return (
+    AreTmp(
+      amccityplace20,
+      "AMC CityPlace 20",
+      "Experience the difference of AMC amenities. From spacious rocking seats to luxury recliners, innovative menus and premium offerings like IMAX, Dolby Cinema, and Prime at AMC, AMC Theatres offers a range of ways to get more out of movies."
+
+    )
+  );
+}
+
+const Are75 = () => {
+  return (
+    AreTmp(
+      rapidswaterpark,
+      "Rapids Water Park",
+      "Rapids Water Park is a water park in Riviera Beach, Florida, USA, that occupies 30 acres near I-95. The park includes 42 slides and attractions, including a wave pool, dual seven-story speed slides, and a quarter-mile lazy river."
+
+    )
+  );
+}
+
+const Are76 = () => {
+  return (
+    AreTmp(
+      manateelagoon,
+      "Manatee Lagoon",
+      "Manatee Lagoon is dedicated to educating the public about manatees and Lake Worth Lagoon, and inspiring communities to preserve and protect Florida's environment and wildlife for future generations."
+
+    )
+  );
+}
+
+const Are77 = () => {
+  return (
+    AreTmp(
+      palmbeachzooconservationsociety,
+      "Palm Beach Zoo & Conservation Society",
+      "The Palm Beach Zoo & Conservation Society is a non-profit zoological organization located at Dreher Park in West Palm Beach. The zoo houses more than 550 animals, many of them endangered, within 23-acres of lush tropical habitat."
+
+    )
+  );
+}
+
+const Are78 = () => {
+  return (
+    AreTmp(
+      johndmacarthurbeachstatepark,
+      "John D MacArthur Beach State Park",
+      "John D. MacArthur Beach State Park, named for John D. MacArthur whose Foundation donated a portion of the land for its construction in the 1970s, is located on and just north of Singer Island, Florida in North Palm Beach, Florida. "
+
+    )
+  );
+}
+
+const Are79 = () => {
+  return (
+    AreTmp(
+      ballparkofthepalmbeaches,
+      "Ballpark of the Palm Beaches",
+      "The Ballpark of the Palm Beaches is a baseball park located in West Palm Beach, Florida. The stadium has a capacity of 6,500 people in fixed seats with room for 1,000 more on the outfield berm. The stadium hosts the Houston Astros and Washington Nationals Major League Baseball teams annually for spring training"
+
+    )
+  );
+}
+
+const Are80 = () => {
+  return (
+    AreTmp(
+      thegardensmall,
+      "The Gardens Mall",
+      "The Gardens Mall is a two-story, enclosed shopping mall in Palm Beach Gardens, Florida. Its anchors are Macy's, Sears, Bloomingdale's, Nordstrom and Saks Fifth Avenue, and it features more than 160 specialty shops and restaurants."
+
+    )
+  );
+}
+
+const Are81 = () => {
+  return (
+    AreTmp(
+      westpalmbeachinternationalairport,
+      "West Palm Beach International Airport",
+      "Palm Beach International Airport is a public airport in Palm Beach County, Florida, located just west of the city of West Palm Beach, Florida, United States, which it serves as the primary airport for."
+
+    )
+  );
+}
+
+const Are82 = () => {
+  return (
+    AreTmp(
+      fortlauderdalehollywoodinternationalairport,
+      "Fort Lauderdale-Hollywood International Airport",
+      "Fort Lauderdale–Hollywood International Airport is a major public airport in Broward County, Florida, United States, and is one of three airports serving the Miami metropolitan area."
+
+    )
+  );
+}
+
+const Are83 = () => {
+  return (
+    AreTmp(
+      hollywoodbeachgolfclub,
+      "Hollywood Beach Golf Club",
+      "The Hollywood Beach Country Club is a championship, par-70. golf course designed by renowned architect Donald Ross in 1924. Our fabulous facility offers a Superior Small Lodging award winning 31-room hotel, a full service restaurant and lounge, banquet facilities that can accommodate up to 200 persons, all of which afford panoramic views of our manicured golf course."
+
+    )
+  );
+}
+
+const Are84 = () => {
+  return (
+    AreTmp(
+      hollywoodbeachbroadwalk,
+      "Hollywood Beach Broadwalk",
+      "This 2.5-mile pedestrian promenade is crowded with joggers, skaters and cyclists with seaside cafes perfect for sitting, resting and people-watching."
+
+    )
+  );
+}
+
+const Are85 = () => {
+  return (
+    AreTmp(
+      youngcircleshoppingcenter,
+      "Young Circle Shopping Center",
+      "Young Circle Shopping Center, your favorite mix of shops and dining options in Hollywood. 100-1735 East Young Circle, Hollywood, FL 33020."
+
+    )
   );
 }
 
 
-
-// --------------------------------------
-
-// Each image
 class AttractionsImage extends Component {
   render() {
     return (
@@ -757,7 +1044,7 @@ class AttractionsImage extends Component {
     );
   }
 }
-// Carousel
+
 export default class BlueNAC extends Component {
   render() {
     const settings = {
@@ -771,6 +1058,18 @@ export default class BlueNAC extends Component {
       autoplaySpeed: 1500,
     };
 
+    const {
+      are1, are2, are3, are4, are5, are6, are7, are8, are9, are10,
+      are11, are12, are13, are14, are15, are16, are17, are18, are19, are20,
+      are21, are22, are23, are24, are25, are26, are27, are28, are29, are30,
+      are31, are32, are33, are34, are35, are36, are37, are38, are39, are40,
+      are41, are42, are43, are44, are45, are46, are47, are48, are49, are50,
+      are51, are52, are53, are54, are55, are56, are57, are58, are59, are60,
+      are61, are62, are63, are64, are65, are66, are67, are68, are69, are70,
+      are71, are72, are73, are74, are75, are76, are77, are78, are79, are80,
+      are81, are82, are83, are84, are85
+    } = this.props
+
     return (
       <div className="Section3NBACarousel">
         <div className="absoluteDiv">
@@ -779,120 +1078,91 @@ export default class BlueNAC extends Component {
           </div>
         </div>
         <Slider {...settings}>
-          {/* item */}
-          {this.props.are1 ? <Are1></Are1> : ''}
-          {/* item */}
-          {this.props.are2 ? <Are2></Are2> : ''}
-          {/* item */}
-          {this.props.are3 ? <Are3></Are3> : ''}
-          {/* item */}
-          {this.props.are4 ? <Are4></Are4> : ''}
-          {/* item */}
-          {this.props.are5 ? <Are5></Are5> : ''}
-          {/* item */}
-          {this.props.are6 ? <Are6></Are6> : ''}
-          {/* item */}
-          {this.props.are7 ? <Are7></Are7> : ''}
-          {/* item */}
-          {this.props.are8 ? <Are8></Are8> : ''}
-          {/* item */}
-          {this.props.are9 ? <Are9></Are9> : ''}
-          {/* item */}
-          {this.props.are10 ? <Are10></Are10> : ''}
-          {/* item */}
-          {this.props.are11 ? <Are11></Are11> : ''}
-          {/* item */}
-          {this.props.are12 ? <Are12></Are12> : ''}
-          {/* item */}
-          {this.props.are13 ? <Are13></Are13> : ''}
-          {/* item */}
-          {this.props.are14 ? <Are14></Are14> : ''}
-          {/* item */}
-          {this.props.are15 ? <Are15></Are15> : ''}
-          {/* item */}
-          {this.props.are16 ? <Are16></Are16> : ''}
-          {/* item */}
-          {this.props.are17 ? <Are17></Are17> : ''}
-          {/* item */}
-          {this.props.are18 ? <Are18></Are18> : ''}
-          {/* item */}
-          {this.props.are19 ? <Are19></Are19> : ''}
-          {/* item */}
-          {this.props.are20 ? <Are20></Are20> : ''}
-          {/* item */}
-          {this.props.are21 ? <Are21></Are21> : ''}
-          {/* item */}
-          {this.props.are22 ? <Are22></Are22> : ''}
-          {/* item */}
-          {this.props.are23 ? <Are23></Are23> : ''}
-          {/* item */}
-          {this.props.are24 ? <Are24></Are24> : ''}
-          {/* item */}
-          {this.props.are25 ? <Are25></Are25> : ''}
-          {/* item */}
-          {this.props.are26 ? <Are26></Are26> : ''}
-          {/* item */}
-          {this.props.are27 ? <Are27></Are27> : ''}
-          {/* item */}
-          {this.props.are28 ? <Are28></Are28> : ''}
-          {/* item */}
-          {this.props.are29 ? <Are29></Are29> : ''}
-          {/* item */}
-          {this.props.are30 ? <Are30></Are30> : ''}
-          {/* item */}
-          {this.props.are31 ? <Are31></Are31> : ''}
-          {/* item */}
-          {this.props.are32 ? <Are32></Are32> : ''}
-          {/* item */}
-          {/* 2020 */}
-          {this.props.are33 ? <Are33></Are33> : ''}
-          {/* item */}
-          {this.props.are34 ? <Are34></Are34> : ''}
-          {/* item */}
-          {this.props.are35 ? <Are35></Are35> : ''}
-          {/* item */}
-          {this.props.are36 ? <Are36></Are36> : ''}
-          {/* item */}
-          {this.props.are37 ? <Are37></Are37> : ''}
-          {/* item */}
-          {this.props.are38 ? <Are38></Are38> : ''}
-          {/* item */}
-          {this.props.are39 ? <Are39></Are39> : ''}
-          {/* item */}
-          {this.props.are40 ? <Are40></Are40> : ''}
-          {/* item */}
-          {/* nomi */}
-          {this.props.are41 ? <Are41></Are41> : ''}
-          {/* item */}
-          {this.props.are42 ? <Are42></Are42> : ''}
-          {/* item */}
-          {this.props.are43 ? <Are43></Are43> : ''}
-          {/* item */}
-          {this.props.are44 ? <Are44></Are44> : ''}
-          {/* item */}
-          {this.props.are45 ? <Are45></Are45> : ''}
-          {/* item */}
-          {this.props.are46 ? <Are46></Are46> : ''}
-          {/* item */}
-          {this.props.are47 ? <Are47></Are47> : ''}
-          {/* item */}
-          {this.props.are48 ? <Are48></Are48> : ''}
-          {/* item */}
-          {this.props.are49 ? <Are49></Are49> : ''}
-          {/* item */}
-          {this.props.are50 ? <Are50></Are50> : ''}
-          {/* item */}
-          {this.props.are51 ? <Are51></Are51> : ''}
-          {/* item */}
-          {this.props.are52 ? <Are52></Are52> : ''}
-          {/* item */}
-          {this.props.are53 ? <Are53></Are53> : ''}
-          {/* item */}
-          {this.props.are54 ? <Are54></Are54> : ''}
-          {/* item */}
-          {this.props.are55 ? <Are55></Are55> : ''}
-          {/* item */}
-
+          {are1 ? <Are1 /> : ''}
+          {are2 ? <Are2 /> : ''}
+          {are3 ? <Are3 /> : ''}
+          {are4 ? <Are4 /> : ''}
+          {are5 ? <Are5 /> : ''}
+          {are6 ? <Are6 /> : ''}
+          {are7 ? <Are7 /> : ''}
+          {are8 ? <Are8 /> : ''}
+          {are9 ? <Are9 /> : ''}
+          {are10 ? <Are10 /> : ''}
+          {are11 ? <Are11 /> : ''}
+          {are12 ? <Are12 /> : ''}
+          {are13 ? <Are13 /> : ''}
+          {are14 ? <Are14 /> : ''}
+          {are15 ? <Are15 /> : ''}
+          {are16 ? <Are16 /> : ''}
+          {are17 ? <Are17 /> : ''}
+          {are18 ? <Are18 /> : ''}
+          {are19 ? <Are19 /> : ''}
+          {are20 ? <Are20 /> : ''}
+          {are21 ? <Are21 /> : ''}
+          {are22 ? <Are22 /> : ''}
+          {are23 ? <Are23 /> : ''}
+          {are24 ? <Are24 /> : ''}
+          {are25 ? <Are25 /> : ''}
+          {are26 ? <Are26 /> : ''}
+          {are27 ? <Are27 /> : ''}
+          {are28 ? <Are28 /> : ''}
+          {are29 ? <Are29 /> : ''}
+          {are30 ? <Are30 /> : ''}
+          {are31 ? <Are31 /> : ''}
+          {are32 ? <Are32 /> : ''}
+          {are33 ? <Are33 /> : ''}
+          {are34 ? <Are34 /> : ''}
+          {are35 ? <Are35 /> : ''}
+          {are36 ? <Are36 /> : ''}
+          {are37 ? <Are37 /> : ''}
+          {are38 ? <Are38 /> : ''}
+          {are39 ? <Are39 /> : ''}
+          {are40 ? <Are40 /> : ''}
+          {are41 ? <Are41 /> : ''}
+          {are42 ? <Are42 /> : ''}
+          {are43 ? <Are43 /> : ''}
+          {are44 ? <Are44 /> : ''}
+          {are45 ? <Are45 /> : ''}
+          {are46 ? <Are46 /> : ''}
+          {are47 ? <Are47 /> : ''}
+          {are48 ? <Are48 /> : ''}
+          {are49 ? <Are49 /> : ''}
+          {are50 ? <Are50 /> : ''}
+          {are51 ? <Are51 /> : ''}
+          {are52 ? <Are52 /> : ''}
+          {are53 ? <Are53 /> : ''}
+          {are54 ? <Are54 /> : ''}
+          {are55 ? <Are55 /> : ''}
+          {are56 ? <Are56 /> : ''}
+          {are57 ? <Are57 /> : ''}
+          {are58 ? <Are58 /> : ''}
+          {are59 ? <Are59 /> : ''}
+          {are60 ? <Are60 /> : ''}
+          {are61 ? <Are61 /> : ''}
+          {are62 ? <Are62 /> : ''}
+          {are63 ? <Are63 /> : ''}
+          {are64 ? <Are64 /> : ''}
+          {are65 ? <Are65 /> : ''}
+          {are66 ? <Are66 /> : ''}
+          {are67 ? <Are67 /> : ''}
+          {are68 ? <Are68 /> : ''}
+          {are69 ? <Are69 /> : ''}
+          {are70 ? <Are70 /> : ''}
+          {are71 ? <Are71 /> : ''}
+          {are72 ? <Are72 /> : ''}
+          {are73 ? <Are73 /> : ''}
+          {are74 ? <Are74 /> : ''}
+          {are75 ? <Are75 /> : ''}
+          {are76 ? <Are76 /> : ''}
+          {are77 ? <Are77 /> : ''}
+          {are78 ? <Are78 /> : ''}
+          {are79 ? <Are79 /> : ''}
+          {are80 ? <Are80 /> : ''}
+          {are81 ? <Are81 /> : ''}
+          {are82 ? <Are82 /> : ''}
+          {are83 ? <Are83 /> : ''}
+          {are84 ? <Are84 /> : ''}
+          {are85 ? <Are85 /> : ''}
         </Slider>
         <Fade>
           <div className="text-center pt-5 nbabtn">

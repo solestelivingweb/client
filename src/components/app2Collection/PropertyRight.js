@@ -14,7 +14,7 @@ class PropertyRight extends Component {
                 <h6>SOLESTE</h6>
               </Fade>
               <Fade>
-                <h1 className="d-flex justify-content-start fontSize-92 text-left mt-2">
+                <h1 className="d-flex justify-content-start fontSize-92 text-left mt-2" style={{ "zIndex": 300 }}>
                   {this.props.propertyNAME}
                 </h1>
               </Fade>

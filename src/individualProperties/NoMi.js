@@ -4,7 +4,8 @@ import EachPageHeader from "../components/EachPageHeader";
 import PropertySGONLYDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertySGONLYDescriptionMiddleTop";
 import PropertyDescriptionLeft from "../components/individualProperties/pageComponents/PropertyDescriptionLeft";
 import PropertyDescriptionRight from "../components/individualProperties/pageComponents/PropertyDescriptionRight";
-import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
+// import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
+import CarouselPageNomi from "../components/individualProperties/pageComponents/CarouselPageNomi";
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
@@ -19,7 +20,7 @@ import citylineleftimg from "../images/individualProperties/nomi/lefteris-kaller
 import citylinerightimg from "../images/individualProperties/nomi/ishan-seefromthesky-2jlRllahuMk-unsplash.jpg";
 // import citylinemiddlebottomimg from "../images/individualProperties/cityline/cityline-mid-bottom-img.jpg";
 // 2021
-import citylinemiddlebottomimg from "../images/individualProperties/nomi/4 (2).png";
+// import citylinemiddlebottomimg from "../images/individualProperties/nomi/4 (2).png";
 
 const propertyComponentListShortArrLeft = [
     'Lobby & Reception Area',
@@ -162,7 +163,7 @@ export default class CityLine extends Component {
                     propertyComponentParagraph="Step into our community where our staff will welcome you at our lobby and reception area. Featuring luxurious amenities and resort-style living, Soleste NoMi Beach invites you to comfort and leisure, a place you can proudly call home. Located in between Sunny Isles and Aventura, a haven for commuters, beach goers and shoppers there’s an array of convenient and attractive locations just a few miles away."
                     propertyComponentPrice=""
                     propertyComponentImage={citylinemiddletopimg}
-                    propertyNOWLEASING="TO BE ANNOUNCED"
+                    propertyNOWLEASING="COMING SOON"
                 // propertyMOVEINDATE="MOVE-IN JUNE 2021"
                 ></PropertySGONLYDescriptionMiddleTop>
                 <PropertyDescriptionLeft
@@ -175,10 +176,10 @@ export default class CityLine extends Component {
                     propertyComponentListShort={propertyComponentListShortRight}
                     propertyComponentListLong={propertyComponentListLongRight}
                 ></PropertyDescriptionRight>
-                <PropertyDescriptionMiddleBottom
+                {/* <PropertyDescriptionMiddleBottom
                     propertyComponentImage={citylinemiddlebottomimg}
-                ></PropertyDescriptionMiddleBottom>
-                {/* <NearbyAttractionsCarousel></NearbyAttractionsCarousel> */}
+                ></PropertyDescriptionMiddleBottom> */}
+                <CarouselPageNomi></CarouselPageNomi>
                 <BlueNAC
                     are1={this.state.are1}
                     are2={this.state.are2}

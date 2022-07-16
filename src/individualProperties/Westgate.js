@@ -4,13 +4,14 @@ import EachPageHeader from "../components/EachPageHeader";
 import PropertySGONLYDescriptionMiddleTop from "../components/individualProperties/pageComponents/PropertySGONLYDescriptionMiddleTop";
 import PropertyDescriptionLeft from "../components/individualProperties/pageComponents/PropertyDescriptionLeft";
 import PropertyDescriptionRight from "../components/individualProperties/pageComponents/PropertyDescriptionRight";
-import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
+// import PropertyDescriptionMiddleBottom from "../components/individualProperties/pageComponents/PropertyDescriptionMiddleBottom";
+import CarouselPageWestgate from "../components/individualProperties/pageComponents/CarouselPageWestgate";
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
 // 2022
 import westgatemiddletopimg from "../images/Feb-2022-Westgate/18181-3d Site-Scene 2-1.png";
-import westgatemiddlebottomimg from "../images/Feb-2022-Westgate/18181-Lauderhill - Rendering 1.jpg";
+// import westgatemiddlebottomimg from "../images/Feb-2022-Westgate/18181-Lauderhill - Rendering 1.jpg";
 
 const propertyComponentListShortArrLeft = [
     "Luxer Package Room",
@@ -27,7 +28,6 @@ const propertyComponentListLongArrLeft = [
     "Pet Wash Station",
     "Resident Fitness Center featuring Hi-Tech Cardio Gear & Free Weights",
     "Yoga & Spin Studio",
-    "Sauna & Steam Room",
     "Resort-Inspired Pool",
     "Cabanas",
     "Residents Social & Gaming Lounge",
@@ -56,14 +56,12 @@ const propertyComponentListLongArrRight = [
     "Quartz Countertops",
     "Stainless Steel Appliances",
     "Designer Lighting",
-    "Chef’s Island*",
     "Gourmet Kitchen Appliances Package",
     "Full-Size Washer & Dryer",
     "Double Master-En-Suites & Private Balconies",
     "Ceiling Fans",
     "Spacious Walk-In Closets",
     "Impact Resistant Windows & Sliding Glass Doors",
-    "Over-Sized Terraces*",
     "Pantry & Linen Closet*",
 ];
 
@@ -82,12 +80,11 @@ export default class Westgate extends Component {
             contactUs: true,
             are48: true, //Hard Rock Stadium
             are49: true, //Swamp Shop & Thunderbird Drive-In Theater
-            are50: true, //DRV PNK Stadium
             are51: true, //Lauderdale Beach
-            are52: true, //Uncle Bernie’s Amusement Park
             are53: true, //BB&T Center
             are54: false, //Round Up
             are55: true, //Seminole
+            are62: true, //sawgrassmillsoutlets
         };
     }
     render() {
@@ -109,7 +106,7 @@ export default class Westgate extends Component {
                     propertyComponentParagraph="Lauderhill, Florida is set to get a new residential multifamily development, Soleste Westgate. Characterized by state-of-the-art amenities and indulgent interiors, Soleste Westgate is the best way to experience what the city has to offer. A peaceful community to live, work and play, it’s all at your fingertips. Welcome home - comfort and leisure await you."
                     propertyComponentPrice=""
                     propertyComponentImage={westgatemiddletopimg}
-                    propertyNOWLEASING="TO BE ANNOUNCED"
+                    propertyNOWLEASING="COMING SOON"
                 // propertyMOVEINDATE="MOVE-IN JUNE 2021"
                 ></PropertySGONLYDescriptionMiddleTop>
                 <PropertyDescriptionLeft
@@ -122,19 +119,18 @@ export default class Westgate extends Component {
                     propertyComponentListShort={propertyComponentListShortRight}
                     propertyComponentListLong={propertyComponentListLongRight}
                 ></PropertyDescriptionRight>
-                <PropertyDescriptionMiddleBottom
+                {/* <PropertyDescriptionMiddleBottom
                     propertyComponentImage={westgatemiddlebottomimg}
-                ></PropertyDescriptionMiddleBottom>
-                {/* <NearbyAttractionsCarousel></NearbyAttractionsCarousel> */}
+                ></PropertyDescriptionMiddleBottom> */}
+                <CarouselPageWestgate></CarouselPageWestgate>
                 <BlueNAC
                     are48={this.state.are48}
                     are49={this.state.are49}
-                    are50={this.state.are50}
                     are51={this.state.are51}
-                    are52={this.state.are52}
                     are53={this.state.are53}
                     are54={this.state.are54}
                     are55={this.state.are55}
+                    are62={this.state.are62}
                 ></BlueNAC>
                 <ContactThisProperty
                     propertyNAME="WESTGATE"

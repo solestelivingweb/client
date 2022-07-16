@@ -109,11 +109,15 @@ export default class FeedbackForm extends Component {
               >
                 <option value=''>Community</option>
                 <option value="Cityline">Cityline</option>
-                <option value="Grand Central">Grand Central</option>
+                {/* <option value="Grand Central">Grand Central</option> */}
                 <option value="Hollywood">Hollywood</option>
                 <option value="NoMi">NoMi Beach</option>
                 <option value="Spring Gardens">Spring Gardens</option>
                 <option value="Westgate">Westgate</option>
+                <option value="On The Bay">On The Bay</option>
+                <option value="Hollywood Village">Hollywood Village</option>
+                <option value="On The Trail">On The Trail</option>
+                <option value="Palm Station">Palm Station</option>
 
               </select>
               {this.state.errors === true ? <MDBBadge color="warning">Required</MDBBadge> : ''}

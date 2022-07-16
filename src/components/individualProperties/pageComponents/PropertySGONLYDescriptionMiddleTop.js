@@ -57,7 +57,7 @@ export default class PropertySGONLYDescriptionMiddleTop extends Component {
                       color="unique"
                       className="float-right mt-5 button-on-white"
                     >
-                      CONTACT US
+                      LEASE NOW
                     </MDBBtn>
                   </a>
                 )}
