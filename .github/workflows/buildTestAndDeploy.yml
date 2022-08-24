@@ -1,4 +1,4 @@
-name: buildandTest
+name: buildTestandDeploy
 on:
   push:
     branches: [ master ]
