@@ -28,7 +28,7 @@ import OnTheBay from "./individualProperties/OnTheBay";
 import HollywoodVillage from "./individualProperties/HollywoodVillage";
 import OnTheTrail from "./individualProperties/OnTheTrail";
 import PalmStation from "./individualProperties/PalmStation";
-// import registerServiceWorker from "./registerServiceWorker";
+import registerServiceWorker from "./registerServiceWorker";
 import NotFound from "./PageNotFound";
 
 const routing = (
