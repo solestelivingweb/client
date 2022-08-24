@@ -244,7 +244,6 @@ export default class CityLine extends Component {
                     embedMap="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d897.0525289510041!2d-80.15242096794397!3d25.9283247947689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9ada56d67a131%3A0x4fd4be4683a3f48e!2s16395%20Biscayne%20Blvd%2C%20North%20Miami%20Beach%2C%20FL%2033160!5e0!3m2!1sen!2sus!4v1625500517556!5m2!1sen!2sus"
                 ></ContactThisProperty>
                 <FooterPage></FooterPage>
-<p>test</p>
             </div>
         );
     }
