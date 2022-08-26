@@ -19,7 +19,7 @@
     "react-router-dom": "^5.2.0",
     "react-router-ga": "^1.2.3",
     "react-scripts": "3.0.1",
-    "react-slick": "^0.25.2",
+    "react-slick": "^0.29.0",
     "react-transition-group": "^1.2.1",
     "reactjs-popup": "^1.5.0",
     "slick-carousel": "^1.8.1"
