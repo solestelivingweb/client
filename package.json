@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "renamer": "^1.1.4",
-    "rimraf": "^2.7.1"
+    "rimraf": "^3.0.2"
   },
   "browserslist": [
     ">0.2%",
