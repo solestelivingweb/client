@@ -517,7 +517,7 @@ const Are52 = () => {
 const Are53 = () => {
   return AreTmp(
     bbandtcenter,
-    "BB&T Center",
+    "FLA Live Arena",
     "The FLA Live Arena is an indoor arena located next to Sawgrass Mills in Sunrise, Florida. It is the home venue for the Florida Panthers of the National Hockey League. It was completed in 1998, at a cost of US$185 million, almost entirely publicly financed, and features 70 suites and 2,623 club seats."
   );
 };
