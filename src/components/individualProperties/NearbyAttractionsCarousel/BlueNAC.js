@@ -654,7 +654,7 @@ const Are70 = () => {
   return AreTmp(
     palmbeachisland,
     "Palm Beach Island",
-    "At Palm Beach Island Resort and Spa, endless stretches of pristine white beaches framed by groves of coconut palms that rustle gently to the rhythm of tropical breezes beckon from every vantage. A 40-minute seaplane journey from Velana International Airport, warm greetings to the sounds of a traditional welcoming ceremony set the scene for your journey to an authentic Maldivian experience among our enthusiastic ‘dhivehi vantha’ community."
+    "This cozy and well-heeled destination, home to the town of Palm Beach, is one of the richest zip codes in the United States – usually coming in third or fourth place – but with its residents reportedly donating more money per capita to charities than any other community in the country. Visitors from near and far can’t help but be enamored with this seaside retreat that despite its glamour and style remains friendly and warm."
   );
 };
 
@@ -702,7 +702,7 @@ const Are76 = () => {
   return AreTmp(
     manateelagoon,
     "CityPlace Live Entertainment",
-    "At City Place you can find everything from fine dining, boutiques, children stores, ice cream shops, and live entertainment all in one great location. The fun usually begins around 7:00 PM and ends at 11:00 PM. This concert is FREE and open to the public."
+    "At City Place you can find everything from fine dining, boutiques, children stores, ice cream shops, and live entertainment all in one great location. The fun usually begins around 7:00 PM and ends at 11:00 PM. Live music is FREE and open to the public."
   );
 };
 

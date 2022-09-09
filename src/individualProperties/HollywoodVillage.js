@@ -89,7 +89,7 @@ const propertyComponentListLongArrRight = [
     "Space-Saving Pantry & Linen Closets",
     "Undermount Kitchen Sinks",
     "Convenient Keyless Entry",
-    "In - Unit USB Outlets",
+    "In-Unit USB Outlets",
 
 
 ];
