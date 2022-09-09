@@ -129,7 +129,7 @@ export default class PalmStation extends Component {
                 <PropertySGONLYDescriptionMiddleTop
                     propertyComponentTitle="A MODERNISTIC TAKE ON BLISSFUL LIVING"
                     propertyComponentDescription="Studio Suites, One, Two, and Three Bedroom Apartment Homes"
-                    propertyComponentParagraph="Capture a glimpse of the Soleste Palm Station, located in the heart of Downtown West Palm. This upscale residence is near the Square, West Palm’s contemporary lifestyle destination for retail, cuisine, and nightlife. The Soleste Palm Station offers poolside cabanas and daybeds so you can decompress during your days, and explore the lively entertainment there is to offer nearby by night."
+                    propertyComponentParagraph="Capture a glimpse of Soleste Palm Station, nestled in the heart of Downtown West Palm Beach. This upscale residence is near The Square, a contemporary lifestyle destination for retail, cuisines, and nightlife. Soleste Palm Station offers poolside cabanas and daybeds so you can decompress during your days, or you can explore nearby to enjoy LIVE entertainment by night."
                     propertyComponentPrice=""
                     propertyComponentImage={palmstationmiddletopimg}
                     propertyNOWLEASING="COMING SOON"
