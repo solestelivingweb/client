@@ -103,7 +103,6 @@ export default class OnTheBay extends Component {
       are41: true, // Oleta River Outdoor Center
       are45: true, // Aventura Mall
       are46: true, // Sunny Isles Beach
-      are43: true, // Tidal Cove Water Park
       are47: true, // Judge Arthur Snyder Tennis Center
       are64: true, // Moca North Miami
       are65: true, // The Ancient Spanish Monastery
@@ -150,7 +149,6 @@ export default class OnTheBay extends Component {
           are41={this.state.are41}
           are45={this.state.are45}
           are46={this.state.are46}
-          are43={this.state.are43}
           are47={this.state.are47}
           are64={this.state.are64}
           are65={this.state.are65}
