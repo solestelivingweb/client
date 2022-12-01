@@ -114,7 +114,7 @@ export default class OnTheBay extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Soleste Living | ON THE BAY</title>
+          <title>Soleste Living | On The Bay</title>
           <meta name="description" content="Soleste ON THE BAY" />
           <meta name="keywords" content="Soleste ON THE BAY" />
         </Helmet>

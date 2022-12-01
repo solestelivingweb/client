@@ -15,10 +15,10 @@ import gl1 from '../images/individualProperties/palmstation/gl1.jpg';
 import wfh1 from '../images/individualProperties/palmstation/wfh1.jpeg';
 
 import CarouselPageTmp from '../components/individualProperties/pageComponents/CarouselPageTmp';
-import ps1 from "../images/individualProperties/palmstation/Palm Station Rendering 1.jpg"
-import ps2 from "../images/individualProperties/palmstation/Palm Station Rendering 2.png"
-import ps3 from "../images/individualProperties/palmstation/Palm Station Rendering 3.png"
-import ps4 from "../images/individualProperties/palmstation/Palm Station Rendering 1.jpg"
+import ps1 from "../images/individualProperties/palmstation/RENDERING 1.jpg"
+import ps2 from "../images/individualProperties/palmstation/RENDERING 2.jpg"
+import ps3 from "../images/individualProperties/palmstation/RENDERING 3.jpg"
+import ps4 from "../images/individualProperties/palmstation/RENDERING 6.jpg"
 
 const sliderImages = [ps1, ps2, ps3, ps4];
 
@@ -155,7 +155,7 @@ export default class PalmStation extends Component {
                     are72={this.state.are72}
                     are71={this.state.are71}
                     are70={this.state.are70}
-                    are69={this.state.are69}
+                    are69={this.state.are69} 
                     are68={this.state.are68}
                     are67={this.state.are67}
                 ></BlueNAC>

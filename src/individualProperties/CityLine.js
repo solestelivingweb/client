@@ -209,7 +209,7 @@ export default class CityLine extends Component {
         ></BlueNAC>
         <ContactThisProperty
           propertyNAME="CITYLINE"
-          propertyADDRESS="4 North Federal Highway Dania Beach, FL 33004"
+          propertyADDRESS="4 North Federal Highway, Dania Beach, FL 33004"
           facebookLink="..."
           instagramLink="..."
           mapPhotoClass="mapPhoto mPSpringGardens"

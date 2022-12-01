@@ -68,11 +68,29 @@ export default class PropertySGONLYDescriptionMiddleTop extends Component {
             <MDBCol>
               <MDBView hover zoom>
                 <Fade>
-                  <img
-                    src={this.props.propertyComponentImage}
-                    className="img-fluid"
-                    alt=""
-                  />
+                {this.props.isVideo === true ? (
+                    <div className="embed-responsive embed-responsive-16by9">
+                      <video
+                        type="video/mp4"
+                        muted
+                        title="embedsPage"
+                        className="embed-responsive-item"
+                        src={this.props.propertyComponentVideo}
+                        preload="yes"
+                        allowFullScreen
+                        loop
+                        autoPlay
+                        controls
+                        playsInline
+                      ></video>
+                    </div>
+                  ) : (
+                    <img
+                      src={this.props.propertyComponentImage}
+                      className="img-fluid"
+                      alt=""
+                    />
+                  )}
                 </Fade>
               </MDBView>
             </MDBCol>

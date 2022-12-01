@@ -8,7 +8,7 @@ import PropertyDescriptionMiddleBottom from "../components/individualProperties/
 import BlueNAC from "../components/individualProperties/NearbyAttractionsCarousel/BlueNAC";
 import ContactThisProperty from "../components/individualProperties/ContactThisProperty";
 import FooterPage from "../components/FooterPage";
-import springgardensmiddletopimg from "../images/individualProperties/springgardens/springgardens-mid-top-img.jpg";
+import SGMiddletopvid from "../videos/Soleste Spring Gardens.mp4";
 import springgardensleftimg from "../images/individualProperties/springgardens/springgardens-left-img.jpg";
 import springgardensrightimg from "../images/individualProperties/springgardens/springgardens-right-img.jpg";
 import springgardensmiddlebottomimg from "../images/individualProperties/springgardens/springgardens-mid-bottom-img.jpg";
@@ -78,6 +78,7 @@ export default class SpringGardens extends Component {
     super(props);
     this.state = {
       isSocial: false,
+      isVideo: true,
       contactUs: false,
       propertyExternalWebsite: true,
       are1: false, //Grapeland Park
@@ -133,7 +134,8 @@ export default class SpringGardens extends Component {
           propertyComponentDescription="Studio Suites, One, Two, and Three-Bedroom Apartment Homes "
           propertyComponentParagraph="Welcome to Soleste Spring Gardens, an enviable collection of luxury apartments in the very heart of the city. A stone's throw from Miami's thriving Health District and historic Overtown, home will never be far from sunny beaches, colorful Wynwood, and Downtown. All our units are thoughtfully designed for working professionals who love the urban energy of city-living as much as they want an easy and elegant retreat from the bustle."
           propertyComponentPrice=""
-          propertyComponentImage={springgardensmiddletopimg}
+          isVideo={this.state.isVideo}
+          propertyComponentVideo={SGMiddletopvid}
           propertyNOWLEASING="NOW LEASING"
           propertyExternalWebsite='https://www.solestespringgardens.com/'
         // propertyMOVEINDATE="MOVE-IN JUNE 2021"

@@ -27,26 +27,26 @@ const sliderImages = [hv1, hv2, hv3, hv4, hv5, hv6, hv7];
 
 const propertyComponentListShortArrLeft = [
     "Health Club with Hi-Tech Cardio Gear & Free Weights",
-    "Yoga, Spin & Aerobics Room with On - Demand Fitness",
+    "Yoga, Spin & Aerobics Room with On-Demand Fitness",
     "Social and Gaming Lounge",
-    "Al - Fresco Dining featuring Summer Kitchen & Grills",
+    "Al-Fresco Dining featuring Summer Kitchen & Grills",
 ];
 
 const propertyComponentListLongArrLeft = [
     "Health Club with Hi-Tech Cardio Gear & Free Weights",
-    "Yoga, Spin & Aerobics Room with On - Demand Fitness",
+    "Yoga, Spin & Aerobics Room with On-Demand Fitness",
     "Social and Gaming Lounge",
-    "Al - Fresco Dining featuring Summer Kitchen & Grills",
-    "Hotel - Inspired Swimming Pool",
+    "Al-Fresco Dining featuring Summer Kitchen & Grills",
+    "Hotel-Inspired Swimming Pool",
     "Poolside Cabanas With Daybeds",
-    "Cyber Lobby with Co - Working Spaces",
+    "Cyber Lobby with Co-Working Spaces",
     "Bark Parks & Pet Washing Station",
     "Community Sponsored Resident Events",
-    "24 / 7 Package Concierge System",
+    "24/7 Package Concierge System",
     "Dry Cleaning & Laundry Services",
     "Resident Portal With Online Rent Payment & Service Requests",
-    "Complimentary Wi - Fi In Amenity Spaces",
-    "On - Site Management & 24 - Hour Maintenance Team",
+    "Complimentary Wi-Fi In Amenity Spaces",
+    "On-Site Management & 24-Hour Maintenance Team",
     "Controlled Access Parking",
     "Onsite Bike Parking and Storage",
     "Electric Car Charging Stations",
@@ -66,14 +66,14 @@ const propertyComponentListLongLeft = propertyComponentListLongArrLeft.map(
 
 // right
 const propertyComponentListShortArrRight = [
-    "Studio, One, Two Apartment Homes",
+    "Studio, One, Two Bedroom Apartment Homes",
     "Sleek & Spacious Modern Kitchens",
     "Elegant Quartz Countertops & Tile Backsplash",
     "Gourmet Stainless Steel Appliance Package",
 ];
 
 const propertyComponentListLongArrRight = [
-    "Studio, One, Two Apartment Homes",
+    "Studio, One, Two Bedroom Apartment Homes",
     "Sleek & Spacious Modern Kitchens",
     "Elegant Quartz Countertops & Tile Backsplash",
     "Gourmet Stainless Steel Appliance Package",
