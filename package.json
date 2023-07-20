@@ -36,7 +36,7 @@
     "publish": "git add -A && git commit -m 'update' && git push && npm run deploy"
   },
   "devDependencies": {
-    "renamer": "^1.1.4",
+    "renamer": "^3.2.1",
     "rimraf": "^3.0.2"
   },
   "browserslist": [
