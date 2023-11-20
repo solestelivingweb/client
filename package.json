@@ -6,7 +6,7 @@
   "// If You want to install mdbreact from our GitLab repository, please replace '4.19.1' with gitURL provided here ->": "git+https://oauth2:<YOUR-TOKEN-GOES-HERE>@git.mdbootstrap.com/mdb/react/re-pro.git",
   "dependencies": {
     "emailjs-com": "^3.2.0",
-    "gh-pages": "^4.0.0",
+    "gh-pages": "^6.1.0",
     "mdbreact": "4.19.1",
     "node-sass": "4.14.1",
     "react": "^16.13.1",
